@@ -1,6 +1,6 @@
 +++
-title = "The Blag"
-description = "Blog of xypnox, a collection of Literature, Computing and Philosophy"
+title = "Yash Sharma"
+description = "Happy space for scribbling down my thoughts, penning down my experiences with Software and Open Source"
 paginate_by = 10
 sort_by = "date"
 +++

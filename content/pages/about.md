@@ -4,8 +4,7 @@ path = "about"
 template = "about.html"
 +++
 
-I am a Physics undergraduate student at IIT Kharagpur. I have interest in
-Programming, Open Source, Physics and Gadgets. My other name is Aditya Vikram Singh.
+Undergraduate student at IIT Kharagpur.
 
 ## FAQs
 
@@ -29,4 +28,4 @@ You can reach me here:
 - [Instagram](https://instagram.com/xypnox/)
 - [Facebook](https://facebook.com/xypnox/)
 
-You can also email me at xypnox @ gmail . com (Be smart and remove those spaces ;)) or me @ xypnox.com
+You

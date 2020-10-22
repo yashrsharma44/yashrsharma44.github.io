@@ -15,23 +15,23 @@ build_search_index = false
 theme = "xyblag"
 
 # Blog details
-title = "The Blag"
-description = "Blog of xypnox, a collection of Literature, Computing and Philosophy"
+description = "Happy space for scribbling down my thoughts, penning down my experiences with Software and Open Source."
+title = "Yash Sharma"
 
 generate_feed = true
 
 taxonomies = [
-    # You can enable/disable RSS
-    {name = "categories", rss = true},
-    {name = "tags", rss = true},
+  # You can enable/disable RSS
+  {name = "categories", rss = true},
+  {name = "tags", rss = true},
 ]
 
 [extra]
 # Put all your custom variables here
-author = "xypnox"
+author = "yashrsharma44"
 blog_menu = [
-    {url = "$BASE_URL/categories", name = "Categories"},
-    {url = "$BASE_URL/tags", name = "Tags"},
-    {url = "$BASE_URL/quotes", name = "Quotes"},
-    {url = "$BASE_URL/about", name = "About"},
+  {url = "$BASE_URL/categories", name = "Categories"},
+  {url = "$BASE_URL/tags", name = "Tags"},
+  {url = "$BASE_URL/quotes", name = "Quotes"},
+  {url = "$BASE_URL/about", name = "About"},
 ]
