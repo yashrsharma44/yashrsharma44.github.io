@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://<xyblag>.netlify.com"
+base_url = "https://yashrsharma44.github.io/"
 
 compile_sass = true
 description = "xyblag is a minimal cutomizable theme for zola"
