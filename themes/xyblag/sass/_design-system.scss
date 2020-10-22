@@ -15,7 +15,7 @@ $dark-text: #34495e;
 [data-theme='light'] {
   --primary-color: #{#33df97};
   --secondary-color: #{#6f879e};
-  --background-color: #{#fff};
+  --background-color: #{#e8f2f7};
   --text-color: #{$dark-text};
   --secondary-text-color: #{lighten($dark-text, 10%)};
   --tag-hover-color: #{$dark-text};
