@@ -32,6 +32,5 @@ author = "yashrsharma44"
 blog_menu = [
   {url = "$BASE_URL/categories", name = "Categories"},
   {url = "$BASE_URL/tags", name = "Tags"},
-  {url = "$BASE_URL/quotes", name = "Quotes"},
   {url = "$BASE_URL/about", name = "About"},
 ]
