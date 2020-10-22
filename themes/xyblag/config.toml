@@ -2,21 +2,21 @@
 base_url = "https://<xyblag>.netlify.com"
 
 compile_sass = true
-title = "xyblag theme theme"
 description = "xyblag is a minimal cutomizable theme for zola"
-highlight_code = true
 generate_feed = true
+highlight_code = true
+title = "xyblag theme theme"
 
 taxonomies = [
-    {name = "categories", rss = true},
-    {name = "tags", rss = true},
+  {name = "categories", rss = true},
+  {name = "tags", rss = true},
 ]
 
 [extra]
 author = "xypnox"
 blog_menu = [
-    {url = "$BASE_URL", name = "Home"},
-    {url = "$BASE_URL/categories", name = "Categories"},
-    {url = "$BASE_URL/tags", name = "Tags"},
-    {url = "$BASE_URL/about", name = "About"},
+  {url = "$BASE_URL", name = "Home"},
+  {url = "$BASE_URL/categories", name = "Categories"},
+  {url = "$BASE_URL/tags", name = "Tags"},
+  {url = "$BASE_URL/about", name = "About"},
 ]
