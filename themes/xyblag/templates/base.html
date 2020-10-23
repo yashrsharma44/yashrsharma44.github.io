@@ -13,6 +13,7 @@
             {% endblock title %}
         </title>
         <link href="{{ get_url(path="favicon.ico", trailing_slash=false) }}" rel="icon" type="image/x-icon"/>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         {% if config.generate_feed %}
             <link rel="alternate" type={% if config.feed_filename == "atom.xml" %} "application/atom+xml" {% else %} "application/rss+xml" {% endif %} title="RSS" href="{{ get_url(path=config.feed_filename) | safe }}"/>
         {% endif %}
@@ -130,8 +131,8 @@
                     {% block footer %}
                         <footer>
                             <div class="copyright">
-                                <a href="https://github.com/yashrsharma44">{{ config.extra.author }}</a>
-                                <a href="https://twitter.com/yashrsharma44"><img src="/images/twitter.svg" style="margin-bottom:1%"></img></a> 
+                                <a href="https://github.com/yashrsharma44"><i class="fab fa-github"></i></a>
+                                <a href="https://twitter.com/yashrsharma44"><i class="fab fa-twitter"></i></a>
                             </div>
                             <div class="made-with">
                                 Made with
