@@ -61,9 +61,6 @@
             {{ page.content | safe }}
         </div>
         {% block page_before_footer %}{% endblock page_before_footer %}
-        <div
-            class="end-post">{# <img src="{{ get_url(path="images/end-post.svg", trailing_slash=false) }}"/> #}
-        </div>
         <div class="post-footer">
             {% block page_footer %}
                 {% if page.taxonomies.tags %}
