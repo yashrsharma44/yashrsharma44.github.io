@@ -8,9 +8,8 @@ _Watch out this space for upcoming blogposts as I intend to write!_
 
 ### Upcoming Blog Posts
 
-- Open Source and Software Engineering
+- <del> Open Source and Software Engineering </del>
 - My Google Interview Experience
-- <del> Migrating my Blog to a new Blog Framework</del>
 - Community Bridge experience with Thanos
 - Making a chat application : One block at a time
 - Spending a semester for Competitive Programming
@@ -18,5 +17,5 @@ _Watch out this space for upcoming blogposts as I intend to write!_
 **Changes since last update** :
 
 ```diff
-- Migrating my Blog to a new Blog Framework
++ Open Source and Software Engineering
 ```
