@@ -9,6 +9,8 @@ template="page.html"
 categories = ["tech"]
 tags = ["gsoc", "oss"]
 
+[extra]
+metadata_image = "/gsoc-logo.png"
 +++
 
 {% cover(src="gsoc-logo.png") %}
