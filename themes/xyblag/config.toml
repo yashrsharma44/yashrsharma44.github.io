@@ -19,4 +19,5 @@ blog_menu = [
   {url = "$BASE_URL/categories", name = "Categories"},
   {url = "$BASE_URL/tags", name = "Tags"},
   {url = "$BASE_URL/about", name = "About"},
+  {url = "$BASE_URL/notes", name = "Notes"},
 ]

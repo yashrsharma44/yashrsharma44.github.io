@@ -5,7 +5,6 @@ date = 2020-12-26
 path="gsoc-and-oss-2"
 template="page.html"
 draft = true
-
 [taxonomies]
 categories = ["tech"]
 tags = ["gsoc", "oss"]
