@@ -40,6 +40,11 @@ These systems are *eventually consistent*, which makes sure the data is synced w
 
 Note that distributed systems is all about *trade-offs*, and this might not be bad trade-off at all, if we all want highly available systems, and consistency being eventual also works for us.
 
+{% cover(src="sync-up-calendar.png") %}
+Calendar sync-ups are not always immediate, that's the result of Eventual Consistency
+{% end %}
+
+
 To demonstrate an example, lets use Google Docs - we would want our data to be replicated among all the instances, and should be *highly available*. At the same time, the data doesn't need to be *strongly consistent*; we can have eventual consistency, and this would work well for us. ***So effectively, its about the use case that we want, and not the one size fits all policy that we should worry about***.
 
 ## Consensus Algorithms: For Strong Consistency
@@ -65,6 +70,10 @@ We know that in practical world, we cannot work with the assumption of a [happy 
 	* When A||B, then both the events are concurrent(might happen at the same time)
   
 We need to make sure that the ordering of events doesn't impact our ordering of transactions, so we use the concepts of clocks described below.
+
+{% cover(src="clock-skew.png") %}
+Clock Skew between global clocks and local instance rises monotonically until it is synced
+{% end %}
 
 * ***Clocks and Global Clock*** - It is important to have a global clock to make sure we can order the events. Note that this introduces several shortcomings with this approach - single point of failure, clock skew and round trip time to sync clocks. We should also note the cost associated with maintaining this setup. Often we use some sort of techniques like [***Hybrid Logical Clock***](https://bartoszsypytkowski.com/hybrid-logical-clocks/).
 
