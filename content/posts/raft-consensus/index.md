@@ -99,6 +99,10 @@ A common example is depositing and withdrawing money. The ordering matters, as t
 
 Phew! Finally, we have built the stage to talk more about Raft. 
 
+{% cover(src="raft-image.png") %}
+The Raft Mascot :P
+{% end %}
+
 Raft is a FIFO based Total Order Broadcast based Consensus Algorithm. Here is a nice visualization to play for understanding about [raft](https://raft.github.io/). The co-author of this algorithm [Diego Ongaro](https://twitter.com/ongardie) has a nice [video](https://www.youtube.com/watch?v=6bBggO6KN_k) about it.
 
 I will be talking more about Raft in my next blog, and would also describe my thought process of writing a simple implementation for Raft.
