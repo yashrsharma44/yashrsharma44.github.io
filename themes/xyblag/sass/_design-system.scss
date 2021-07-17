@@ -3,16 +3,16 @@
 // Colors
 
 $theme-color-map: (
-  'Default': #c05b4d #f8f5ec,
-  'Mint Green': #16982b #f5f5f5,
-  'Cobalt Blue': #0047ab #f0f2f5,
-  'Hot Pink': #ff69b4 #f8f5f5,
-  'Dark Violet': #9932cc #f5f4fa,
+  "Default": #c05b4d #f8f5ec,
+  "Mint Green": #16982b #f5f5f5,
+  "Cobalt Blue": #0047ab #f0f2f5,
+  "Hot Pink": #ff69b4 #f8f5f5,
+  "Dark Violet": #9932cc #f5f4fa,
 );
 
 $dark-text: #34495e;
 :root,
-[data-theme='light'] {
+[data-theme="light"] {
   --primary-color: #{#33df97};
   --secondary-color: #{#6f879e};
   --background-color: #{#e8f2f7};
@@ -33,13 +33,13 @@ $dark-text: #34495e;
 // Typography
 
 $code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
-$serif-font: 'Crimson Text', serif;
-$ui-font: 'Jost*', 'Jost', sans-serif;
+$serif-font: "Crimson Text", serif;
+$ui-font: "Jost*", "Jost", sans-serif;
 
 // Layout / Sizes
 
-$body-width: 800px;
-$screen-sm-max: 800px;
+$body-width: 870px;
+$screen-sm-max: 870px;
 $mobile-navbar-height: 50px !default;
 
 // Small devices
