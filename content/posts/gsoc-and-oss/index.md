@@ -22,7 +22,7 @@ Google Summer of Code! One of the best things that happened to me :D
 I plan to cover the insights and pointers that I gained, while being a part of the fantastic Open Source Programs over the world, **Google Summer of Code**!
 I won't cover the technical aspects of participating in **GSoC**, but rather focus on the learnings and takeaway from this program. For list of resources useful for GSoC, refer [**this**](https://yashrsharma44.medium.com/resources-for-google-summer-of-code-5c2ac800849b).
 
-For brevity, I have broken the blog into two parts - [_**First one**_](#) covering the journey leading to GSoC, and [_**the second**_](#) covering my experience with my project.
+For brevity, I have broken the blog into two parts - [_**First one**_](#) covering the journey leading to GSoC, and [_**the second**_](/gsoc-and-oss-2) covering my experience with my project.
 
 # Ascending the everest; Commencing the journey
 
@@ -104,7 +104,7 @@ Let's say you have an approach to solve your problem, and you have designed your
 Proof of concepts are a best way to test out your hypothesis, and make sure your assumptions are correct/works in a behaviour that you expect. Often, it is possible that you might not know how a component can be designed using an existing design, which is not known at present. The best way is to design a solution from scratch, and iterate on the process, rather than working on your project with your approach, only to realise that the approach is not feasible.
 
 
-### Getting selected, or not
+### Getting selected, or not {#getting-selected-or-not}
 
 I intentionally kept this at last, because after all this is a possibility, and you should accept it. Rejections can happen from all sort of reasons; _**proposal not accepted**_, _**organisations pulled out at the last moment**_, _**projects removed at last moment due to unavailability of mentors**_, and so on. Surprisingly, I have had a first hand experience of all of the events, which happened to my friends and OSS folks, so it's pretty realistic.
 

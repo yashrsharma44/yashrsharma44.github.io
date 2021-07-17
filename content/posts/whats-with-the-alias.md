@@ -2,6 +2,7 @@
 title = "The story behind my alias"
 description = "My encounter with cricket and inspiration"
 date = 2020-10-23
+year = 2020
 path="to-be-or-not-to-be"
 template="page.html"
 

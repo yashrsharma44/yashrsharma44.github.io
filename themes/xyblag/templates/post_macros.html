@@ -4,6 +4,8 @@
             <a href="{{ page.permalink }}">{{ page.title }}</a>
         </h1>
         <div class="post__meta">
+        <span>{{page.description}}</span>
+        </br>
             <span class="post__time">{{ page.date | date(format="%F") }}</span>
             {% if page.taxonomies.categories %}
                 <div class="post__category">
