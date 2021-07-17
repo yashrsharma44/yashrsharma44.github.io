@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Yash Sharma</title>
+	<subtitle>Happy space for scribbling down my thoughts, penning down my experiences with Software and Open Source.</subtitle>
+	<link href="https://yashrsharma44.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://yashrsharma44.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-07-17T00:00:00+00:00</updated>
+	<id>https://yashrsharma44.github.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Making GSoC a valuable experience</title>
+		<published>2021-07-17T00:00:00+00:00</published>
+		<updated>2021-07-17T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/gsoc-and-oss-2/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/gsoc-and-oss-2/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;contri.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Big feature is awaited!
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;what-i-intend-to-cover&quot;&gt;What I intend to cover?&lt;&#x2F;h2&gt;
+&lt;p&gt;This blog is a second part to &lt;a href=&quot;&#x2F;gsoc-and-oss&quot;&gt;this&lt;&#x2F;a&gt;. I intend to cover &lt;em&gt;&lt;strong&gt;key takeaways from the Google Summer of Code program&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, so if you are selected as a GSoC student, read ahead!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;leveraging-the-opportunity&quot;&gt;Leveraging the opportunity&lt;&#x2F;h3&gt;
+&lt;p&gt;Google Summer of Code is quite a valuable opportunity to develop your skills for Software Engineering and OSS. Use this opportunity &lt;em&gt;&lt;strong&gt;wisely&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; and &lt;em&gt;&lt;strong&gt;judiciously&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, to get the best out of this program.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Wisely&lt;&#x2F;strong&gt;, because you are getting an opportunity to work on a project which has the potential to be used by millions of people. Imagine the joy and responsibility you would have, while developing a feature for Numpy and Matplotlib.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Judiciously&lt;&#x2F;strong&gt;, because your mentors are an invaluable asset for you over the next few months, and &lt;em&gt;if you network well, help you out with getting your career kickstarted&lt;&#x2F;em&gt;. You should try to solve your issues which are easily google-able, while you should save time for &lt;strong&gt;high level discussions&lt;&#x2F;strong&gt; and &lt;strong&gt;complex bugs&lt;&#x2F;strong&gt;. Time is a limited asset, so make sure you save time as and when you can, and allow yourself with some backup of time, in case a feature development takes more time than expected. Similar thing happened with me as well, and since I had saved some time, I was able to cover up for the lost time.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;blogging-and-communicating-with-your-mentor&quot;&gt;Blogging and communicating with your mentor&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Blogging and communication&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; is the key to GSoC. Having good communication setup and weekly meetings are imperative to keep the mentors updated with your work.&lt;&#x2F;p&gt;
+&lt;p&gt;Clear cut communication and asking for clarifications is important, helps you in understanding the expectations and approach which your mentor might have for your project. Your mentor knows the possible hurdles that you might not encounter, so having clear ideas and clarification helps you in enlisting and keeping the issues at bay.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Blogging&lt;&#x2F;strong&gt; helps you to document out the progress you have had for the week. It is not possible(&lt;em&gt;nor it is suggested!&lt;&#x2F;em&gt;) to keep an &lt;em&gt;&lt;strong&gt;eye&#x2F;micro-manage&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; every work that you do, so make sure you &lt;em&gt;&lt;strong&gt;blog your progress&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; and what kind of concrete progress you have achieved for the week. It also &lt;em&gt;&lt;strong&gt;helps you and your mentor to assess the progress&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; of your work, so changes with the timeline and end goals can be adjusted.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;pr-reviews-an-opportunity-for-learning&quot;&gt;PR Reviews: An opportunity for learning&lt;&#x2F;h3&gt;
+&lt;p&gt;Pull requests are an important aspect of GSoC. You can have the best code written for the project, but if you haven&#x27;t passed the PR Reviews, chances are that your patch isn&#x27;t suitable to be merged.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;PR Reviews&lt;&#x2F;strong&gt; might sound a bit intimidating(and it is for a certain extent), so make sure you break up your project into &lt;em&gt;&lt;strong&gt;multiple parts&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and &lt;em&gt;&lt;strong&gt;push your PR as early as possible&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; for review. It is natural to have &lt;a href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;@yashrsharma44&#x2F;pull-requests-merged-in-for-gsoc19-ndcube-95a9fd15c8b6&quot;&gt;15-20&lt;&#x2F;a&gt;(&lt;em&gt;don&#x27;t quote me on this, can vary as you agree with your mentor&lt;&#x2F;em&gt;) PRs, helps you in managing your logistics and getting ahead with the PR reviews.&lt;&#x2F;p&gt;
+&lt;p&gt;The communications can get ahead for a &lt;strong&gt;100 conversations&lt;&#x2F;strong&gt;, so the key is to keep the &lt;em&gt;&lt;strong&gt;changes small and decoupled&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. This helps in getting more faster reviews, and the changes associated with it is gradual, rather than pushing a &lt;strong&gt;1000+&lt;&#x2F;strong&gt; line PR, which is quite clunky and tougher to get this merged.&lt;&#x2F;p&gt;
+&lt;p&gt;Another important aspect of making PRs, is that &lt;em&gt;&lt;strong&gt;don&#x27;t get blocked on one PR&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;! Have &lt;strong&gt;2-3&lt;&#x2F;strong&gt; ideas that you would want to work on them &lt;em&gt;&lt;strong&gt;parallely&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, so you can wait on one PR to get merged, while you spend some time on another PR. &lt;em&gt;This is another reason, to break a bigger PR into small chunks, much easier to review and get it merged.&lt;&#x2F;em&gt; Also provides you with some time to parallelize you work.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;tests-and-docs-are-equally-important&quot;&gt;Tests and Docs are equally important!&lt;&#x2F;h3&gt;
+&lt;p&gt;Software Engineering follows the mantra -&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Code, Test and Docs&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Documentation can be written when the feature is ready, but tests should be written gradually as you develop a feature. &lt;em&gt;&lt;strong&gt;Test Driven Development&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; is something, you can have a look, but I mostly found to write the code and then test it up later, much convenient.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;TDD&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; is something you can undertake for a &lt;em&gt;&lt;strong&gt;small package&#x2F;module&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and it is generally a full-proof development process, because you already define the contract of the black-box(in this case, your package), and the inherent logic should satisfy the contract.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;evals-are-scary-but-make-sure-both-of-you-agree-on-a-milestone&quot;&gt;Evals are scary, but make sure both of you agree on a milestone&lt;&#x2F;h3&gt;
+&lt;p&gt;Google Summer of Code has two evaluations as of 2020, Mid Term Evaluations and End Term Evaluations. This Blog Post was out after the first evaluations, so you might have got an idea about how evaluations work. The project is assessed with the kind of work done, and how much progress we have had. Mentors write out some suggestions and remarks about the work done uptil now.&lt;&#x2F;p&gt;
+&lt;p&gt;It is imperative to &lt;em&gt;&lt;strong&gt;understand and clarify the suggestions&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; that has been made by the mentor during Mid Term Evaluations. It can happen that the mentor and the student might not be on the same page about the progress, so having a &lt;em&gt;&lt;strong&gt;1:1 talk with them is really crucial&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Having an objective goal for each evaluations is really important, as it helps out in mapping out the expectations as time progresses. &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;sunpy&#x2F;sunpy&#x2F;wiki&#x2F;GSoC-2019-Yash-Sharma&quot;&gt;In my project&lt;&#x2F;a&gt;, I wrote up clear cut features that I intend to achieve before the evals, so being explicit in the metrics you choose to measure the progress of your project is helpful.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;journey-after-google-summer-of-code&quot;&gt;Journey after Google Summer of Code&lt;&#x2F;h2&gt;
+&lt;p&gt;The journey after GSoC is &lt;em&gt;&lt;strong&gt;quite variable, as you want to lead up to&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. You are the captain of you own ship, so you are free to utilise the opportunities.&lt;&#x2F;p&gt;
+&lt;p&gt;You can use the learnings that you gathered during the summer, and keep working on the project&#x2F;community in your free time. As mentioned before, OSS is a voluntary experience, and you can work on your free time if you wish.&lt;&#x2F;p&gt;
+&lt;p&gt;Many people choose the opportunity to work with the community, while some wish to experiment with other groups. Feel free to utilise the learning and apply it into a field of interest.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;my-personal-take&quot;&gt;My Personal take&lt;&#x2F;h3&gt;
+&lt;p&gt;Personally, I found that the time spent after the project is important, if you want to explore an &lt;em&gt;&lt;strong&gt;internship opportunity&#x2F;full time opportunity&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Many of the mentors, for instance might be software engineers&#x2F;research engineers, who have been involved with your work. They are certainly able to vouch for your work, and refer you to any position of interest.&lt;&#x2F;p&gt;
+&lt;p&gt;That does not mean that you cannot leverage your opportunity outside this. You can apply to different companies, and since your work is Open Sourced, people can see the work done and get an idea about your strengths.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For me, I didn&#x27;t leverage this much after my GSoC, because I wanted to pursue Software Engineering, and astrophysics - as much awesome as it sounds, didn&#x27;t match my aspirations. In my 3rd year, I went ahead to take part in LFX Mentorship, and this time, I did leverage my networking and receive an internship opportunity. I had already taken part in my campus internship drive, so I had to decline the interview opportunity, but all in all, I still spend time with my new organisation.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Another reason, why you would spend time with an organisation, is the &lt;em&gt;&lt;strong&gt;work&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Yes, if you really like the work, there is no reason to stop contributing. &lt;em&gt;&lt;strong&gt;Getting a good fit with a team, where you like the work and the people&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, is the best possible scenario you can have, to pursue your interests.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let&#x27;s say you want to explore Observability and Monitoring, and want to know how the software was written, and works in production, then you wouldn&#x27;t want to stop working with them. This is one of the reasons, why people stick through after completing GSoC, and if you are interested in pursuing your interests, it makes sense to work with organisations.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;passing-the-baton&quot;&gt;Passing the baton&lt;&#x2F;h3&gt;
+&lt;p&gt;It is important to pass the baton to the juniors and people who need to be &lt;em&gt;&lt;strong&gt;enlightened by this lifestyle of Software Engineering&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. You must have got an end-to-end idea of how to get started with OSS; now it is time for you to share the idea and wisdom to someone, who would benefit.&lt;&#x2F;p&gt;
+&lt;p&gt;Note that, &lt;em&gt;&lt;strong&gt;don&#x27;t get too attached with the notion of GSoC and other OSS programs&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, it&#x27;s totally fine, if you don&#x27;t get through. I had talked about this aspect briefly in my &lt;a href=&quot;&#x2F;gsoc-and-oss#getting-selected-or-not&quot;&gt;previous blog&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;open-source-is-not-a-destination-it-is-a-way-of-life&quot;&gt;Open Source is not a destination: It is a way of life&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Open Source is one of influential movements and lifestyle for Software Engineering&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Being connected to Open Source, is like being connected to roots. &lt;em&gt;You don&#x27;t get harmed if you don&#x27;t, but you miss out on a lot of opportunity.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Open Source has revolutionized the way, &lt;em&gt;&lt;strong&gt;software is developed and consumed&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and &lt;em&gt;&lt;strong&gt;proprietary software, unless backed by Big Tech Companies&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, cannot be vouched for. I mean, no one would vouch for a software, whose source code is closed source. You need confidence on the software, and only way is to see the source code.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Numerous startups have come up with the Open Sourcing their code&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. The main priority for an early stage startup, &lt;em&gt;&lt;strong&gt;is not to protect their idea&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, but to make the community familiar with their idea that they are selling, and one way to &lt;em&gt;&lt;strong&gt;vouch the reputation and dependability&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, is to Open Source their code and create a community around it. &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;21st century is a great time to be in Open Source, and whatever field&#x2F;career you pursue later, Open Source experience will certainly help you in understanding the current model of Software Engineering and its related fields, it impacts.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Learning about Consensus Algorithms</title>
+		<published>2021-05-05T00:00:00+00:00</published>
+		<updated>2021-05-05T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/raft-consensus-1/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/raft-consensus-1/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;raft-pic.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    That&amp;#x27;s a handful of State Machine Diagrams!
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Consensus Algorithms in Distributed Systems is that aspect which makes sure, all the instances of the software that you are running are consistent with each other, and are not serving stale data. &lt;em&gt;&lt;strong&gt;Consistency&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, which makes sure that all of the data are up to date, and &lt;em&gt;&lt;strong&gt;not serving stale data&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, which means old data is invalidated by the software and not served, instead is synced up with other instances.&lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s build up the basic terminolgy and concepts before we dive into Consensus Algorithms!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;availability-partition-and-consistency-the-cap-theorem&quot;&gt;Availability, Partition and Consistency: The CAP Theorem&lt;&#x2F;h2&gt;
+&lt;p&gt;There is this cool guy - &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Eric_Brewer_(scientist)&quot;&gt;Eric Brewer&lt;&#x2F;a&gt; who came up with this theorem, which is basically simple - &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Out of &lt;strong&gt;Availability&lt;&#x2F;strong&gt;, &lt;strong&gt;Partition&lt;&#x2F;strong&gt; and &lt;strong&gt;Consistency&lt;&#x2F;strong&gt;, you can only atmost two guarantees for a &lt;em&gt;distributed&lt;&#x2F;em&gt; &lt;em&gt;data store&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Let&#x27;s break this down - &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Availability&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; - Availability means that your system is accessible all the time. You can make this sure by running multiple instances of your software, so that if one is down, the others are there to back you up!&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Partition&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; - Partition non-trivially(atleast for me!) stands for Network Partition. We can have Network Partition, if we have two instances of software running, and each of them are un-synced(don&#x27;t have any communication) or have a network barrier. It is difficult to serve the purpose of software, if we have a network partition, the user needs to be rerouted to another instance with up to date data.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Consistency&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; - Consistency, as you would have guessed it, stands for maintaining the same state among all the software instances. Imagine a bank ATM, and this should be &lt;em&gt;strongly consistent&lt;&#x2F;em&gt; so that whatever money you withdraw&#x2F;deposit is quickly reflected among all the instances of ATM Machines.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;So all in all, you can have atmost &lt;em&gt;two guarantees&lt;&#x2F;em&gt; out of &lt;em&gt;three&lt;&#x2F;em&gt; namely - &lt;em&gt;&lt;strong&gt;CP&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, &lt;em&gt;&lt;strong&gt;AP&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, &lt;em&gt;&lt;strong&gt;CA&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. In practical situations, you want your software to run inspite of Network Partitions, so you only get to choose &lt;strong&gt;CP&lt;&#x2F;strong&gt; or &lt;strong&gt;AP&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;eventually-consistent-systems&quot;&gt;Eventually Consistent Systems&lt;&#x2F;h2&gt;
+&lt;p&gt;You might have heard about big tech companies bragging about how their software is equally &lt;strong&gt;highly available&lt;&#x2F;strong&gt; and &lt;strong&gt;consistent&lt;&#x2F;strong&gt;. Note that I haven&#x27;t used &lt;em&gt;&lt;strong&gt;strongly consistent&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and this has its own implications.&lt;&#x2F;p&gt;
+&lt;p&gt;These systems are &lt;em&gt;eventually consistent&lt;&#x2F;em&gt;, which makes sure the data is synced with each other(or if conflicts happen, we arrive at the reconcilation &lt;em&gt;eventually&lt;&#x2F;em&gt;). This means when our data is updated at &lt;strong&gt;place A&lt;&#x2F;strong&gt;, if we query the same data from &lt;strong&gt;place B&lt;&#x2F;strong&gt;, it might take some time before the similar data(or state) is shown.&lt;&#x2F;p&gt;
+&lt;p&gt;Note that distributed systems is all about &lt;em&gt;trade-offs&lt;&#x2F;em&gt;, and this might not be bad trade-off at all, if we all want highly available systems, and consistency being eventual also works for us.&lt;&#x2F;p&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;sync-up-calendar.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Calendar sync-ups are not always immediate, that&amp;#x27;s the result of Eventual Consistency
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;To demonstrate an example, lets use Google Docs - we would want our data to be replicated among all the instances, and should be &lt;em&gt;highly available&lt;&#x2F;em&gt;. At the same time, the data doesn&#x27;t need to be &lt;em&gt;strongly consistent&lt;&#x2F;em&gt;; we can have eventual consistency, and this would work well for us. &lt;em&gt;&lt;strong&gt;So effectively, its about the use case that we want, and not the one size fits all policy that we should worry about&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;consensus-algorithms-for-strong-consistency&quot;&gt;Consensus Algorithms: For Strong Consistency&lt;&#x2F;h2&gt;
+&lt;p&gt;Let&#x27;s say, we want to provide &lt;strong&gt;CP&lt;&#x2F;strong&gt; guarantees for our software, so how should we proceed with this?&lt;&#x2F;p&gt;
+&lt;p&gt;Consensus Algorithms make sure that our data(or state) is consistent across all of our software instances. In case we want to provide Strong Consistency guarantees, we need to return back to our whiteboard, and figure out one. &lt;&#x2F;p&gt;
+&lt;p&gt;The generic way how a consensus algorithm works is that -&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;We elect a leader among a bunch of instances, and whenever we perform a write operation, we get a majority of votes, before we commit that. &lt;&#x2F;li&gt;
+&lt;li&gt;Majority is required so that the state of the leader is consistent with other systems, while we make sure that, if the system that goes down, it can catch up with the state of the leader through majority, thus providing a strong consistent systems.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;There are lots of pitfalls and gotcha moments while you design an algorithm for consensus - In an ideal world, you would not have any network failure, and bunch of network calls should return a response(success&#x2F;failure). We should always have a majority(in an ideal world, if more than majority of systems fail, we cannot handle the transactions; an implication of non-available system at the cost of strong consistency).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;common-methods-of-overcoming-the-shortcomings&quot;&gt;Common methods of overcoming the shortcomings&lt;&#x2F;h2&gt;
+&lt;p&gt;We know that in practical world, we cannot work with the assumption of a &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Happy_path&quot;&gt;happy path&lt;&#x2F;a&gt;. We need to take care of the shortcomings - &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Network Failure&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; - Network failures are a fair assumption; packets can get dropped, messages might get spoofed, data might get duplicated and so on. We need to make out communication &lt;strong&gt;reliable&lt;&#x2F;strong&gt; by using TLS(which makes communication secure) and &lt;strong&gt;retrying&lt;&#x2F;strong&gt; with &lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;cenkalti&#x2F;backoff&quot;&gt;backoff&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; so that our data reaches the server &lt;em&gt;at least once&lt;&#x2F;em&gt;. We can also make our communication &lt;strong&gt;idempotent&lt;&#x2F;strong&gt;, so that duplication of transactions, doesn&#x27;t hamper our system.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Causality&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; - Causality states the relative ordering of two events occurring. This is derived from Physics, and lays the ground rules of how the timeline of events can be described(or not) - &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;When A-&amp;gt;B, then A might have occurred after B (A-&amp;gt;B means A occurred after B)&lt;&#x2F;li&gt;
+&lt;li&gt;When A||B, then both the events are concurrent(might happen at the same time)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;We need to make sure that the ordering of events doesn&#x27;t impact our ordering of transactions, so we use the concepts of clocks described below.&lt;&#x2F;p&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;clock-skew.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Clock Skew between global clocks and local instance rises monotonically until it is synced
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Clocks and Global Clock&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; - It is important to have a global clock to make sure we can order the events. Note that this introduces several shortcomings with this approach - single point of failure, clock skew and round trip time to sync clocks. We should also note the cost associated with maintaining this setup. Often we use some sort of techniques like &lt;a href=&quot;https:&#x2F;&#x2F;bartoszsypytkowski.com&#x2F;hybrid-logical-clocks&#x2F;&quot;&gt;&lt;em&gt;&lt;strong&gt;Hybrid Logical Clock&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;consensus-and-total-order-broadcast&quot;&gt;Consensus and Total Order Broadcast&lt;&#x2F;h2&gt;
+&lt;p&gt;Before we move on to Consensus, let&#x27;s talk about Total Order Broadcast.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Total Order Broadcast&lt;&#x2F;strong&gt; states that if &lt;strong&gt;m&lt;sub&gt;1&lt;&#x2F;sub&gt;&lt;&#x2F;strong&gt; is delivered before &lt;strong&gt;m&lt;sub&gt;2&lt;&#x2F;sub&gt;&lt;&#x2F;strong&gt; on one node, then &lt;strong&gt;m&lt;sub&gt;1&lt;&#x2F;sub&gt;&lt;&#x2F;strong&gt; must be delivered before &lt;strong&gt;m&lt;sub&gt;2&lt;&#x2F;sub&gt;&lt;&#x2F;strong&gt; on all nodes.&lt;&#x2F;p&gt;
+&lt;p&gt;A common example is depositing and withdrawing money. The ordering matters, as the reverse order(withdrawing and then depositing) won&#x27;t work for our case.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Consensus is a formal equivalent of Total Order Broadcast&lt;&#x2F;em&gt;. We would certainly want these behaviours -&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Several Nodes want to come to an agreement about a single value.&lt;&#x2F;li&gt;
+&lt;li&gt;Once all Nodes decide on a certain message order, all nodes will decide the same order.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Common Consensus Algorithms&lt;&#x2F;strong&gt; - &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Paxos - Single Value Consensus&lt;&#x2F;li&gt;
+&lt;li&gt;Multi-Paxos - Generalisation to Total Order Broadcast&lt;&#x2F;li&gt;
+&lt;li&gt;Raft - FIFO based total order broadcast&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;raft-the-consensus-algorithm&quot;&gt;Raft - The Consensus Algorithm&lt;&#x2F;h2&gt;
+&lt;p&gt;Phew! Finally, we have built the stage to talk more about Raft. &lt;&#x2F;p&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;raft-image.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    The Raft Mascot :P
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Raft is a FIFO based Total Order Broadcast based Consensus Algorithm. Here is a nice visualization to play for understanding about &lt;a href=&quot;https:&#x2F;&#x2F;raft.github.io&#x2F;&quot;&gt;raft&lt;&#x2F;a&gt;. The co-author of this algorithm &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;ongardie&quot;&gt;Diego Ongaro&lt;&#x2F;a&gt; has a nice &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=6bBggO6KN_k&quot;&gt;video&lt;&#x2F;a&gt; about it.&lt;&#x2F;p&gt;
+&lt;p&gt;I will be talking more about Raft in my next blog, and would also describe my thought process of writing a simple implementation for Raft.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>GSoC and OSS</title>
+		<published>2020-12-25T00:00:00+00:00</published>
+		<updated>2020-12-25T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/gsoc-and-oss/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/gsoc-and-oss/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;gsoc-logo.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Google Summer of Code! One of the best things that happened to me :D
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;h1 id=&quot;what-i-intend-to-cover&quot;&gt;What I intend to cover?&lt;&#x2F;h1&gt;
+&lt;p&gt;I plan to cover the insights and pointers that I gained, while being a part of the fantastic Open Source Programs over the world, &lt;strong&gt;Google Summer of Code&lt;&#x2F;strong&gt;!
+I won&#x27;t cover the technical aspects of participating in &lt;strong&gt;GSoC&lt;&#x2F;strong&gt;, but rather focus on the learnings and takeaway from this program. For list of resources useful for GSoC, refer &lt;a href=&quot;https:&#x2F;&#x2F;yashrsharma44.medium.com&#x2F;resources-for-google-summer-of-code-5c2ac800849b&quot;&gt;&lt;strong&gt;this&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;For brevity, I have broken the blog into two parts - &lt;a href=&quot;https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;gsoc-and-oss&#x2F;#&quot;&gt;&lt;em&gt;&lt;strong&gt;First one&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt; covering the journey leading to GSoC, and &lt;a href=&quot;&#x2F;gsoc-and-oss-2&quot;&gt;&lt;em&gt;&lt;strong&gt;the second&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt; covering my experience with my project.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;ascending-the-everest-commencing-the-journey&quot;&gt;Ascending the everest; Commencing the journey&lt;&#x2F;h1&gt;
+&lt;p&gt;I have further broken down the different aspects of GSoC into coherent components, which would provide context while I discuss them further :P&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;philosophy-of-google-summer-of-code&quot;&gt;Philosophy of Google Summer of Code&lt;&#x2F;h2&gt;
+&lt;p&gt;With any work that you do, it is important to understand the philosophy and its goals, that are aligned with it. Whenever you sign up for anything, you also &lt;em&gt;&lt;strong&gt;sign up with the philosophy and the work ethics that come with it&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. It might be surprising, if you don&#x27;t agree with it, so it&#x27;s imperative to understand, what it takes to be an active GSoC contributor, and a life-long OSS contributor!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;start-early-and-start-small&quot;&gt;Start Early and Start Small&lt;&#x2F;h3&gt;
+&lt;p&gt;With any habit, it is imperative that you start small and make sure you break down things into manageable portions.
+While starting with Open Source contributions, there are lot of things that you might need to cover, in order to get equipped with the contributions. &lt;em&gt;&lt;strong&gt;You should get aware of basics, such as basic command line env, git, and debugging.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; Note that these are necessary to be learnt eventually, but not at the start. You can learn them eventually. Here are some resources -&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;https:&#x2F;&#x2F;missing.csail.mit.edu&#x2F;&lt;&#x2F;li&gt;
+&lt;li&gt;https:&#x2F;&#x2F;www.udacity.com&#x2F;course&#x2F;version-control-with-git--ud123&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;learn-it-as-you-go&quot;&gt;Learn it as you go&lt;&#x2F;h3&gt;
+&lt;p&gt;The best part of Software Engineering is that, no one knows everything! &lt;em&gt;&lt;strong&gt;Everyone learns as they practically use the tools&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and Open Source is no different than that. Knowing basics about the different aspects of Software Engineering is important, once you know them, it is easier to extend your knowledge to your tech stack.&lt;&#x2F;p&gt;
+&lt;p&gt;I found this quite useful for visualising the requirements -&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;https:&#x2F;&#x2F;roadmap.sh&#x2F;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;its-about-the-community&quot;&gt;Its about the community&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Open Source holds it charm due to its community&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. The idea of OSS exists because of the voluntary and passionate work the mentors and contributors do. So it becomes natural to have high expectations from them. However, it is fair to understand and respect the fact that it is voluntary work, and no one is accountable. People mentor out of interest and folks should respect that.&lt;&#x2F;p&gt;
+&lt;p&gt;Another aspect is about the &lt;em&gt;&lt;strong&gt;learning and working on your field of interest&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. For instance, if you are involved in AI research, and get hold of an organisation with fantastic community to learn, it is the best opportunity. The mentors and contributors are equally competent, and the peer group will help you in growing your knowledge and develop industry standard with your research. If you happen to participate due to GSoC, and not because of learning, you miss an opportunity to expand your knowledge and networking.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;GSoC is a result of community, and not the other way round&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. People who participate out of interest and learning vision, are bound to enjoy the process more, than people who want to participate in GSoC. &lt;em&gt;&lt;strong&gt;Community provides the context of the program, and without context, the program is mere body without soul.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;being-active-in-the-community&quot;&gt;Being active in the community&lt;&#x2F;h3&gt;
+&lt;p&gt;GSoC requires you to be active in the community you are contributing to. It does not mean that you have to lurk at the mailing lists and communication channel all the time, you can also choose to review the &lt;em&gt;&lt;strong&gt;issues&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, &lt;em&gt;&lt;strong&gt;pull requests&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; and &lt;em&gt;&lt;strong&gt;discuss the proceedings&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; with the contributors, while helping out others to onboard with the process.&lt;&#x2F;p&gt;
+&lt;p&gt;Everyone likes to work with a person, who has been active and involved with the community. It is also beneficial for improving your soft skills such as, &lt;em&gt;&lt;strong&gt;how to ask the right question&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, &lt;em&gt;&lt;strong&gt;how to navigate through common issues&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and &lt;em&gt;&lt;strong&gt;how to be a better contributor&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;This also provides you a first hand experience of working remotely, with minimum physical hinderance, and enabling you to utlise the plethora of online resources.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;having-a-sound-technique&quot;&gt;Having a sound technique&lt;&#x2F;h2&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;swaugh-defence.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Having a sound technique in cricket is of paramount importance!
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Having a strong and dependable technique will help you work on your ideas more, rather than focussing on churning code. GSoC isn&#x27;t supposed to be a program where you churn code, but an event to &lt;em&gt;&lt;strong&gt;develop your software engineering skills, rather than programming skills&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Sure, you should have decent programming skills, because if you don&#x27;t have them, it would become difficult to work with the strengths and weakness of the programming language.&lt;&#x2F;p&gt;
+&lt;p&gt;For instance, Golang has a nice abstraction for &lt;em&gt;&lt;strong&gt;goroutines&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and helps to write concurrrent code much more easily. The same is difficult to write in C++&#x2F;Java, because you need to manage the overhead of using threads. So having a working knowledge of the programming language that you plan to use is important, as it would help you to &lt;em&gt;&lt;strong&gt;demarcate what is possible, and what is not.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Software Designing skills develop, once you spend reading the codebase and the design decisions taken. &lt;em&gt;&lt;strong&gt;Design docs are a great place&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, where they discuss about the different approaches to solve the problem, and choose the one that is practical and feasible. You can develop your taste and understanding about why some components are designed in such a manner. Here is an example for this - &lt;a href=&quot;https:&#x2F;&#x2F;thanos.io&#x2F;tip&#x2F;proposals&#x2F;&quot;&gt;&lt;em&gt;&lt;strong&gt;https:&#x2F;&#x2F;thanos.io&#x2F;tip&#x2F;proposals&#x2F;&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You eventually need to make a proposal for your GSoC project, so you get an opportunity to think and exercise your software designing skills. The mentors are always happy to help you out with this process, so don&#x27;t be afraid to approach them.&lt;&#x2F;p&gt;
+&lt;p&gt;GSoC provides you with the opportunity to spend your summer develop these skills, as you can use this opportunity to learn from the mentors and online resources. &lt;em&gt;&lt;strong&gt;It is not imperative to have these skills before(because GSoC was designed to help you cultivate these skills!)&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, but you should strive to work and develop the taste eventually.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;choosing-projects-and-organizations&quot;&gt;Choosing projects and organizations&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Choosing organisations is important more than choosing project.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; Unless you are experienced to choose a project, organisations play an important role for learning. &lt;strong&gt;&lt;em&gt;For folks who are participating for the first time, it is important to choose organisations that facilitate mentorship&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;. You are not only commiting to the project, you are also signing up for a work culture which might suit you or not, depending on the goals.&lt;&#x2F;p&gt;
+&lt;p&gt;For example, if you plan to work with Kubernetes as a GSoC organisation, be ready to work on your own with little hand holding. Kubernetes is an advanced organisation where the problems they solve using Open Source requires more idea and experience. Open Astronomy, on other hand, helps onboarding new participants with more mentorship and guidance.&lt;&#x2F;p&gt;
+&lt;p&gt;All these are personal opinions and might be biased, so choose the ones which are beginner friendly, and you would enjoy the journey!&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;There is the balance of choosing an easy project with more competition, and choosing a tough project with less competition. So the choice is yours.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;sprints-are-a-way-to-go&quot;&gt;Sprints are a way to go&lt;&#x2F;h3&gt;
+&lt;p&gt;While this is not scalable, I personally find &lt;a href=&quot;https:&#x2F;&#x2F;www.atlassian.com&#x2F;agile&#x2F;scrum&#x2F;sprints&quot;&gt;sprints&lt;&#x2F;a&gt; &lt;em&gt;&lt;strong&gt;an important tool to develop any skills at start of your program&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. You should choose an issue that you want to solve, and sprint through them to solve it. When you impose a time crunch, you come up with innovative ideas to solve your problem, and &lt;em&gt;&lt;strong&gt;instead of having a sophisticated approach&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, you come up with a &lt;em&gt;&lt;strong&gt;practical and simple approach&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. This makes sure you have a proof of concept to work with, and iterate on the process more.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;proof-of-concepts&quot;&gt;Proof of Concepts&lt;&#x2F;h3&gt;
+&lt;p&gt;Proof of concepts are an effective way to test out your hypothesis. &lt;em&gt;&lt;strong&gt;@thealphadollar&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; has a good account on &lt;a href=&quot;https:&#x2F;&#x2F;thealphadollar.me&#x2F;experience&#x2F;2018&#x2F;12&#x2F;03&#x2F;how-i-prepared-for-gsoc-18.html&quot;&gt;this&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s say you have an approach to solve your problem, and you have designed your approach and different components. You might know which components are tricky to work with, and might not know if the behaviour is supposed to be what you planned to be.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Here is an example of a &lt;a href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;document&#x2F;d&#x2F;1pf94fUtzJTffWLdkHkF4VeeSTpbJuTCJKWAv_-KSFfI&#x2F;edit?usp=sharing&quot;&gt;problem statement&lt;&#x2F;a&gt; and how I came up with a &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;yashrsharma44&#x2F;batch_running_jobs&quot;&gt;solution&lt;&#x2F;a&gt;. This problem was really tricky for me to work with, as I encountered this for applying for a startup in my second year. Although I didn&#x27;t solve it, because I didn&#x27;t had much knowledge to work with. Fortunately, after a year and a half, I finally managed to formulate an approach for it. This was a perfect example for proof of concept, as I had multiple iterations before arriving at the final solution :P&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Proof of concepts are a best way to test out your hypothesis, and make sure your assumptions are correct&#x2F;works in a behaviour that you expect. Often, it is possible that you might not know how a component can be designed using an existing design, which is not known at present. The best way is to design a solution from scratch, and iterate on the process, rather than working on your project with your approach, only to realise that the approach is not feasible.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;getting-selected-or-not&quot;&gt;Getting selected, or not&lt;&#x2F;h3&gt;
+&lt;p&gt;I intentionally kept this at last, because after all this is a possibility, and you should accept it. Rejections can happen from all sort of reasons; &lt;em&gt;&lt;strong&gt;proposal not accepted&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, &lt;em&gt;&lt;strong&gt;organisations pulled out at the last moment&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, &lt;em&gt;&lt;strong&gt;projects removed at last moment due to unavailability of mentors&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and so on. Surprisingly, I have had a first hand experience of all of the events, which happened to my friends and OSS folks, so it&#x27;s pretty realistic.&lt;&#x2F;p&gt;
+&lt;p&gt;The best way is not to take this personally, but rather accept that it&#x27;s a &lt;em&gt;&lt;strong&gt;game of probability&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and &lt;em&gt;&lt;strong&gt;due to mentors having limited slots proposals can be pulled out inspite of sounding brilliant on paper&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Google&#x27;s main aim was to introduce you to the culture of OSS, and you having spend a couple of months, would have still gained a lot.&lt;&#x2F;p&gt;
+&lt;p&gt;Working on with the community is imperative, because it helps you &lt;em&gt;&lt;strong&gt;build your skills&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and you might get an &lt;em&gt;&lt;strong&gt;opportunity to work with your mentors with another program&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. One of my closest friend was working with Julia, and inspite of having solid contributions and proposal, he still didn&#x27;t get a chance to work. However, because he was quite involved with the community, he got a chance to participate in &lt;a href=&quot;https:&#x2F;&#x2F;fellowship.mlh.io&#x2F;&quot;&gt;&lt;em&gt;&lt;strong&gt;MLH Fellowship&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Your contributions are quite valuable, and you can choose to work on your project if you want to. Open Source contributions are quite valuable, and if you happen to interview for Software Engineering roles later in your career, &lt;em&gt;&lt;strong&gt;those stand out to be the most valuable aspect of your resume&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Senior engineers love open source contributions, as it helps you to transparently judge a candidate with their knowledge and understanding.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Art of frontend</title>
+		<published>2020-12-02T00:00:00+00:00</published>
+		<updated>2020-12-02T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/art-or-science/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/art-or-science/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;mentor_dashboard.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    The final product that I made :p
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;what-i-intend-to-cover&quot;&gt;What I intend to cover?&lt;&#x2F;h2&gt;
+&lt;p&gt;This post is aimed at mastering the skills using HTML and CSS. While this might sound vanilla&#x2F;boring with today&#x27;s tech stack support, believe mastering plain old HTML&#x2F;CSS is the way to go for building your skills for frontend.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-i-started-with-frontend&quot;&gt;How I started with Frontend&lt;&#x2F;h2&gt;
+&lt;p&gt;To start with, I didn&#x27;t have any inherent motivation for frontend to be honest 😅. I am a part of a college club where we conduct a winter long open source contribution program for new contributors. We had already completed our backend work, while a lot was pending for frontend. We had lot of volunteers for backend and stats-api( yes we made a server endpoint for managing data flow XD), but quite a few for frontend.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Shoutout to rakaar, sahil and ananya for sticking to frontend team 😂!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I was quite determined to make sure that the work is completed, because last year we had a lot of hiccups, and had a tough time managing the logistics. We had ample of time, and some volunteering would certainly help.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;This was the motivation for me to get started with basics and start contributing with small tasks.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;tips-for-starting-with-frontend&quot;&gt;Tips for starting with frontend&lt;&#x2F;h1&gt;
+&lt;p&gt;I have curated 5 tips for starting with frontend development. I am not covering the use case of React and other popular frontend frameworks. I intend to cover the mastery&#x2F;proficiency of basic HTML&#x2F;CSS, before moving forward to anything.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;start-slowly-start-simply&quot;&gt;Start slowly, start simply&lt;&#x2F;h2&gt;
+&lt;p&gt;I started with around in October, and I managed to complete the final iteration after 2 months. It is difficult to start with a new thing, get used to with the defaults. I was strugling to wrap my mind with options for flex-box in css, trying to make sense which change affects what.&lt;&#x2F;p&gt;
+&lt;p&gt;The trick is to slow down, and in fact give yourself some time to come up with the idea. It is totally okay to not get the idea in the first instance, and sometimes you can try out playing with it, to get an idea of how to customise the idea.&lt;&#x2F;p&gt;
+&lt;p&gt;For me, I started focussing on the simplest idea possible which I understood and started building from it. I started thinking about the divs to break down the page into multiple parts. Doodling also helps in designing the structure.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;work-in-iterations&quot;&gt;Work in iterations&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;You don&#x27;t land up with the perfect result; you arrive at it.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;For me, I had made around 3 iterations before making the final product. The first one was quite a simple one, and looked fair. It wasn&#x27;t an eye catching one, simple as possible, more like the skeleton structure.&lt;&#x2F;p&gt;
+&lt;p&gt;The second last iteration was quite good. We had a figma design(will talk about it in next part) and it was quite easy to make the structure of the website. Once you have a convincible blue-print, it is easy to follow it.&lt;&#x2F;p&gt;
+&lt;p&gt;By now, I had become familiar with a lot of features of HTML&#x2F;CSS to help me out. &lt;em&gt;I totally understood how to convert the figure into reality!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;mentor_dashboard_2.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    2nd or 2nd last?
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;This looked pretty cool, except it was quite plain :3&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;if-you-have-good-visualization-use-figma&quot;&gt;If you have good visualization, use figma&lt;&#x2F;h2&gt;
+&lt;p&gt;In case you have good visualization, you can use some digital tools such Adobe Illustrator. Those are proprietary software, so you can use &lt;a href=&quot;https:&#x2F;&#x2F;www.figma.com&#x2F;&quot;&gt;figma&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;I personally found figma quite useful, although I still have to master it to create some good UIs. It is not a mandatory ask, you can still use your trusted browser to create some dummy pages before you make the perfect one.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;learn-it-as-you-go&quot;&gt;Learn it as you go&lt;&#x2F;h2&gt;
+&lt;p&gt;This is one of the underrated advice I have ever seen. Most people get bogged down with the idea of mastering a new habit, and often the details stalls you from getting the actual work done.&lt;&#x2F;p&gt;
+&lt;p&gt;Fortunately for Software Engineering, most of the beginner level skills can be learnt easily with online resources and blog posts. I started with the basics of HTML, such as div tag(most useful one!), p tags, a tags and so on.&lt;&#x2F;p&gt;
+&lt;p&gt;For custom buttons, I didn&#x27;t knew how to make one. With some googling and experimentation, I learnt the way to go about it. I learnt the concepts of flex-box, when I required all the data-cards should be stacked row wise, with some spacing. Flex-box was made for this, and I can&#x27;t stress how important is flex-box!&lt;&#x2F;p&gt;
+&lt;p&gt;Start learning new things when you require. While making the version 0, you don&#x27;t need to know everthing.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Your mind knows the things, you need to know when you start small.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Learn more features when you require them, until then delay learning them.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;asking-for-help-having-fun&quot;&gt;Asking for help, having fun&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;em&gt;Final piece of learning, ask for help and have fun!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I asked for help whenever I got stuck. My college mate (xypnox) helped me get unstuck a lot of time, so have a buddy with whom you can brainstorm. It can be learning buddy with whom you are working, or you could ask for help in twitter(peeps here are quite responsive!)&lt;&#x2F;p&gt;
+&lt;p&gt;Finally, have fun. I stopped working when I got exhausted. I took a break when it was required, because it provides much required energy, and you arrive back fresh and energetic for the task!&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Frontend designing is quite different from engineering. It seemed for me as an art, where everything is appreciable in it&#x27;s own terms, while engineering has made it easy to qualify the solutions great or not.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;art_or_science.jpeg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Mandatory pic XD
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Once you have this idea in mind, you would appreciate the amount of work that you put in learning them.&lt;&#x2F;p&gt;
+&lt;p&gt;Until then, Adios!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Setting up a new blog</title>
+		<published>2020-10-23T00:00:00+00:00</published>
+		<updated>2020-10-23T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/one-new-blog/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/one-new-blog/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;xypnox-logo.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    All Hail Xypnox for the theme!
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;migrating-to-another-blog&quot;&gt;Migrating to another Blog&lt;&#x2F;h2&gt;
+&lt;p&gt;For months, I have been planning to shift my blog to a new setup. My previous blog was taken from hugo, which
+was functional, but at the same time, it was pretty difficult in managing the UI. I had some ideas for formatting
+the blog with some personal touch, but hugo seemed too complex for me to understand. I predominantly don&#x27;t spend
+much time playing with Frontend, so it was difficult for me to work with a complex setup.&lt;&#x2F;p&gt;
+&lt;p&gt;Another reason for me was that, I was smitten by the UI of the blog my fellow friend used - &lt;a href=&quot;https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&quot;&gt;&lt;strong&gt;&lt;em&gt;xypnox&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;. I wanted to try out, so I caught up with him and I started porting my blog using his theme. The blog uses &lt;strong&gt;&lt;code&gt;Zola&lt;&#x2F;code&gt;&lt;&#x2F;strong&gt; as the static site generator. It is written in &lt;em&gt;&lt;strong&gt;Rust&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, so its really fast. The best part I found, was
+its minimal setup for using it, with minimal fuss. Considering my usecase, this sounded really good - no more complex file structure to decrypt, and users can add in their own functionality without breaking things.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyone who wants a detailed review of using the current setup can checkout &lt;em&gt;&lt;strong&gt;xypnox&lt;&#x2F;strong&gt;&#x27;s&lt;&#x2F;em&gt; blog-post - &lt;a href=&quot;https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;posts&#x2F;migrating-to-zola&#x2F;&quot;&gt;link&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;installing-it-as-a-github-page&quot;&gt;Installing it as a github page&lt;&#x2F;h2&gt;
+&lt;p&gt;You would see that I use the domain &lt;code&gt;github.io&lt;&#x2F;code&gt; for hosting my blog page. GitHub provides free hosting of a static page
+in a single domain. The URL that is alloted is along the lines - &lt;code&gt;https:&#x2F;&#x2F;&amp;lt;github_id&amp;gt;.github.io&lt;&#x2F;code&gt;. It is quite easy to set up the codebase for the static webpage, and once you commit your changes, those get reflected automatically.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GitHub&lt;&#x2F;strong&gt; provides &lt;code&gt;jekyll&lt;&#x2F;code&gt; support out of the box, so any static setup written in jekyll would be natively supported. For &lt;code&gt;Zola&lt;&#x2F;code&gt;, I used &lt;em&gt;&lt;strong&gt;GitHub Actions&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; for pushing out changes live as I commited. Zola has documented out the steps quite well, so you can have a look - &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;deployment&#x2F;github-pages&#x2F;#github-actions&quot;&gt;link&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In case you are migrating from &lt;code&gt;jekyll&lt;&#x2F;code&gt;, you might encounter an error -&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;one-new-blog&#x2F;jekyll-issue.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I managed to solve this using this issue from this &lt;a href=&quot;https:&#x2F;&#x2F;github.community&#x2F;t&#x2F;how-to-disable-jekyll-build&#x2F;10981&quot;&gt;blog&lt;&#x2F;a&gt;. Basically create a &lt;code&gt;.nojekyll&lt;&#x2F;code&gt; file in the root, and the rest is taken care.&lt;&#x2F;p&gt;
+&lt;p&gt;Another issue that I encountered was that &lt;code&gt;Zola&lt;&#x2F;code&gt; wasn&#x27;t able to find an empty &lt;code&gt;sass&lt;&#x2F;code&gt; folder which was supposed to be
+there -&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#212121;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;Error: Can&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c3e88d;&quot;&gt;t watch `sass` for changes in folder `&#x2F;home&#x2F;yash&#x2F;blog`. Do you have correct permissions?
+Reason: entity not found
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Apparently, GitHub doesn&#x27;t commit empty directories - &lt;a href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;26079618&#x2F;why-cant-i-commit-an-empty-folder-in-git&quot;&gt;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;26079618&#x2F;why-cant-i-commit-an-empty-folder-in-git&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;So I created a &lt;code&gt;sass&lt;&#x2F;code&gt; folder in the root, and the &lt;code&gt;Zola&lt;&#x2F;code&gt; was up and running.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;other-changes-that-i-made&quot;&gt;Other changes that I made&lt;&#x2F;h2&gt;
+&lt;p&gt;I also changed the background color to &lt;code&gt;#E8F2F7&lt;&#x2F;code&gt;. It has a nice warm shade which was a change from the author&#x27;s background color. I also added a social media link at the bottom of the page, which was quite easy to populate. The Dark Mode is an absolute beast, so I didn&#x27;t tinker with the setup; looks cooler that way.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;I setup the blog in around an hour and 20 minutes for setting up the GitHub Actions. This is quite great, as the structure of the website is clean and minimal, much like the theme. It does have it&#x27;s shortcomings - I had to populate the disqus links which was hardcoded deep inside the template; would love to have it configured throught &lt;code&gt;toml&lt;&#x2F;code&gt; settings. Since its quite an early version of the theme, all these can be worked upon, because it is an Open Source project!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>The story behind my alias</title>
+		<published>2020-10-23T00:00:00+00:00</published>
+		<updated>2020-10-23T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/to-be-or-not-to-be/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/to-be-or-not-to-be/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;www.hdnicewallpapers.com&amp;#x2F;Walls&amp;#x2F;Big&amp;#x2F;Cricket&amp;#x2F;Rohit_Sharma_Indian_Cricketer_in_Cricket_World_Cup_2019_4K_Wallpaper.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Source of Inspiration? Hell yeah!
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;when-i-started-with-cricket&quot;&gt;When I started with Cricket&lt;&#x2F;h2&gt;
+&lt;p&gt;Cricket as a sport is quite famous in India. It is treated next to religion, so you can anticipate the amount
+of craze and fan-following that it generates.&lt;&#x2F;p&gt;
+&lt;p&gt;Right from my childhood, I wasn&#x27;t into Cricket - yeah you read it right. I was one of the kids who kind of didn&#x27;t
+like Cricket, or any sports for that matter. The idea of just watching few people play a game which didn&#x27;t seem as
+dynamic as likes of Football, seemed quite boring to me. Or was it?&lt;&#x2F;p&gt;
+&lt;p&gt;I watched my first match out of interest, and that was the Cricket World Cup of 2011. It was all hyped up - India was
+playing it&#x27;s first final since the 2007 World T20. This was also hailed as the last world cup for Sachin Tendulkar, so
+it did seem to be a big deal!&lt;&#x2F;p&gt;
+&lt;p&gt;I conciously started watching the game from the 2nd innings, when India came out to bat. The start was quite a nail-biter - Sehwag was out in the first over - Sachin got out cheaply - Virat Kohli &lt;em&gt;the man in form&lt;&#x2F;em&gt; was out early too. It seemed like Sri Lanka would snatch the world cup from the hosts. However, the amount of resistence showed by the lower order, was really commendable, and for the first time &lt;em&gt;relatable&lt;&#x2F;em&gt;. Everyone loves an underdog story, and this was one such of its kind.&lt;&#x2F;p&gt;
+&lt;p&gt;This was how I started to love Cricket, and get involved into it so much!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fanboy-moment&quot;&gt;Fanboy moment&lt;&#x2F;h2&gt;
+&lt;p&gt;I was kind of addicted to Cricket, and one of the aspects that attracted me to it, was the underdog concept and how players who grind it out ultimately reap their rewards. One such example was Rohit Sharma, the middle order batsman.
+I didn&#x27;t had the background story about him, as to how he was the most talented batsman among his peers, and how he wasn&#x27;t able to make it big.&lt;&#x2F;p&gt;
+&lt;p&gt;Still watching his cricketing shots and his rescue act - consolidating the innings after India loses the top-order wickets, and his pure elegance and class, was something to be cherished. I kind of related with him, as I often found myself on the wrong side even after giving my best. His cricketing brain was still not great, as he kept finding ways
+to disappoint himself. It actually took him 3 more years before he finally started to convert his starts into big innings.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;where-did-the-alias-came-into-the-picture&quot;&gt;Where did the alias came into the picture?&lt;&#x2F;h2&gt;
+&lt;p&gt;There was one such innings which was quite memorable for me. This was the ODI series of India-Australia of the year 2013. It was one of the matches where Rohit Sharma got his century. Even though he had scored a century earlier, but that was in 2007, and a century was kind of due.&lt;&#x2F;p&gt;
+&lt;p&gt;India was chasing 350+, and it required a humongous effort to chase that down. India managed to chase the score, and one of the architects was him to build the innings. It was quite a emotional match for him, as it provided him the closure for competing with him, rather than worrying about others. I was (and still am) nostalgic about the joy of scoring that hundred. This was also the day, his shirt number was 44.&lt;&#x2F;p&gt;
+&lt;p&gt;This along with the initials motivated me to come up with an alias -&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;yash&lt;&#x2F;strong&gt; &lt;em&gt;R&lt;&#x2F;em&gt; &lt;strong&gt;sharma&lt;&#x2F;strong&gt; 44&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I guess the combination sounds cringy, but trust me when I came up with that intials, I found it quite mesmerising and
+symbolic of the fact - &lt;em&gt;grit and determination overpowers anything&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;I came up with my alias during my freshman year, and I still back up my choice for that alias even after 3 years!&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+</content>
+	</entry>
+</feed>

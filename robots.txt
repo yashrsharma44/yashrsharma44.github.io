@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://yashrsharma44.github.io/sitemap.xml
