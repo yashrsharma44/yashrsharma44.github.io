@@ -18,6 +18,9 @@ theme = "xyblag"
 description = "Happy space for scribbling down my thoughts, penning down my experiences with Software and Open Source."
 title = "Yash Sharma"
 
+# Notes Section details
+notes_description = "Space for my TIL Notes section"
+
 generate_feed = true
 
 taxonomies = [

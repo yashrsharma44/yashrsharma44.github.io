@@ -7,6 +7,9 @@ generate_feed = true
 highlight_code = true
 title = "xyblag theme theme"
 
+# Notes Section details
+notes_description = "Space for my TIL Notes section"
+
 taxonomies = [
   {name = "categories", rss = true},
   {name = "tags", rss = true},

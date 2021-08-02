@@ -1,5 +1,5 @@
 +++
 transparent = false
-template="index.html"
+template="notes.html"
 paginate_by = 10
 +++

@@ -17,6 +17,5 @@ _Watch out this space for upcoming blogposts as I intend to write!_
 **Changes since last update** :
 
 ```diff
-+ Added a Notes Section at the top :D
-+ Learning about Consensus Algorithms
++ Black Box and White Box Testing
 ```
