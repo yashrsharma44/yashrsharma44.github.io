@@ -73,7 +73,11 @@ Having a strong and dependable technique will help you work on your ideas more, 
 
 For instance, Golang has a nice abstraction for _**goroutines**_, and helps to write concurrrent code much more easily. The same is difficult to write in C++/Java, because you need to manage the overhead of using threads. So having a working knowledge of the programming language that you plan to use is important, as it would help you to _**demarcate what is possible, and what is not.**_
 
-Software Designing skills develop, once you spend reading the codebase and the design decisions taken. _**Design docs are a great place**_, where they discuss about the different approaches to solve the problem, and choose the one that is practical and feasible. You can develop your taste and understanding about why some components are designed in such a manner. Here is an example for this - [_**https://thanos.io/tip/proposals/**_](https://thanos.io/tip/proposals/)
+Software Designing skills develop, once you spend reading the codebase and the design decisions taken. _**Design docs are a great place**_, where they discuss about the different approaches to solve the problem, and choose the one that is practical and feasible. You can develop your taste and understanding about why some components are designed in such a manner. Here is an example for this - 
+* [_**https://thanos.io/tip/proposals-done/**_](https://thanos.io/tip/proposals-done/)
+* [_**https://thanos.io/tip/proposals-rejected/**_](https://thanos.io/tip/proposals-rejected/)
+* [_**https://thanos.io/tip/proposals-accepted/**_](https://thanos.io/tip/proposals-accepted/)
+
 
 You eventually need to make a proposal for your GSoC project, so you get an opportunity to think and exercise your software designing skills. The mentors are always happy to help you out with this process, so don't be afraid to approach them.
 
