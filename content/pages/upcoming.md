@@ -10,12 +10,12 @@ _Watch out this space for upcoming blogposts as I intend to write!_
 
 - <del> Open Source and Software Engineering </del>
 - My Google Interview Experience
-- Community Bridge experience with Thanos
-- Making a chat application : One block at a time
-- Spending a semester for Competitive Programming
+- My Placement Interview Experience
+- Working with Startups for over a year -II
+- Shifting to London for my FTE Job
 
 **Changes since last update** :
 
 ```diff
-+ Black Box and White Box Testing
++ Working with Startups for over a year - I
 ```
