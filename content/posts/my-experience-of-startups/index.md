@@ -1,7 +1,7 @@
 +++
 title = "Working with Startups for over a year - I"
 description = "My experience of working with Startups, and some of the learnings"
-date = 2022-06-12
+date = 2022-08-25
 path="startup-over-a-year-i"
 template="page.html"
 
