@@ -4,7 +4,7 @@ description = "Summary of all of my interview(s) I had with for my placement, an
 date = 2022-09-22
 path="my-placement-experience"
 template="page.html"
-drafts=true
+draft=true
 
 [taxonomies]
 categories = ["tech"]
