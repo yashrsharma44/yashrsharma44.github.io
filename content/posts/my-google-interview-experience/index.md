@@ -139,7 +139,7 @@ Writing code can be practiced, and you can make sure, it doesn't take a lot of t
 I often used to write up code fairly fast, e.g. writing up **DFS**, **BFS**, and **Dijkstra's Algorithm** without a lot of thought. You can practice them to prepare for the boilerplate code, and spend the rest of the time formulating the actual logic of the problem.
 
 
-* _**Using Encapsulation while solving problems**_ - Encapsulation is a concept from _**Object Oriented Programming**_, which makes sure, you hide a fairly complex logic in a black box and work accordingly. I often _**used verbose but small function names**_, which were _**commented on in a summary of the problem**_ that would be solved. I often used to communicate to my interviewer about the function, and that I would fill up the function later on.
+* _**Using Encapsulation while solving problems**_ - Encapsulation is a concept from _**Object Oriented Programming**_, which makes sure, you hide a fairly complex logic in a black box and work accordingly. I often _**used verbose but small function names**_, which were _**commented with a summary of the problem**_ that would be solved. I often used to communicate to my interviewer about the function, and that I would fill up the function later on.
 
 This gave me the _**flexibility on focussing on the higher-level logic of the problem while making sure I can take care of the lower-level logic later**_. This gives me the clarity of the higher level solution, and once I am happy with the higher level logic, I can quickly move on to the lower level logic function. _**This is the onion peeling technique, you peel more layers once the outer layers have been consumed.**_
 
