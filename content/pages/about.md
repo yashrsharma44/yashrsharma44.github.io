@@ -4,7 +4,7 @@ path = "about"
 template = "about.html"
 +++
 
-I am an undergraduate student at IIT Kharagpur, pursuing Mathematics as my major. Coding remains one
+_**I am a Production Engineer at [Meta Platforms Inc.](https://en.wikipedia.org/wiki/Meta_Platforms), working from their London Office**_. I was an undergraduate student at IIT Kharagpur, pursuing Mathematics as my major. Coding remains one
 of my hobby which I want to pursue full time later on. Apart from my love of coding, I am quite fond
 of [cricket](https://en.wikipedia.org/wiki/Cricket).
 
@@ -14,7 +14,7 @@ how I came up with my programming alias - **yashrsharma44**.
 
 ## tl;dr
 
-_Undergraduate student at IIT Kharagpur. Open Source Enthusiast._
+_Production Engineer at [Meta Platforms Inc.](https://en.wikipedia.org/wiki/Meta_Platforms), London. Open Source Enthusiast._
 
 ### How is this blog made?
 
