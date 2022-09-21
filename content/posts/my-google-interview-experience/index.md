@@ -4,7 +4,6 @@ description = "Summary of all of my interview(s) I had with Google, and list of 
 date = 2022-09-21
 path="my-google-interview-experience"
 template="page.html"
-draft=true
 
 [taxonomies]
 categories = ["tech"]
