@@ -1,5 +1,17 @@
 {
   "files.associations": {
     "*.html": "tera"
-  }
+  },
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "content/posts/my-google-interview-experience/index.md"
+    },
+    {
+      "language": "Log",
+      "scheme": "output",
+      "pattern": "extension-output-znck.grammarly-#2-Grammarly"
+    }
+  ]
 }
