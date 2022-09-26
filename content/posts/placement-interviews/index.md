@@ -28,10 +28,19 @@ For example, I had been actively involved with Software Engineering, and have be
 
 We certainly don't require [Inverting a Binary Tree](https://leetcode.com/problems/invert-binary-tree/) in the real job(unless your role is an Algorithmic Specialist xD), but the standard of problems require any applicants(including me) to me well versed with the game. So I had to gulp down my reservations about interviewing process, and prepare for the game. You would only be able to sustain the effort and passion, if you are passionnate/developed a likeliness towards the career that you would want to pursue.
 
-Calibrate your expectations and have faith in the preparation process :100:
+Calibrate your expectations and have faith in the preparation process 💯!
 
 ## Having a profile for niche roles
 
-Niche roles are supposed to be specialised roles. You might be tempted
+Niche roles are supposed to be specialised roles. You might be tempted to apply for those fancy sounding roles, which might be a hit among the peer groups/social-media, due to the monetary benefits, work location, etc.
+
+It is important to have some background knowledge/experience before applying for those roles. You might either see little people applying/many people applying, and it makes sense to evaluate the needs of the role you are applying, before spending time for prepping for the interviews.
+
+For example, many of my college mates were quite excited about the Quantitative Researcher role in High Frequency Trading (HFTs), that pay almost 3-4 times the salary of SWEs. Obviously, without any context about the role, or the experience required, many of my friends had started prepping for the roles. One of my close friends had got into the QR roles with an early stage HFTs, which was quite an achievement, considering the pool of candidates with premium background they were interviewing before he landed up with the role.
+
+Personally, I didn't feel much comfortable in applying for those roles, as I found myself lacking background while applying for such roles; it's totally fine if you want to explore and eventually, if you happen to like the role, then by all means, you should go ahead in pursuing that role. The same friend who landed the QR role, honestly didn't had much preference in pursuing SWE career, even though he had a solid experience in SWE. The moment you start diverging from your field of expertise and most importantly, interest, then it becomes a soul-sucking job, which you would find very difficult to endure.
 
 
+## Preparing your knowledge base about the subject matter
+
+It is important to stand out from the crowd; nowadays, people prepare for the SWE roles, with little to almost no context about the job that they are planning to pursue. It is one thing having less experience about the internal tools
