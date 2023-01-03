@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta
+        content="text/html; charset=utf-8" http-equiv="content-type"/> <!-- Enable responsiveness on mobile devices-->
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport"/>
+        <title>
+            
+    Yash Sharma - GSoC and OSS
+
+        </title>
+        <link href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;favicon.ico" rel="icon" type="image/x-icon"/>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        
+            <link rel="alternate" type= "application/atom+xml"  title="RSS" href="https://yashrsharma44.github.io/atom.xml"/>
+        
+        
+        
+    <meta content="website" property="og:type"/>
+    <meta content="Yash Sharma" property="og:site_name"/>
+    <meta content="https://yashrsharma44.github.io/gsoc-and-oss/" property="og:url"/>
+    <meta content="https://yashrsharma44.github.io/gsoc-and-oss/" property="twitter:url"/>
+    
+        <meta content="GSoC and OSS" property="og:title"/>
+        <meta content="GSoC and OSS" property="twitter:title"/>
+    
+    
+        <meta content="My experiences with Google Summer of Code and Open Source Software" property="description"/>
+        <meta content="My experiences with Google Summer of Code and Open Source Software" property="og:description"/>
+        <meta content="My experiences with Google Summer of Code and Open Source Software" property="twitter:description"/>
+    
+    
+        <meta content="summary_large_image" property="twitter:card"/>
+        <meta content="https://yashrsharma44.github.io&#x2F;gsoc-logo.png" property="og:image"/>
+        <meta content="https://yashrsharma44.github.io&#x2F;gsoc-logo.png" property="twitter:image"/>
+    
+
+        
+        
+            <script src="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;slideout.min.js" type="text/javascript"></script>
+            
+        
+        
+            <link href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;site.css" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"/>
+            <link charset="utf-8" href="https://indestructibletype.com/fonts/Jost.css" rel="stylesheet" type="text/css"/>
+            
+        
+        
+    </head>
+    <body>
+        <script>
+            (function initTheme() {
+                let body = document.getElementsByTagName("body")[0];
+                if (window.localStorage.getItem("theme") !== null) {
+                    if (window.localStorage.getItem("theme") === "dark") {
+                        body.setAttribute("data-theme", "dark");
+                    } else {
+                        body.setAttribute("data-theme", "light");
+                    }
+                } else {
+                    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                        body.setAttribute("data-theme", "dark");
+                    }
+                }
+            })();
+        </script>
+        <div class="container">
+            <div class="mobile-navbar" id="mobile-navbar">
+                <div class="mobile-header-logo">
+                    <a class="logo" href="https:&#x2F;&#x2F;yashrsharma44.github.io">Yash Sharma</a>
+                </div>
+                <div class="mobile-navbar-icon icon-out">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <nav class="mobile-menu slideout-menu slideout-menu-left" id="mobile-menu">
+                <ul class="mobile-menu-list">
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;">
+                                Blog
+                            </a>
+                        </li>
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;upcoming">
+                                Upcoming Posts
+                            </a>
+                        </li>
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;about">
+                                About
+                            </a>
+                        </li>
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;notes">
+                                Notes
+                            </a>
+                        </li>
+                    
+                    <li class="mobile-menu-item">
+                        <div class="theme-switcher">
+                            
+    <div class="theme-button" onClick="toggleTheme()">
+        <label for="cb1">
+            <svg
+                id="dayIcon"
+                style="enable-background:new 0 0 35 35;"
+                version="1.1"
+                viewBox="0 0 35 35"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <g id="Sun">
+                    <g>
+                        <path
+                            d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5 S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z
+                                M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5
+                                C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6
+                                C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9
+                                c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44
+                                l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5
+                                c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06 L6.439,8.561z
+                                M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z
+                                M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2
+                                C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29
+                                c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7
+                                C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5
+                                c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"
+                            style="fill-rule:evenodd;clip-rule:evenodd;"/>
+                    </g>
+                </g>
+            </svg>
+        </label>
+        <input class="toggle" id="cb1" onClick="toggleTheme()" type="checkbox"/>
+        <label class="toggle-button" for="cb1"></label>
+        <label for="cb1">
+            <svg
+                enable-background="new 0 0 100 100"
+                id="nightIcon"
+                version="1.1"
+                viewBox="0 0 100 100"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571
+                C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23
+                c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369
+                c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65 c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"/>
+            </svg>
+        </label>
+    </div>
+
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            
+                
+    <header id="header">
+        <div class="logo">
+            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io">Yash Sharma</a>
+        </div>
+        
+    <nav class="menu">
+        <ul>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;">
+                        Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;upcoming">
+                        Upcoming Posts
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;about">
+                        About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;notes">
+                        Notes
+                    </a>
+                </li>
+            
+            <div class="theme-switcher">
+                
+    <div class="theme-button" onClick="toggleTheme()">
+        <label for="cb1">
+            <svg
+                id="dayIcon"
+                style="enable-background:new 0 0 35 35;"
+                version="1.1"
+                viewBox="0 0 35 35"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <g id="Sun">
+                    <g>
+                        <path
+                            d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5 S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z
+                                M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5
+                                C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6
+                                C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9
+                                c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44
+                                l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5
+                                c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06 L6.439,8.561z
+                                M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z
+                                M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2
+                                C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29
+                                c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7
+                                C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5
+                                c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"
+                            style="fill-rule:evenodd;clip-rule:evenodd;"/>
+                    </g>
+                </g>
+            </svg>
+        </label>
+        <input class="toggle" id="cb1" onClick="toggleTheme()" type="checkbox"/>
+        <label class="toggle-button" for="cb1"></label>
+        <label for="cb1">
+            <svg
+                enable-background="new 0 0 100 100"
+                id="nightIcon"
+                version="1.1"
+                viewBox="0 0 100 100"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571
+                C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23
+                c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369
+                c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65 c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"/>
+            </svg>
+        </label>
+    </div>
+
+            </div>
+        </ul>
+    </nav>
+
+    </header>
+
+            
+            <main>
+                <div class="content" id="mobile-panel"> 
+    
+        <div class="post-toc" id="post-toc">
+            <div class="toc-wrapper">
+                <h2 class="post-toc-title">Contents</h2>
+                <div class="post-toc-content always-active">
+                    <nav id="TableOfContents">
+                        <ul>
+                            
+                                <li>
+                                    <a class="toc-link" href="https://yashrsharma44.github.io/gsoc-and-oss/#what-i-intend-to-cover">What I intend to cover?</a>
+                                    
+                                </li>
+                            
+                                <li>
+                                    <a class="toc-link" href="https://yashrsharma44.github.io/gsoc-and-oss/#ascending-the-everest-commencing-the-journey">Ascending the everest; Commencing the journey</a>
+                                    
+                                        <ul>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://yashrsharma44.github.io/gsoc-and-oss/#philosophy-of-google-summer-of-code">Philosophy of Google Summer of Code</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://yashrsharma44.github.io/gsoc-and-oss/#having-a-sound-technique">Having a sound technique</a>
+                                                </li>
+                                            
+                                        </ul>
+                                    
+                                </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    
+    <article class="post">
+        
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;gsoc-and-oss&#x2F;">GSoC and OSS</a>
+        </h1>
+        <div class="post__meta">
+        <span>My experiences with Google Summer of Code and Open Source Software</span>
+        </br>
+            <span class="post__time">2020-12-25</span>
+            
+                <div class="post__category">
+                    
+                        <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;categories&#x2F;tech&#x2F;">tech</a>
+                    
+                </div>
+            
+        </div>
+    </header>
+
+        <div class="post-content">
+            <div class="cover-image">
+  <img src="gsoc-logo.png"/>
+  <p class="desc">
+    Google Summer of Code! One of the best things that happened to me :D
+  </p>
+</div>
+<h1 id="what-i-intend-to-cover">What I intend to cover?</h1>
+<p>I plan to cover the insights and pointers that I gained, while being a part of the fantastic Open Source Programs over the world, <strong>Google Summer of Code</strong>!
+I won't cover the technical aspects of participating in <strong>GSoC</strong>, but rather focus on the learnings and takeaway from this program. For list of resources useful for GSoC, refer <a href="https://yashrsharma44.medium.com/resources-for-google-summer-of-code-5c2ac800849b"><strong>this</strong></a>.</p>
+<p>For brevity, I have broken the blog into two parts - <a href="https://yashrsharma44.github.io/gsoc-and-oss/#"><em><strong>First one</strong></em></a> covering the journey leading to GSoC, and <a href="/gsoc-and-oss-2"><em><strong>the second</strong></em></a> covering my experience with my project.</p>
+<h1 id="ascending-the-everest-commencing-the-journey">Ascending the everest; Commencing the journey</h1>
+<p>I have further broken down the different aspects of GSoC into coherent components, which would provide context while I discuss them further :P</p>
+<h2 id="philosophy-of-google-summer-of-code">Philosophy of Google Summer of Code</h2>
+<p>With any work that you do, it is important to understand the philosophy and its goals, that are aligned with it. Whenever you sign up for anything, you also <em><strong>sign up with the philosophy and the work ethics that come with it</strong></em>. It might be surprising, if you don't agree with it, so it's imperative to understand, what it takes to be an active GSoC contributor, and a life-long OSS contributor!</p>
+<h3 id="start-early-and-start-small">Start Early and Start Small</h3>
+<p>With any habit, it is imperative that you start small and make sure you break down things into manageable portions.
+While starting with Open Source contributions, there are lot of things that you might need to cover, in order to get equipped with the contributions. <em><strong>You should get aware of basics, such as basic command line env, git, and debugging.</strong></em> Note that these are necessary to be learnt eventually, but not at the start. You can learn them eventually. Here are some resources -</p>
+<ul>
+<li>https://missing.csail.mit.edu/</li>
+<li>https://www.udacity.com/course/version-control-with-git--ud123</li>
+</ul>
+<h3 id="learn-it-as-you-go">Learn it as you go</h3>
+<p>The best part of Software Engineering is that, no one knows everything! <em><strong>Everyone learns as they practically use the tools</strong></em>, and Open Source is no different than that. Knowing basics about the different aspects of Software Engineering is important, once you know them, it is easier to extend your knowledge to your tech stack.</p>
+<p>I found this quite useful for visualising the requirements -</p>
+<ul>
+<li>https://roadmap.sh/</li>
+</ul>
+<h3 id="its-about-the-community">Its about the community</h3>
+<p><em><strong>Open Source holds it charm due to its community</strong></em>. The idea of OSS exists because of the voluntary and passionate work the mentors and contributors do. So it becomes natural to have high expectations from them. However, it is fair to understand and respect the fact that it is voluntary work, and no one is accountable. People mentor out of interest and folks should respect that.</p>
+<p>Another aspect is about the <em><strong>learning and working on your field of interest</strong></em>. For instance, if you are involved in AI research, and get hold of an organisation with fantastic community to learn, it is the best opportunity. The mentors and contributors are equally competent, and the peer group will help you in growing your knowledge and develop industry standard with your research. If you happen to participate due to GSoC, and not because of learning, you miss an opportunity to expand your knowledge and networking.</p>
+<p><em><strong>GSoC is a result of community, and not the other way round</strong></em>. People who participate out of interest and learning vision, are bound to enjoy the process more, than people who want to participate in GSoC. <em><strong>Community provides the context of the program, and without context, the program is mere body without soul.</strong></em></p>
+<h3 id="being-active-in-the-community">Being active in the community</h3>
+<p>GSoC requires you to be active in the community you are contributing to. It does not mean that you have to lurk at the mailing lists and communication channel all the time, you can also choose to review the <em><strong>issues</strong></em>, <em><strong>pull requests</strong></em> and <em><strong>discuss the proceedings</strong></em> with the contributors, while helping out others to onboard with the process.</p>
+<p>Everyone likes to work with a person, who has been active and involved with the community. It is also beneficial for improving your soft skills such as, <em><strong>how to ask the right question</strong></em>, <em><strong>how to navigate through common issues</strong></em>, and <em><strong>how to be a better contributor</strong></em>.</p>
+<p>This also provides you a first hand experience of working remotely, with minimum physical hinderance, and enabling you to utlise the plethora of online resources.</p>
+<h2 id="having-a-sound-technique">Having a sound technique</h2>
+<div class="cover-image">
+  <img src="swaugh-defence.jpg"/>
+  <p class="desc">
+    Having a sound technique in cricket is of paramount importance!
+  </p>
+</div>
+<p>Having a strong and dependable technique will help you work on your ideas more, rather than focussing on churning code. GSoC isn't supposed to be a program where you churn code, but an event to <em><strong>develop your software engineering skills, rather than programming skills</strong></em>. Sure, you should have decent programming skills, because if you don't have them, it would become difficult to work with the strengths and weakness of the programming language.</p>
+<p>For instance, Golang has a nice abstraction for <em><strong>goroutines</strong></em>, and helps to write concurrrent code much more easily. The same is difficult to write in C++/Java, because you need to manage the overhead of using threads. So having a working knowledge of the programming language that you plan to use is important, as it would help you to <em><strong>demarcate what is possible, and what is not.</strong></em></p>
+<p>Software Designing skills develop, once you spend reading the codebase and the design decisions taken. <em><strong>Design docs are a great place</strong></em>, where they discuss about the different approaches to solve the problem, and choose the one that is practical and feasible. You can develop your taste and understanding about why some components are designed in such a manner. Here is an example for this - </p>
+<ul>
+<li><a href="https://thanos.io/tip/proposals-done/"><em><strong>https://thanos.io/tip/proposals-done/</strong></em></a></li>
+<li><a href="https://thanos.io/tip/proposals-rejected/"><em><strong>https://thanos.io/tip/proposals-rejected/</strong></em></a></li>
+<li><a href="https://thanos.io/tip/proposals-accepted/"><em><strong>https://thanos.io/tip/proposals-accepted/</strong></em></a></li>
+</ul>
+<p>You eventually need to make a proposal for your GSoC project, so you get an opportunity to think and exercise your software designing skills. The mentors are always happy to help you out with this process, so don't be afraid to approach them.</p>
+<p>GSoC provides you with the opportunity to spend your summer develop these skills, as you can use this opportunity to learn from the mentors and online resources. <em><strong>It is not imperative to have these skills before(because GSoC was designed to help you cultivate these skills!)</strong></em>, but you should strive to work and develop the taste eventually.</p>
+<h3 id="choosing-projects-and-organizations">Choosing projects and organizations</h3>
+<p><em><strong>Choosing organisations is important more than choosing project.</strong></em> Unless you are experienced to choose a project, organisations play an important role for learning. <strong><em>For folks who are participating for the first time, it is important to choose organisations that facilitate mentorship</em></strong>. You are not only commiting to the project, you are also signing up for a work culture which might suit you or not, depending on the goals.</p>
+<p>For example, if you plan to work with Kubernetes as a GSoC organisation, be ready to work on your own with little hand holding. Kubernetes is an advanced organisation where the problems they solve using Open Source requires more idea and experience. Open Astronomy, on other hand, helps onboarding new participants with more mentorship and guidance.</p>
+<p>All these are personal opinions and might be biased, so choose the ones which are beginner friendly, and you would enjoy the journey!</p>
+<p><em><strong>There is the balance of choosing an easy project with more competition, and choosing a tough project with less competition. So the choice is yours.</strong></em></p>
+<h3 id="sprints-are-a-way-to-go">Sprints are a way to go</h3>
+<p>While this is not scalable, I personally find <a href="https://www.atlassian.com/agile/scrum/sprints">sprints</a> <em><strong>an important tool to develop any skills at start of your program</strong></em>. You should choose an issue that you want to solve, and sprint through them to solve it. When you impose a time crunch, you come up with innovative ideas to solve your problem, and <em><strong>instead of having a sophisticated approach</strong></em>, you come up with a <em><strong>practical and simple approach</strong></em>. This makes sure you have a proof of concept to work with, and iterate on the process more.</p>
+<h3 id="proof-of-concepts">Proof of Concepts</h3>
+<p>Proof of concepts are an effective way to test out your hypothesis. <em><strong>@thealphadollar</strong></em> has a good account on <a href="https://thealphadollar.me/experience/2018/12/03/how-i-prepared-for-gsoc-18.html">this</a>.</p>
+<p>Let's say you have an approach to solve your problem, and you have designed your approach and different components. You might know which components are tricky to work with, and might not know if the behaviour is supposed to be what you planned to be.</p>
+<blockquote>
+<p>Here is an example of a <a href="https://docs.google.com/document/d/1pf94fUtzJTffWLdkHkF4VeeSTpbJuTCJKWAv_-KSFfI/edit?usp=sharing">problem statement</a> and how I came up with a <a href="https://github.com/yashrsharma44/batch_running_jobs">solution</a>. This problem was really tricky for me to work with, as I encountered this for applying for a startup in my second year. Although I didn't solve it, because I didn't had much knowledge to work with. Fortunately, after a year and a half, I finally managed to formulate an approach for it. This was a perfect example for proof of concept, as I had multiple iterations before arriving at the final solution :P</p>
+</blockquote>
+<p>Proof of concepts are a best way to test out your hypothesis, and make sure your assumptions are correct/works in a behaviour that you expect. Often, it is possible that you might not know how a component can be designed using an existing design, which is not known at present. The best way is to design a solution from scratch, and iterate on the process, rather than working on your project with your approach, only to realise that the approach is not feasible.</p>
+<h3 id="getting-selected-or-not">Getting selected, or not</h3>
+<p>I intentionally kept this at last, because after all this is a possibility, and you should accept it. Rejections can happen from all sort of reasons; <em><strong>proposal not accepted</strong></em>, <em><strong>organisations pulled out at the last moment</strong></em>, <em><strong>projects removed at last moment due to unavailability of mentors</strong></em>, and so on. Surprisingly, I have had a first hand experience of all of the events, which happened to my friends and OSS folks, so it's pretty realistic.</p>
+<p>The best way is not to take this personally, but rather accept that it's a <em><strong>game of probability</strong></em>, and <em><strong>due to mentors having limited slots proposals can be pulled out inspite of sounding brilliant on paper</strong></em>. Google's main aim was to introduce you to the culture of OSS, and you having spend a couple of months, would have still gained a lot.</p>
+<p>Working on with the community is imperative, because it helps you <em><strong>build your skills</strong></em>, and you might get an <em><strong>opportunity to work with your mentors with another program</strong></em>. One of my closest friend was working with Julia, and inspite of having solid contributions and proposal, he still didn't get a chance to work. However, because he was quite involved with the community, he got a chance to participate in <a href="https://fellowship.mlh.io/"><em><strong>MLH Fellowship</strong></em></a>.</p>
+<p>Your contributions are quite valuable, and you can choose to work on your project if you want to. Open Source contributions are quite valuable, and if you happen to interview for Software Engineering roles later in your career, <em><strong>those stand out to be the most valuable aspect of your resume</strong></em>. Senior engineers love open source contributions, as it helps you to transparently judge a candidate with their knowledge and understanding.</p>
+
+        </div>
+        
+        <div class="post-footer">
+            
+                
+                    <div class="post-tags">
+                        
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;tags&#x2F;gsoc&#x2F;">
+                                <span class="hashtag">#</span>
+                                gsoc</a>
+                        
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;tags&#x2F;oss&#x2F;">
+                                <span class="hashtag">#</span>
+                                oss</a>
+                        
+                    </div>
+                
+                
+                    <div class="post-nav">
+                        
+                            <a class="previous" href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;art-or-science&#x2F;">‹ Art of frontend</a>
+                        
+                        
+                            <a class="next" href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;raft-consensus-1&#x2F;">Learning about Consensus Algorithms ›</a>
+                        
+                        
+                        
+                    </div>
+                
+                
+    <h1>Comments</h1>
+    <div id="disqus_thread"></div>
+    <script src="https://utteranc.es/client.js"
+        repo="yashrsharma44/yashrsharma44.github.io"
+        issue-term="pathname"
+        theme="boxy-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+            
+        </div>
+        
+    </article>
+
+                    
+                        <footer>
+                            <div class="copyright">
+                                <a href="#">yashrsharma44</a> |
+                                <a href="https://github.com/yashrsharma44"><i class="fab fa-github"></i></a>
+                                <a href="https://twitter.com/yashrsharma44"><i class="fab fa-twitter"></i></a>
+                            </div>
+                            <div class="made-with">
+                                Made with
+                                <a href="https://www.getzola.org/" rel="noopener noreferrer" target="_blank">Zola</a>,
+                                <a href="https://github.com/xypnox/blag/tree/master/themes/xyblag" rel="noopener noreferrer" target="_blank">Theme</a>
+                                by
+                                <a href="https://www.xypnox.com/" rel="noopener noreferrer" target="_blank">xypnox</a>.
+                            </div>
+                        </footer>
+                    
+                </div>
+            </main>
+        </div>
+        
+            <script src="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;main.js" type="text/javascript"></script>
+        
+    </body>
+</html>

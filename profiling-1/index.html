@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta
+        content="text/html; charset=utf-8" http-equiv="content-type"/> <!-- Enable responsiveness on mobile devices-->
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport"/>
+        <title>
+            
+    Yash Sharma - Profiling: 4th aspect of Observability?
+
+        </title>
+        <link href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;favicon.ico" rel="icon" type="image/x-icon"/>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        
+            <link rel="alternate" type= "application/atom+xml"  title="RSS" href="https://yashrsharma44.github.io/atom.xml"/>
+        
+        
+        
+    <meta content="website" property="og:type"/>
+    <meta content="Yash Sharma" property="og:site_name"/>
+    <meta content="https://yashrsharma44.github.io/profiling-1/" property="og:url"/>
+    <meta content="https://yashrsharma44.github.io/profiling-1/" property="twitter:url"/>
+    
+        <meta content="Profiling: 4th aspect of Observability?" property="og:title"/>
+        <meta content="Profiling: 4th aspect of Observability?" property="twitter:title"/>
+    
+    
+        <meta content="Post about learning more about profiling Distributed Systems" property="description"/>
+        <meta content="Post about learning more about profiling Distributed Systems" property="og:description"/>
+        <meta content="Post about learning more about profiling Distributed Systems" property="twitter:description"/>
+    
+    
+        <meta content="summary_large_image" property="twitter:card"/>
+        <meta content="https://yashrsharma44.github.io/images/cover.png" property="og:image"/>
+        <meta content="https://yashrsharma44.github.io/images/cover.png" property="twitter:image"/>
+    
+
+        
+        
+            <script src="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;slideout.min.js" type="text/javascript"></script>
+            
+        
+        
+            <link href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;site.css" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"/>
+            <link charset="utf-8" href="https://indestructibletype.com/fonts/Jost.css" rel="stylesheet" type="text/css"/>
+            
+        
+        
+    </head>
+    <body>
+        <script>
+            (function initTheme() {
+                let body = document.getElementsByTagName("body")[0];
+                if (window.localStorage.getItem("theme") !== null) {
+                    if (window.localStorage.getItem("theme") === "dark") {
+                        body.setAttribute("data-theme", "dark");
+                    } else {
+                        body.setAttribute("data-theme", "light");
+                    }
+                } else {
+                    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                        body.setAttribute("data-theme", "dark");
+                    }
+                }
+            })();
+        </script>
+        <div class="container">
+            <div class="mobile-navbar" id="mobile-navbar">
+                <div class="mobile-header-logo">
+                    <a class="logo" href="https:&#x2F;&#x2F;yashrsharma44.github.io">Yash Sharma</a>
+                </div>
+                <div class="mobile-navbar-icon icon-out">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <nav class="mobile-menu slideout-menu slideout-menu-left" id="mobile-menu">
+                <ul class="mobile-menu-list">
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;">
+                                Blog
+                            </a>
+                        </li>
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;upcoming">
+                                Upcoming Posts
+                            </a>
+                        </li>
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;about">
+                                About
+                            </a>
+                        </li>
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;notes">
+                                Notes
+                            </a>
+                        </li>
+                    
+                    <li class="mobile-menu-item">
+                        <div class="theme-switcher">
+                            
+    <div class="theme-button" onClick="toggleTheme()">
+        <label for="cb1">
+            <svg
+                id="dayIcon"
+                style="enable-background:new 0 0 35 35;"
+                version="1.1"
+                viewBox="0 0 35 35"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <g id="Sun">
+                    <g>
+                        <path
+                            d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5 S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z
+                                M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5
+                                C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6
+                                C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9
+                                c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44
+                                l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5
+                                c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06 L6.439,8.561z
+                                M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z
+                                M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2
+                                C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29
+                                c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7
+                                C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5
+                                c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"
+                            style="fill-rule:evenodd;clip-rule:evenodd;"/>
+                    </g>
+                </g>
+            </svg>
+        </label>
+        <input class="toggle" id="cb1" onClick="toggleTheme()" type="checkbox"/>
+        <label class="toggle-button" for="cb1"></label>
+        <label for="cb1">
+            <svg
+                enable-background="new 0 0 100 100"
+                id="nightIcon"
+                version="1.1"
+                viewBox="0 0 100 100"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571
+                C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23
+                c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369
+                c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65 c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"/>
+            </svg>
+        </label>
+    </div>
+
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            
+                
+    <header id="header">
+        <div class="logo">
+            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io">Yash Sharma</a>
+        </div>
+        
+    <nav class="menu">
+        <ul>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;">
+                        Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;upcoming">
+                        Upcoming Posts
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;about">
+                        About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;notes">
+                        Notes
+                    </a>
+                </li>
+            
+            <div class="theme-switcher">
+                
+    <div class="theme-button" onClick="toggleTheme()">
+        <label for="cb1">
+            <svg
+                id="dayIcon"
+                style="enable-background:new 0 0 35 35;"
+                version="1.1"
+                viewBox="0 0 35 35"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <g id="Sun">
+                    <g>
+                        <path
+                            d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5 S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z
+                                M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5
+                                C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6
+                                C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9
+                                c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44
+                                l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5
+                                c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06 L6.439,8.561z
+                                M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z
+                                M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2
+                                C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29
+                                c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7
+                                C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5
+                                c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"
+                            style="fill-rule:evenodd;clip-rule:evenodd;"/>
+                    </g>
+                </g>
+            </svg>
+        </label>
+        <input class="toggle" id="cb1" onClick="toggleTheme()" type="checkbox"/>
+        <label class="toggle-button" for="cb1"></label>
+        <label for="cb1">
+            <svg
+                enable-background="new 0 0 100 100"
+                id="nightIcon"
+                version="1.1"
+                viewBox="0 0 100 100"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571
+                C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23
+                c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369
+                c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65 c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"/>
+            </svg>
+        </label>
+    </div>
+
+            </div>
+        </ul>
+    </nav>
+
+    </header>
+
+            
+            <main>
+                <div class="content" id="mobile-panel"> 
+    
+        <div class="post-toc" id="post-toc">
+            <div class="toc-wrapper">
+                <h2 class="post-toc-title">Contents</h2>
+                <div class="post-toc-content always-active">
+                    <nav id="TableOfContents">
+                        <ul>
+                            
+                                <li>
+                                    <a class="toc-link" href="https://yashrsharma44.github.io/profiling-1/#why-use-profiling">Why use Profiling?</a>
+                                    
+                                </li>
+                            
+                                <li>
+                                    <a class="toc-link" href="https://yashrsharma44.github.io/profiling-1/#how-can-i-try-profiling">How can I try Profiling?</a>
+                                    
+                                </li>
+                            
+                                <li>
+                                    <a class="toc-link" href="https://yashrsharma44.github.io/profiling-1/#continuous-profiling-a-way-for-observability">Continuous Profiling: A Way for Observability</a>
+                                    
+                                </li>
+                            
+                                <li>
+                                    <a class="toc-link" href="https://yashrsharma44.github.io/profiling-1/#continuous-profiling-solutions">Continuous Profiling Solutions</a>
+                                    
+                                </li>
+                            
+                                <li>
+                                    <a class="toc-link" href="https://yashrsharma44.github.io/profiling-1/#should-you-use-continuous-profiling">Should you use Continuous Profiling?</a>
+                                    
+                                </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    
+    <article class="post">
+        
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;profiling-1&#x2F;">Profiling: 4th aspect of Observability?</a>
+        </h1>
+        <div class="post__meta">
+        <span>Post about learning more about profiling Distributed Systems</span>
+        </br>
+            <span class="post__time">2021-07-21</span>
+            
+                <div class="post__category">
+                    
+                        <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;categories&#x2F;tech&#x2F;">tech</a>
+                    
+                </div>
+            
+        </div>
+    </header>
+
+        <div class="post-content">
+            <div class="cover-image">
+  <img src="VQ0nW.png"/>
+  <p class="desc">
+    Flamegraphs are a new addition to profiling: Courtesy of Brendan Gregg
+  </p>
+</div>
+<p>Profiling an application means to observe the memory and cpu utilization of the machine, in which the software runs. Profiling is one of the aspect of Observability - apart from <strong>Logging</strong>, <strong>Tracing</strong> and <strong>Monitoring</strong>.</p>
+<p>Profiling has been used from a long time, and each programming language either provides inherent support for Profiling(for example Golang), while some tools exists for profiling your application. </p>
+<blockquote>
+<p>To profile an application, it would mean to <em><strong>collect the stack trace of the call sequence</strong></em>, that led to execution of a function. We collect these <em><strong>stack traces and then combine them as profiles</strong></em>, so that we can use to visualize the amount of resources consumed, for that type of resource. Each of the stack trace contains <em><strong>resource metrics</strong></em>, which are useful in understanding the <em><strong>function level allocation of resources</strong></em>.</p>
+</blockquote>
+<p>There are different types of resources that we can collect profiles for, so it depends on the user, what sort of profiles they want to collect, to observe the system.</p>
+<h2 id="why-use-profiling">Why use Profiling?</h2>
+<p>Profiling is useful as a debugging resource. Particularly, when you application needs to be <em><strong>observed</strong></em>, you would need to check how much <em><strong>CPU</strong></em> and <em><strong>RAM</strong></em> your application is using. <em><strong>This also means that you would need to check your logs and metrics to see what happened</strong></em>.</p>
+<p>You would want to observe your application, if - </p>
+<ol>
+<li>Application uses more resources, than it is supposed to use.</li>
+<li>You application is facing a downtime, <em><strong>OOM</strong></em> killed.</li>
+<li>You want to optimize your application, and <em><strong>reduce the time and space allocation</strong></em>.</li>
+</ol>
+<p>Profiling helps in <em><strong>1 and 3</strong></em>. For <em><strong>2</strong></em>, you would need Continuous Profiling, which I would be talking more in my next blog.</p>
+<p>You can run your application with profiling enabled, easily check the profiles, and see the resource allocations made by a specific functions/part of code, and then investigate your codebase to optimize your code. It eases the toil of figuring out which part of code has a higher resource utilization, and refactor the code to regulate the utilization.</p>
+<h2 id="how-can-i-try-profiling">How can I try Profiling?</h2>
+<p>Some languages make profiling as easy as running a command - In go you can do for CPU profiling - </p>
+<pre style="background-color:#212121;">
+<code><span style="color:#c792ea;">import </span><span style="font-style:italic;color:#ff5370;">_ </span><span style="color:#89ddff;">&quot;</span><span style="color:#c3e88d;">net/http/pprof</span><span style="color:#89ddff;">&quot;
+
+</span><span style="font-style:italic;color:#c792ea;">func </span><span style="color:#82aaff;">main</span><span style="color:#89ddff;">() {
+    
+    </span><span style="color:#eeffff;">f</span><span style="color:#89ddff;">, </span><span style="color:#eeffff;">err </span><span style="color:#89ddff;">:= </span><span style="color:#eeffff;">os</span><span style="color:#89ddff;">.</span><span style="color:#82aaff;">Create</span><span style="color:#89ddff;">(&quot;</span><span style="color:#c3e88d;">name_of_profile</span><span style="color:#89ddff;">&quot;)
+    </span><span style="font-style:italic;color:#c792ea;">if </span><span style="color:#eeffff;">err </span><span style="color:#89ddff;">!= </span><span style="color:#f78c6c;">nil </span><span style="color:#89ddff;">{
+        </span><span style="color:#eeffff;">log</span><span style="color:#89ddff;">.</span><span style="color:#82aaff;">Fatal</span><span style="color:#89ddff;">(&quot;</span><span style="color:#c3e88d;">could not create CPU profile: </span><span style="color:#89ddff;">&quot;, </span><span style="color:#eeffff;">err</span><span style="color:#89ddff;">)
+    }
+    </span><span style="font-style:italic;color:#c792ea;">defer </span><span style="color:#eeffff;">f</span><span style="color:#89ddff;">.</span><span style="color:#82aaff;">Close</span><span style="color:#89ddff;">() </span><span style="font-style:italic;color:#4a4a4a;">// error handling omitted for example
+    </span><span style="font-style:italic;color:#c792ea;">if </span><span style="color:#eeffff;">err </span><span style="color:#89ddff;">:= </span><span style="color:#eeffff;">pprof</span><span style="color:#89ddff;">.</span><span style="color:#82aaff;">StartCPUProfile</span><span style="color:#89ddff;">(</span><span style="color:#eeffff;">f</span><span style="color:#89ddff;">); </span><span style="color:#eeffff;">err </span><span style="color:#89ddff;">!= </span><span style="color:#f78c6c;">nil </span><span style="color:#89ddff;">{
+        </span><span style="color:#eeffff;">log</span><span style="color:#89ddff;">.</span><span style="color:#82aaff;">Fatal</span><span style="color:#89ddff;">(&quot;</span><span style="color:#c3e88d;">could not start CPU profile: </span><span style="color:#89ddff;">&quot;, </span><span style="color:#eeffff;">err</span><span style="color:#89ddff;">)
+    }
+    </span><span style="font-style:italic;color:#c792ea;">defer </span><span style="color:#eeffff;">pprof</span><span style="color:#89ddff;">.</span><span style="color:#82aaff;">StopCPUProfile</span><span style="color:#89ddff;">()
+    </span><span style="font-style:italic;color:#4a4a4a;">// your code from here
+</span><span style="color:#89ddff;">}
+</span></code></pre><h2 id="continuous-profiling-a-way-for-observability">Continuous Profiling: A Way for Observability</h2>
+<p>Normally, profiling would mean that you can collect snapshots and compare them when an incident happens, or if you are making a release, you can compare the resource allocations between 2 versions, and see it for yourself, if some changes bring in a drastic changes.</p>
+<p>But what if, you could consider <em><strong>continuous collection of profiles, much like metrics</strong></em>, and use them to observe your application? This is a win-win situation, since storing data on cloud is dirt cheap, and you can use them to observe and pin point bottlenecks and optimise the application.</p>
+<p><strong>Continuous Profiling</strong> gets better, if you want to investigate your application just before it gets <em><strong>OOM killed</strong></em>. Especially, if your application does not use web servers, it can be difficult to enable continuous profiling(<em>atleast for Go</em>). So all in all, if you use a continuous profiling service, we can collect profiles at a certain time interval, and as a debugging mechanism, we can see the aftermath that cause the application to OOM out.</p>
+<h2 id="continuous-profiling-solutions">Continuous Profiling Solutions</h2>
+<p>Continuous Profiling isn't a new concept, it is been in the market for a long time. There are few providers, which provide Continuous Profiling as a Service; you can run the profiling client, which would scrape the profiles from your application, and a Profiler Service, which could run and compute all the calculations and show you the resource allocations.</p>
+<div class="cover-image">
+  <img src="profiling-pyro.png"/>
+  <p class="desc">
+    Pyroscope: Open Source provider for Continuous Profiling
+  </p>
+</div>
+<p>There are bunch of Continuous Profiling providers that I know - </p>
+<ul>
+<li><strong>Pyroscope</strong> - <a href="https://pyroscope.io">pyroscope.io</a></li>
+<li><strong>conprof</strong> - <a href="https://github.com/conprof/conprof">https://github.com/conprof/conprof</a></li>
+<li><strong>Polar Signals</strong> - <a href="https://www.polarsignals.com/">https://www.polarsignals.com/</a></li>
+</ul>
+<h2 id="should-you-use-continuous-profiling">Should you use Continuous Profiling?</h2>
+<p>Continuous Profiling helps, especially you are working with microservices, and you want to get to the root of the problem. It is difficult to debug issues with distributed systems, and distributed observability monitoring helps you reduce the toil. Profiling is another dimension of observability, and the amount of features with the limited overhead, means that profiling should be a no brainer!</p>
+<blockquote>
+<p>I would be writing some more posts under Notes section, about profiling and my experience with working with Pyroscope for setting up a demo project that demonstrates the conjoined advantage of <em><strong>Logging/Tracing/Profiling</strong></em>.</p>
+</blockquote>
+
+        </div>
+        
+        <div class="post-footer">
+            
+                
+                    <div class="post-tags">
+                        
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;tags&#x2F;profiling&#x2F;">
+                                <span class="hashtag">#</span>
+                                profiling</a>
+                        
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;tags&#x2F;distributed-systems&#x2F;">
+                                <span class="hashtag">#</span>
+                                distributed-systems</a>
+                        
+                    </div>
+                
+                
+                    <div class="post-nav">
+                        
+                            <a class="previous" href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;gsoc-and-oss-2&#x2F;">‹ Making GSoC a valuable experience</a>
+                        
+                        
+                            <a class="next" href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;exit-interviews&#x2F;">My Experience with Exit Interviews ›</a>
+                        
+                        
+                        
+                    </div>
+                
+                
+    <h1>Comments</h1>
+    <div id="disqus_thread"></div>
+    <script src="https://utteranc.es/client.js"
+        repo="yashrsharma44/yashrsharma44.github.io"
+        issue-term="pathname"
+        theme="boxy-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+            
+        </div>
+        
+    </article>
+
+                    
+                        <footer>
+                            <div class="copyright">
+                                <a href="#">yashrsharma44</a> |
+                                <a href="https://github.com/yashrsharma44"><i class="fab fa-github"></i></a>
+                                <a href="https://twitter.com/yashrsharma44"><i class="fab fa-twitter"></i></a>
+                            </div>
+                            <div class="made-with">
+                                Made with
+                                <a href="https://www.getzola.org/" rel="noopener noreferrer" target="_blank">Zola</a>,
+                                <a href="https://github.com/xypnox/blag/tree/master/themes/xyblag" rel="noopener noreferrer" target="_blank">Theme</a>
+                                by
+                                <a href="https://www.xypnox.com/" rel="noopener noreferrer" target="_blank">xypnox</a>.
+                            </div>
+                        </footer>
+                    
+                </div>
+            </main>
+        </div>
+        
+            <script src="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;main.js" type="text/javascript"></script>
+        
+    </body>
+</html>

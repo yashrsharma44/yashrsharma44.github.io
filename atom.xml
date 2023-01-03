@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Yash Sharma</title>
+	<subtitle>Happy space for scribbling down my thoughts, penning down my experiences with Software and Open Source.</subtitle>
+	<link href="https://yashrsharma44.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://yashrsharma44.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-09-21T00:00:00+00:00</updated>
+	<id>https://yashrsharma44.github.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Summary of all of my interview(s) with Google</title>
+		<published>2022-09-21T00:00:00+00:00</published>
+		<updated>2022-09-21T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/my-google-interview-experience/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/my-google-interview-experience/</id>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Google&lt;&#x2F;strong&gt; has been one of the most sought-after companies. It&#x27;s one of the universally known companies, and its products have revolutionized our internet experience. Combined with its reputed and skillful engineers, Google rakes up a fair bit of demand for prospective Software Engineers.&lt;&#x2F;p&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;google_mtv.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Google; one of the most sought after companies for SWEs
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;The &lt;em&gt;&lt;strong&gt;awesome peer group&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, coupled with its &lt;em&gt;&lt;strong&gt;top of the class development experience&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and the &lt;em&gt;&lt;strong&gt;in-office and personal benefits&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; that sweeten the offer, makes it fairly difficult(almost a no-brainer) to reject the offer&#x2F;consider other offers(there are a few companies that makes a competing offer in terms of benefits and dev experience and growth). So it makes it obvious that many people apply to Google, and foresee themselves working with Google sometime in their career.&lt;&#x2F;p&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;google_london_internal.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    The benefits of Google are of the top class among the tech companies :)
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;I would narrate my experience from the glasses of a college undergraduate student. There are some nuances involved with senior engineering interviews, and since I don&#x27;t have a first-hand experience with them, it would be more suitable for undergraduate folks. You can also take a look at some of the resources, which I have mentioned for improving on the &lt;em&gt;&lt;strong&gt;Algorithms&#x2F;Data Structure&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; part, and &lt;em&gt;&lt;strong&gt;some of the behavioral part&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, which might be useful for senior-most roles too :).&lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s get started 🔥!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-did-i-manage-to-get-interviews&quot;&gt;How did I manage to get interviews?&lt;&#x2F;h2&gt;
+&lt;p&gt;As with many tech companies, applying for a technical internship&#x2F;full-time role, it is advisable to apply to their careers page section.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;general-advice&quot;&gt;General Advice&lt;&#x2F;h3&gt;
+&lt;p&gt;Google has a nice &lt;a href=&quot;https:&#x2F;&#x2F;careers.google.com&#x2F;&quot;&gt;&lt;em&gt;&lt;strong&gt;careers page&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt; section; it contains links to all the technical&#x2F;non-technical roles available in Google. I would suggest taking a look at the careers page and searching for suitable roles.&lt;&#x2F;p&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;google_careers_page.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Google&amp;#x27;s Careers page is the best place for applying for open roles
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;strong&gt;Referrals&lt;&#x2F;strong&gt; are a cheat-code method for getting assured communication from Google about your application. Note that &lt;em&gt;I didn&#x27;t mention that it would be a guaranteed interview&lt;&#x2F;em&gt;; getting an interview is a nuanced topic, and it depends on a lot of objective aspects, such as &lt;em&gt;&lt;strong&gt;relevant experience&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, &lt;em&gt;&lt;strong&gt;availability of headcount&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, &lt;em&gt;&lt;strong&gt;resume passing through ATS&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and so on. There are some subjective aspects as well, such as &lt;strong&gt;&lt;em&gt;a recruiter considering your application in case your experience is borderline&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;, how much your &lt;em&gt;&lt;strong&gt;application stands out among the other applicants&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, some locations might be &lt;em&gt;&lt;strong&gt;easy to apply as compared to others, and headcount being open&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;I have personally faced challenges applying to Google, and many of the above points have come up, which made me rethink and work on my application. I didn&#x27;t get through the application process on the first go.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Just to give you some statistics, I never managed to get an interview for Google Bangalore location, while I had applied to Google North America for an internship, and I had successfully managed to get an interview. For my FTE role, I had failed to get an application for Google India, while based on my experience, I managed to get an interview for Google EU for the SRE role. This is not to brag, but to explain the number of applicants for Google India, with the selection curve being really high :)&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;It is often a combination of objective + subjective reasons, so don&#x27;t feel dejected if your application doesn&#x27;t get through; &lt;em&gt;&lt;strong&gt;it&#x27;s a matter of one Yes among streaks of No(s).&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;my-experience&quot;&gt;My experience&lt;&#x2F;h3&gt;
+&lt;p&gt;So I applied 2 times for an internship role with Google North America for an SWE role. I had used a referral while applying in 2019, while for 2020, I had simply applied through the careers portal.&lt;&#x2F;p&gt;
+&lt;p&gt;One important point to note is the time of application, &lt;em&gt;&lt;strong&gt;apply early as soon as you get the role live&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. You can track the information using the following resources -&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Reddit&lt;&#x2F;strong&gt; -&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;csMajors&#x2F;&quot;&gt;CS Majors&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;cscareerquestions&#x2F;&quot;&gt;CS Career Questions&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;cscareerquestionsEU&#x2F;&quot;&gt;CS Career Questions EU&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Discord&lt;&#x2F;strong&gt; -&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;discord.gg&#x2F;KyCZFsm4dG&quot;&gt;SRE&#x2F;DevOps Community&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;You can also reach out to &lt;em&gt;&lt;strong&gt;some of the recruiters from LinkedIn&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. If you have a good rapport with them, many of them will be happy to let you about an opening for an Internship&#x2F;FTE role. &lt;em&gt;&lt;strong&gt;I got to know about an opening in my current FTE role with this method :)&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;While applying for the FTE role, I was interested in pursuing an SRE role. So I had been looking for an SRE role in the EU&#x2F;UK and had applied in both locations, without a referral. I had also applied with another account with a referral but unluckily didn&#x27;t get any reach out. I managed to get interviews with the non-referral account xD.&lt;&#x2F;p&gt;
+&lt;p&gt;I had been contributing to Open Source for a fair bit of time, so it was easy for me to add real-world experience to my resume. Whatever roles I applied, it was quite relevant to my previous experience as an intern.&lt;&#x2F;p&gt;
+&lt;p&gt;Another tidbit that I observed while applying to any tech companies in general, is that &lt;strong&gt;&lt;em&gt;getting an FTE role with the US offices is much more difficult than getting one for the EU&#x2F;UK offices for non-US citizens&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;My best guess about this is getting the work permit, where getting a work permit for non-US countries is fairly straightforward. US requires 1+ YOE in the same company before they send the candidate to the US offices through their L1B visa. On top of that, if they want to undertake the candidate under the H1B visa, it is a lottery-based system, where the Master&#x27;s students from US Colleges have a slightly better chance at making it through.&lt;&#x2F;p&gt;
+&lt;p&gt;That doesn&#x27;t mean that you don&#x27;t stand a chance, you should still apply for any roles for which you find yourself suitable.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;preparing-for-the-interviews&quot;&gt;Preparing for the Interviews&lt;&#x2F;h2&gt;
+&lt;p&gt;Now that you have managed to get the interviews, you should now start prepping for the interviews. But wait, since Google is one of the most sought companies, you can imagine the difficulty curve of Google&#x27;s interviews. &lt;em&gt;&lt;strong&gt;By far, my experiences with Google Interviews have been fairly challenging&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;; each of the interviews barring a few, have made me put on my thinking cap, and make sure I am challenged from my comfort zone.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;So you should have already started prepping for the SWE Interviews and should avoid going head-first just after getting the interviews.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;algorithms-ds-interviews&quot;&gt;Algorithms &#x2F; DS Interviews&lt;&#x2F;h3&gt;
+&lt;p&gt;One of the most important skills that you should cultivate if you are going to be involved with the Software Engineering role, is exercising your Algo&#x2F;DS skills. It is, unfortunately, one of the most objective and fair(is it? am not sure!) ways to judge a candidate on their coding skills and their understanding of problem-solving.&lt;&#x2F;p&gt;
+&lt;p&gt;I used &lt;a href=&quot;https:&#x2F;&#x2F;leetcode.com&#x2F;&quot;&gt;&lt;strong&gt;LeetCode&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;, which is a holy grail for prepping for SWE interviews(or any interview which has an Algo&#x2F;DS round). &lt;strong&gt;&lt;em&gt;You should use this resource as a marathon, rather than a sprint&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;, because the number of problems, and the sheer depth required before you have a fair chance, make it important that you take your time in understanding the content and practicing it thoroughly.&lt;&#x2F;p&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;lc.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    LC is one of the bible for studying for coding interviews
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;While the interviews arrive, you can buy &lt;a href=&quot;https:&#x2F;&#x2F;leetcode.com&#x2F;subscribe&#x2F;&quot;&gt;&lt;em&gt;&lt;strong&gt;LC premium&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt; before 1-2 weeks. Solve the Google tagged questions, to get an idea about the difficulty level of the interview problems.&lt;&#x2F;p&gt;
+&lt;p&gt;There is a lot to talk about on how to use leetcode properly, and I might talk about it in detail in some other post.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;behavioral-interviews&quot;&gt;Behavioral Interviews&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Behavioral Interviews are one of the trickiest interviews because you don&#x27;t have an objective way to judge a candidate&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;; there is a hint of subjectivity, which makes it different from the way how you prepare for the interview.&lt;&#x2F;p&gt;
+&lt;p&gt;In contrast to other interviews, behavioral interviews are quite different; &lt;strong&gt;&lt;em&gt;you should always use your previous experience to prepare for behavioral scenarios&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;. You should polish your answers while speaking about the different behavioral scenarios, but that is the only place the prep ends; &lt;em&gt;&lt;strong&gt;you need real-world experience to back up your answers.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The interviews are taken by &lt;strong&gt;Engineering Managers&lt;&#x2F;strong&gt; generally(at least for the FAANG companies), and they value genuine answers from candidates. Most of the time, some of the questions are constructive; &lt;em&gt;&lt;strong&gt;it is easy to talk about the positive aspect of any experience&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;(much easier to focus on the good parts that went). The real challenge lies in &lt;em&gt;&lt;strong&gt;sharing the uncomfortable events&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, parts &lt;em&gt;&lt;strong&gt;talk about your indecisions, your failure&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;EMs like to see &lt;em&gt;&lt;strong&gt;how you foresee failure&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;; &lt;em&gt;&lt;strong&gt;how you define ownership&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and &lt;em&gt;&lt;strong&gt;how much of the failure you own&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. It is easy to delegate responsibility to someone else, and in some cases, it might be true as well. But you should be aware that any failure, be it due to your fault, or someone else, affects you after all, how you might have ownership of the failure, and how you plan to overcome and improve yourself. That is where the real challenge lies, as you accept part&#x2F;full ownership of the failure, and how you can foresee yourself finding a solution, rather than blaming the situation&#x2F;people, and doing nothing about it.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;You should be genuine throughout the process&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. The dispersal of information is something that you should work on, and the content is your entire technical career beforehand. I used my relevant internship experiences and my time with &lt;a href=&quot;https:&#x2F;&#x2F;kossiitkgp.org&#x2F;&quot;&gt;&lt;em&gt;&lt;strong&gt;KOSS&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;, serving college folks with knowledge about OSS.&lt;&#x2F;p&gt;
+&lt;p&gt;In case you don&#x27;t have relevant experience to talk about, you can use fair reasoning and logical-sounding arguments to answer behavioral questions. Again, you should mention the interviewer about the lack of relevant experience for a certain question, and they would be happy to calibrate the expectations or change the question.&lt;&#x2F;p&gt;
+&lt;p&gt;I found this video very powerful and succinct in how we should go about behavioral interviews - &lt;strong&gt;Jackson Gabbard&#x27;s Video&lt;&#x2F;strong&gt; - &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=PJKYqLP6MRE&quot;&gt;link&lt;&#x2F;a&gt;. The guy talks about all the points in detail, and one of the goto videos while suggesting to anyone about behavioral interviews.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;my-2-points&quot;&gt;My 2 points&lt;&#x2F;h4&gt;
+&lt;p&gt;I like to frame all of my answers in a story mode, where I explain the context, before diving into the content. People like to listen when the entire answer is packaged as a story. Add a flavor of genuinity while talking; you can laugh or express unhappiness over a small aspect of your story. It makes the interview relate to your experience more empathetically.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;my-entire-google-interview-experience&quot;&gt;My Entire Google Interview Experience&lt;&#x2F;h2&gt;
+&lt;p&gt;Instead of talking about the different Google interviews I had(2019, 2020 for SWE Internship in Google NA, 2022 for SWE-SRE role with Google EU), I thought of talking about the difficulty level of interviews, and all the topics used in the Algo&#x2F;DS round.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;difficulty-level&quot;&gt;Difficulty Level&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Most of the interviews required you to be &lt;em&gt;&lt;strong&gt;fairly equipped to solve Leetcode Medium problems in 15-20 mins&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;(including dry testing the logic), and Leetcode Easy problems in 5-10 mins.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;LC(LeetCode) Easy problems are often included as warmup problems, so it is imperative to complete and get ahead of the problem as soon as possible.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;You should not rush though, I often used to read and understand the problem while taking 2-3 mins. It is easy to lose track, once you have someone breathing down the neck, so consider practicing mock interviews in a time-simulated environment.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Reading the problem helps you cultivate the logic much quicker, and instead of rushing through pre-assumed constraints, make sure you repeat to your interviewer the logic that you have in your mind, and if you are solving the same problem, which has been presented to you. Often you can start solving some problem, which is different from what was asked. Take your time and repeat what you have understood from the problem, and if both of you are on the same page.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I recall one of the interviews from my internship, &lt;em&gt;&lt;strong&gt;where I had spent close to 10-15 mins, without solving a single problem&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. That was a LeetCode Hard problem(as I feel xD), and understanding what the interviewer was looking for was the trick. I had to use some bit manipulation(which boiled down to using simple bit manipulation tricks to solve the problem), which was made difficult because the problem statement was vague. &lt;em&gt;It is important not to lose composure, and instead of already giving up, make sure you try to salvage the situation and keep persisting&lt;&#x2F;em&gt;. &lt;em&gt;&lt;strong&gt;It&#x27;s the interviews like these, that make Google&#x27;s Interviews very challenging&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Often as you would find, solving the problems of Algo&#x2F;DS contains &lt;em&gt;&lt;strong&gt;60% thinking, and 40% writing code&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Thinking and cultivating the solution is by far one of the most challenging aspects of the interview, so you can cover up for the lost time, by writing up code in a fairly fast way.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Writing code can be practiced, and you can make sure, it doesn&#x27;t take a lot of time to convert your ideas to code. &lt;em&gt;&lt;strong&gt;There are some templated ways to go about solving the problem, make sure you don&#x27;t falter on them&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. For example, there are different variants of Binary Search; you should have a fundamental clarity of how binary search works, and be able to write up the bug-free binary search, without spending a lot of time. All it takes is a hell lot of practice and using the skills in a new place. Try taking part in &lt;a href=&quot;https:&#x2F;&#x2F;leetcode.com&#x2F;contest&#x2F;&quot;&gt;&lt;em&gt;&lt;strong&gt;contests&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;, those are one of the best places to work on coding + thinking skills.&lt;&#x2F;p&gt;
+&lt;p&gt;I often used to write up code fairly fast, e.g. writing up &lt;strong&gt;DFS&lt;&#x2F;strong&gt;, &lt;strong&gt;BFS&lt;&#x2F;strong&gt;, and &lt;strong&gt;Dijkstra&#x27;s Algorithm&lt;&#x2F;strong&gt; without a lot of thought. You can practice them to prepare for the boilerplate code, and spend the rest of the time formulating the actual logic of the problem.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Using Encapsulation while solving problems&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; - Encapsulation is a concept from &lt;em&gt;&lt;strong&gt;Object Oriented Programming&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, which makes sure, you hide a fairly complex logic in a black box and work accordingly. I often &lt;em&gt;&lt;strong&gt;used verbose but small function names&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, which were &lt;em&gt;&lt;strong&gt;commented to summarise the problem&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; that would be solved. I often used to communicate to my interviewer about the function, and that I would fill up the function later on.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;This gave me the &lt;em&gt;&lt;strong&gt;flexibility on focussing on the higher-level logic of the problem while making sure I can take care of the lower-level logic later&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. This gives me the clarity of the higher level solution, and once I am happy with the higher level logic, I can quickly move on to the lower level logic function. &lt;em&gt;&lt;strong&gt;This is the onion peeling technique, you peel more layers once the outer layers have been consumed.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This also helps, when the interviewer has follow-ups, and if your code is modular, you can introduce more constraints to your problem, without re-writing code.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use a less verbose language, preferably &lt;strong&gt;Python&lt;&#x2F;strong&gt; - I used to work with C++, but switched to Python because of its simplicity and few lines of code for the same logic.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;topics-used-in-the-interviews&quot;&gt;Topics used in the interviews&lt;&#x2F;h3&gt;
+&lt;p&gt;Google&#x27;s interviews use a mixture of beginner and advanced topics of Algorithms and DS. Most of my interview experience used the following topics -&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Binary Search&lt;&#x2F;li&gt;
+&lt;li&gt;Array Manipulation&lt;&#x2F;li&gt;
+&lt;li&gt;Graphs&lt;&#x2F;li&gt;
+&lt;li&gt;Bit Manipulation&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;closing-thoughts-on-google&quot;&gt;Closing thoughts on Google&lt;&#x2F;h2&gt;
+&lt;p&gt;Google by far has been one of my favorite companies to apply for; the interview process, though difficult and a bit irrelevant, is one of the fairest ways to evaluate candidates. Coupled with the transparent interview experience, and the best-in-class recruiter experience(all of my recruiters were nice, so a big shout out to them!), it is a really good choice for cultivating an SWE&#x2F;SRE&#x2F;DS&#x2F;MLE&#x2F;RS career.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Working with Startups for over a year - I</title>
+		<published>2022-08-25T00:00:00+00:00</published>
+		<updated>2022-08-25T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/startup-over-a-year-i/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/startup-over-a-year-i/</id>
+		<content type="html">&lt;p&gt;I wrote this post to summarise my experience of working with Startups as a part-time &lt;em&gt;&lt;strong&gt;SWE Intern &#x2F; Consultant&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; for almost a year. This was a unique experience for me, and I had varied learnings from the Startups that I worked with; some were major learnings, which made me grow as a Software Engineer.&lt;&#x2F;p&gt;
+&lt;p&gt;Remote working has become a norm for many companies in the pandemic and it made it easy for an undergraduate student to work at a startup, which makes it quite enriching to have a fair share of corporate experience before diving into the real deal. I personally like working at a startup, and due to the fact that I don&#x27;t have any experience working at a &lt;em&gt;&lt;strong&gt;FAANG&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; company yet.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I was working with all the startups as a part-time intern, so it meant that I could work with 2 startups at some point in time. This also meant that sometimes, &lt;em&gt;&lt;strong&gt;I did feel burnt out&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and it made me consider my decision of working at 2 startups as an intern. Nobody encourages you to try this path out, and &lt;em&gt;I would be elaborating on my experiences with it in my next blog post.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;In the first part of the blog, &lt;em&gt;I would be sharing my learnings&lt;&#x2F;em&gt; and in the second part, &lt;em&gt;I would be deep-diving into my experiences of working with different startups, and how I fared throughout the year&lt;&#x2F;em&gt;. I will also share some of the resources that I found useful while looking for my next&#x2F;new gig. The learnings are in no sequential order.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;some-of-the-learnings-i-gathered-while-working-in-a-startup&quot;&gt;Some of the learnings I gathered while working in a startup&lt;&#x2F;h2&gt;
+&lt;p&gt;Below is a summary of some of the most important learnings&#x2F;observations, I had while working with startups. Many of the observations, might not make much sense, especially if you are working for a short duration of time. &lt;em&gt;&lt;strong&gt;The longer you are involved, the more context you have about the problems that a startup is solving, and the general framework that you can observe with any early-stage growing company&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. It becomes more apparent about how startups function, and how you can work on making yourself more productive and efficient.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;communication-is-really-really-important&quot;&gt;Communication is really, really important&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Communication&lt;&#x2F;strong&gt; in general, is one of the vital non-technical skills for any Software Engineer. You can be a rockstar coder, but if you don&#x27;t have fair communication skills, it would be difficult for anyone to appreciate the work.&lt;&#x2F;p&gt;
+&lt;p&gt;Startups generally don&#x27;t have a strict hierarchy; you would be working under CEO&#x2F;CPO, if the headcount is too small; while some of the startups have some structure, and you would get the task spec from the Product &#x2F; Manager, whom you would be reporting. &lt;em&gt;&lt;strong&gt;Having a clear communication is important, making sure you can translate the features &#x2F; queries into business terms&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; because most of the time, people won&#x27;t be understanding the technical jargons that we use it freely. &lt;&#x2F;p&gt;
+&lt;p&gt;It also becomes important to be clear and responsive with your communication skills, if you have any feedback for your current role, or you would want a shift in your set of responsibilities; all of them require you to be clear, crisp and to the point in communicating your thoughts. &lt;&#x2F;p&gt;
+&lt;p&gt;Being a clear communicator helps you in being in the same page with your team-mates, and in case of startups, &lt;em&gt;&lt;strong&gt;it becomes imperative that each of the personnel can operate independently and still share the context with other team-members&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and clear communication is one of the way to achive that.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;relationships-are-important&quot;&gt;Relationships are important&lt;&#x2F;h3&gt;
+&lt;p&gt;In the startup world, atleast for the Software Engineering startups, you can find people donning the hat of multiple roles and responsibility. &lt;em&gt;&lt;strong&gt;The very people who were VP of engineering at some big tech company can very well be your next colleague, trying to setup the boilerplate of the code you are writing :P.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;To sum it up, people are one of the most important assets in a startup. Just to give an example, the &lt;strong&gt;VCs&lt;&#x2F;strong&gt; who are one of the institutes who would fund the startup, often base their conviction for funding, on the &lt;em&gt;&lt;strong&gt;pedigree of the core team of the startup&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Having the core team of the startup &lt;em&gt;&lt;strong&gt;belonging from a prestigious background&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, or &lt;em&gt;&lt;strong&gt;experience in a big tech company&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, or &lt;em&gt;&lt;strong&gt;having the experience of already successfully operating a startup&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; gives them a confidence on their abilities to operate a startup successfully. &lt;em&gt;Ideas are important, but so are the people, who are willing to forsee the vision from the idea state to reality.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Having good relationships with the startup members, becomes important. Having an ability to maintain and develop relationships with the team-members, could easily connect you to numerous people in the tech world. Networking works in the similar way as well, and people are willing to trust someone who either has a well defined pedigree&#x2F;experience in that field, or someone whom they know and trust.&lt;&#x2F;p&gt;
+&lt;p&gt;Just to give you an example, I was able to get my current job, because I was in touch with one of the recruiters of my current company since my 3rd year of college. I was applying for an internship role, but was unsuccessful in getting one. &lt;em&gt;&lt;strong&gt;Having contact with them, and maintaining a cordial and responsive communication meant&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, that she was able to reach out to me, once there was a job opening. Having good contacts with people generally help you grow in the long run.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;learning-curve-is-really-high&quot;&gt;Learning curve is really high&lt;&#x2F;h3&gt;
+&lt;p&gt;Startups are often known for their &lt;strong&gt;high learning curve&lt;&#x2F;strong&gt;, and even if you have a prior background in a field, startups would challenge you like never before. I had been dabbling with different aspects of software engineering, like &lt;strong&gt;frontend, backend, infra&lt;&#x2F;strong&gt;, etc. Still after joining a startup, there were numerous things that required attention, but I didn&#x27;t have much background to start with.&lt;&#x2F;p&gt;
+&lt;p&gt;Using one of my experiences as an example, I didn&#x27;t had much experience working with infra side of the things in Software Engineering. Infra can mean different things to different people, so to provide context, I wasn&#x27;t aware of hosting an application to production, and all the related things that are present. &lt;em&gt;&lt;strong&gt;AWS&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; is one of the popular platforms used for managing the infra side of the things, and so when I joined the startup, &lt;em&gt;&lt;strong&gt;I was expected to pull out a rabbit from the hat, for AWS :D&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I was quickly trying to absorb the sea of information, and the learning curve was pretty high, atleast at the start. I was learning about EC2, and the other managed services, which would make a Software Engineer&#x27;s life much more easier in managing things. I quickly started learning about AWS ECS, and other nuances that I would encounter while deploying the applications to production.&lt;&#x2F;p&gt;
+&lt;p&gt;Suddenly, terms like &lt;em&gt;&lt;strong&gt;high availability and low latency&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; started to make sense, and I quickly realised that my application could certainly improve the latency for handling each requests. High availability of the applications became more important than before, and suddenly I started taking a close look at optimising the applications, and writing code with more thought and care.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;having-a-structured-setup-for-work-is-important&quot;&gt;Having a structured setup for work is important&lt;&#x2F;h3&gt;
+&lt;p&gt;I am not sure if this is relevant for a startup, but I decided to write about it for any kind of desk work which is related to coding. All of my internship(s) have been remote, so it made sense for me to &lt;em&gt;&lt;strong&gt;invest in the basic infrastructure for making sure I am productive to code&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;This holds for any other skill as well, so having a workstation, where you can perform well becomes really important. If you have a chance to setup your workstation, you can take a look at getting those &lt;em&gt;&lt;strong&gt;ergonomic chairs(they would save you on your future back issues :D)&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, those are pretty helpful, since our trade requires us to sit at the same place for more than 10-12 hours in a day. &lt;&#x2F;p&gt;
+&lt;p&gt;You can easily see yourself working for 10-12 hours at a startup, so make sure that you &lt;em&gt;don&#x27;t slouch in a sofa&lt;&#x2F;em&gt;, or &lt;em&gt;find yourself working from your bed&lt;&#x2F;em&gt;, just to save yourself that extra effort of sitting in a chair and working. Trust me, your energy is renewed when you seperate your workplace with your relaxation place.&lt;&#x2F;p&gt;
+&lt;p&gt;If possible, get those &lt;em&gt;&lt;strong&gt;dual monitor setup&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, this is pretty helpful for developing applications on the go, and help you monitor numerous log files, while you are investigating any issue in production. &lt;em&gt;&lt;strong&gt;I am a sucker for dual monitor setup, helps me in getting a bird&#x27;s eye view for the whole work.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Standing table&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; seems to be in trend, but I haven&#x27;t got a chance to try it out. It does seem useful, especially for changing the posture, and making sure we don&#x27;t sit at the same place for a prolonged period.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;pace-yourselves-out-focussing-on-one-thing-at-a-time&quot;&gt;Pace yourselves out: Focussing on one thing at a time&lt;&#x2F;h3&gt;
+&lt;p&gt;I often found myself overwhelmed with different number of challenges at the same time. This is the common theme at any startup, so it makes sense to break down the challenges, and address them one at a time.&lt;&#x2F;p&gt;
+&lt;p&gt;While learning new technologies, I often &lt;em&gt;&lt;strong&gt;visualized the whole task as a series of dependent sub-tasks, which you could work upon before moving onto the next one.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; I also made sure, that I was able to switch to tasks, which were not related with each other.&lt;&#x2F;p&gt;
+&lt;p&gt;Referring to the diagram, you can &lt;strong&gt;focus on sub-tasks which are not related with each other&lt;&#x2F;strong&gt;, and this way make sure that you don&#x27;t fret over the whole task, but rather focus on the sub-tasks on the go.&lt;&#x2F;p&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;dependency_graph.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Try covering the sub-tasks in a topological ordering
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;h3 id=&quot;getting-business-feedback-and-having-impact&quot;&gt;Getting business feedback and having impact&lt;&#x2F;h3&gt;
+&lt;p&gt;Startups are often out to validate a niche engineering idea, which might turn out to be business-wise profitable. So it becomes important to make sure, that each of the iterations are making are adding some value to the business. &lt;&#x2F;p&gt;
+&lt;p&gt;Just to give a context, I was working on adding a plugin feature for one of the startups(&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;cyble.com&#x2F;&quot;&gt;Cyble&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;). While I was writing up code and churning out test suites, I personally didn&#x27;t find it intellectually challenging. It was supposed to be a plain Python code, which was pretty standard, along with writing test suites for the plugin. &lt;em&gt;&lt;strong&gt;However, it made a lot of business sense, because the plugin was supposed to be a start of a partnership with &lt;a href=&quot;https:&#x2F;&#x2F;www.splunk.com&#x2F;&quot;&gt;Splunk&lt;&#x2F;a&gt;.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; The conversation that we had with the engineering team for integrating team, quickly made me realise about the business impact that I was creating for Cyble.&lt;&#x2F;p&gt;
+&lt;p&gt;So it becomes important, that for a startup to make an economic sense, it would be crucial that the &lt;em&gt;&lt;strong&gt;product makes a business sense&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and all of the decisions, to a future feature that you are planning to make, should all make a business sense. &lt;em&gt;&lt;strong&gt;That doesn&#x27;t mean that you would suck the life out of any work which doesn&#x27;t have any business impact&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, as startups are often known for working and experimenting with things, but &lt;em&gt;&lt;strong&gt;somewhere down the line, as you would find, features and product decisions are often influenced by business impact.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Getting feedback is also important&lt;&#x2F;em&gt;, as your product should make an impact on the work of the users for which they are using your product. An example for this, would be the time with &lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;getinfinitybox.com&#x2F;&quot;&gt;Infinity Box&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; that I was working, and we were building a scheduling application, which would help in assigning collection agents to collect back the Infinity Box(reusable food-containers) for clean-up. The alpha version of the application didn&#x27;t suit our use case, and by gathering feedback and having the users on the mind, meant that we were able to come up with a decent application, &lt;em&gt;&lt;strong&gt;which would be one of the foundation blocks for Infinity Box to run their business operations.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;reducing-duplicate-code-story-of-using-a-single-repo-for-multiple-projects&quot;&gt;Reducing duplicate code : Story of using a single repo for multiple projects&lt;&#x2F;h3&gt;
+&lt;p&gt;I was working with &lt;strong&gt;Infinity Box&lt;&#x2F;strong&gt; for more than a couple of months, and at times when I was not writing code, I was consulting them for building up a solution for catering their operational challenges.&lt;&#x2F;p&gt;
+&lt;p&gt;One of the challenges that we felt, were for &lt;em&gt;&lt;strong&gt;getting acclimatised with the coding standard&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and how the whole codebase was structured. We were using the micro-services based architecture, and this meant that we had 1-2 member teams, who handled the whole cycle of developing the feature to deployment to production. This also meant that, &lt;em&gt;&lt;strong&gt;people were covering shifts for other teams, whenever we had bandwidth to attend to.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; So it required us to use a standardised code-base which could have been understood by all the teams. &lt;&#x2F;p&gt;
+&lt;p&gt;This saved us a lot of time and effort later on, and although I had used my judgement to make sure we follow a standardised coding approach, &lt;em&gt;&lt;strong&gt;this had more exponential returns, by making us compatible with practical challenges, where other teams could jump in to cover for the people who were the code owners.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;some-of-the-resources-for-finding-internship-consultation&quot;&gt;Some of the resources for finding Internship&#x2F;Consultation&lt;&#x2F;h2&gt;
+&lt;p&gt;I found the following list of resources useful for getting my next gig.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;linkedin&quot;&gt;LinkedIn&lt;&#x2F;h3&gt;
+&lt;p&gt;People often criticise &lt;a href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;&quot;&gt;LinkedIn&lt;&#x2F;a&gt; for being a platform which has cringe-worthy posts throughout, and I don&#x27;t disagree with that :P&lt;&#x2F;p&gt;
+&lt;p&gt;However, there are lot of posts about big-tech companies and startups, which post about the open internship roles, which I find really useful for applying for one.&lt;&#x2F;p&gt;
+&lt;p&gt;You can reach out to the &lt;em&gt;&lt;strong&gt;recruiters&#x2F;co-founders&#x2F;CEOs&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; of startups and share your interests about working for the company as an intern.
+People value a lot of previous experience and open-source contributions, especially if you are looking for a SWE&#x2F;DevOps&#x2F;SRE role. Make sure to be to the point and not beat around the bush, for they value a clear communicator to work with :)&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;y-combinator-workatastartup&quot;&gt;Y-Combinator : WorkAtAStartup&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.ycombinator.com&#x2F;&quot;&gt;&lt;strong&gt;Y-Combinator&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt; is an American technology startup accelerator, which helps startup raise their seed funding, and build their product, while having mentorship from founders of big companies who have made it big :)&lt;&#x2F;p&gt;
+&lt;p&gt;I used the &lt;a href=&quot;https:&#x2F;&#x2F;www.ycombinator.com&#x2F;jobs&quot;&gt;WorkAtAStartup&lt;&#x2F;a&gt; section to find any open roles for internship. &lt;em&gt;&lt;strong&gt;There are lot of startups here in YC which don&#x27;t have their careers page setup&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, so there is a high chance that you would be able to contact with the co-founders directly and share your interests in working with a startup.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;careers-page-can-be-a-hit-or-miss&quot;&gt;Careers Page : Can be a hit or miss&lt;&#x2F;h3&gt;
+&lt;p&gt;I often found careers page of any company, as one of the places, which might help you in getting an interview opportunity, but it&#x27;s often not guaranteed. &lt;em&gt;&lt;strong&gt;A Careers page is a necessary poison, which would hurt if you don&#x27;t apply, but certainly doesn&#x27;t help all the time.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; &lt;em&gt;&lt;strong&gt;You can try getting a referral&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, sometimes it does help in getting response from the recruiting team. I had applied to Facebook many times with a referral, so I had got a response(which was often a rejection xD) always.&lt;&#x2F;p&gt;
+&lt;p&gt;Personally, I had applied to a lot of companies for an internship role, but I found very few companies including Google, which revert back with an opportunity to interview. That is how I got to interview for Google SRE New Grad role, so I would often consider applying in one.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Reaching out to recruiters, especially for FAANG companies might not make a lot of sense, but then my current job(at the time of writing this post :P) was because of reaching out to a recruiter, so you never know :D&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;twitter&quot;&gt;Twitter&lt;&#x2F;h3&gt;
+&lt;p&gt;Twitter is one of the most underrated resources for getting an internship&#x2F;jobs. I have found twitter to be one of the best place to upskill and share your technical learnings.&lt;&#x2F;p&gt;
+&lt;p&gt;The &lt;em&gt;&lt;strong&gt;tech-twitter&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; has a lot of people from different sections of the tech; you could find &lt;em&gt;&lt;strong&gt;startup founders&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, to highly experienced &lt;em&gt;&lt;strong&gt;Individual Contributors&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, to &lt;em&gt;&lt;strong&gt;folks working at FAANG companies&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. In short, it is an informal place for tech folks to hangout, and a place to share your learnings and ask for any open roles.&lt;&#x2F;p&gt;
+&lt;p&gt;You can follow relevant folks in Twitter, may be &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;yashrsharma44&quot;&gt;follow&lt;&#x2F;a&gt; me to start with :P&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>My Experience with Exit Interviews</title>
+		<published>2022-02-16T00:00:00+00:00</published>
+		<updated>2022-02-16T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/exit-interviews/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/exit-interviews/</id>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Conducting&lt;&#x2F;strong&gt; an exit interview is something not talked a lot about. In fact, most of the technical people I follow, don&#x27;t have an account conducting an exit interview, how did they seperate from the group after spending a long time. Often, I have often found people&#x27;s account who leave the company, and the different challenges that they had, and seperate thoughts which made it difficult for them to continue.&lt;&#x2F;p&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;exit-interviews.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    One of the hardest decisions to make 🥲.
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;em&gt;I got to experience some glimpse of the other side of the table, when your team-mates are not that interested in creating value, or are finding it difficult to have similar values&lt;&#x2F;em&gt;. &lt;&#x2F;p&gt;
+&lt;p&gt;I am talking in the context of &lt;a href=&quot;https:&#x2F;&#x2F;kossiitkgp.org&#x2F;&quot;&gt;&lt;strong&gt;KOSS&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;, one of the college groups that I am in, and promotes OSS in &lt;strong&gt;IIT Kharagpur&lt;&#x2F;strong&gt;. We have had our set of challenges, and the very nature of challenges made me feel, how a small company&#x2F;startup would feel, while offboarding teammates. Note that, this might not hold true for a big company, as I don&#x27;t have a formal experience of working with one more than a year. I decided to document some of the learnings&#x2F;observations, while conducting exit interviews, and why we had to take such a drastic step. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;I think, it would be an interesting read for my future self, when I would be going through my blogs, as this problem would continue to be one of the hardest challenges, to have an answer to.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-do-you-need-to-offboard-members&quot;&gt;Why do you need to offboard members?&lt;&#x2F;h2&gt;
+&lt;p&gt;This is one of the most paramount questions, that you should ask before taking this drastic step. It is important to have numerous instances to disprove your thesis of why a person needs to offboarded before you do; but at the same time, you would need to be quick on your feet to minimise the damage, it would create to have an uninterested team-mate. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;having-objective-analysis-finding-out-what-was-wrong-altogether&quot;&gt;Having objective analysis - finding out what was wrong altogether&lt;&#x2F;h3&gt;
+&lt;p&gt;Doing an objective analysis of the team-mates is difficult; one of the best way is to have an &lt;em&gt;&lt;strong&gt;one-on-one call with the members you want to offboard&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. The most important thing is to make sure, you &lt;em&gt;clarify their personal goals&lt;&#x2F;em&gt;, and what was the &lt;em&gt;expectation they had while joining your organization&lt;&#x2F;em&gt;. It is important to capture&#x2F;note-down the very reasons they had, while they joined you; this provides you with feedback of how they perceive the organization, and the high hopes they had while joining the team. &lt;em&gt;It also helps you evaluate, what were the promises that were made&#x2F;assumed, and how did the team realistically delivered.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;It is also important to ask them about the reality that happened, after they joined. This gives us the compare and contrast, and helps to distill on the specific events, that made the experience of the team-mate not that much enjoyable. &lt;em&gt;&lt;strong&gt;They get to revisit the expectations they had set, and how they were able to achieve them.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; The priorities of people change often, so it is often natural to assume, that people might switch things, and put the contributions on the back-seat. Especially in college, it is natural for people to join different societies and leave to remain in the ones which they like the most. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;accountability-and-responsibility&quot;&gt;Accountability and Responsibility&lt;&#x2F;h3&gt;
+&lt;p&gt;Being dilligent has nothing to do with skill; people often can perform their duties as they are expected to do so, while not being technically sound. This holds more truth in our case, as we have a higher role of managerial&#x2F;logistics duty, than technical. &lt;em&gt;&lt;strong&gt;Turning up to the event is a testimony of their interest; you find working with you team as a committment to the team members, and how you value each other&#x27;s contributions.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; It becomes difficult, if people start de-valuing the contributions, and people sort of break into groups which have similar interests. &lt;em&gt;Try to get an idea of how much they are invested in the people, and how much accountable they are in times of crisis.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-you-should-go-about-offboarding&quot;&gt;How you should go about offboarding&lt;&#x2F;h2&gt;
+&lt;p&gt;Offboarding a team-mate is a very tricky part. I personally haven&#x27;t found a graceful way of parting with a team member, although you can make this event a valuable experience for both of you. It is important to make the offboarded member realise, how they fit into the scheme of things. &lt;em&gt;&lt;strong&gt;Every individual has the freedom to pursue things they want in life in their own way; it is important to inform them if the don&#x27;t align with the same things that both of you want.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; An example of this would be, explaining how a field of interest for a person who is working with a community, is different from the goals of the community. &lt;em&gt;&lt;strong&gt;That does not make the person a bad one; it&#x27;s just that the priorities of the life are different for both.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; Life is too short, and having clear cut priorities is one of the underrated skills of an individual, and makes them a valuable asset in whatever field they are. However, if the priorities&#x2F;vision are not aligned, then it makes sense to part ways gracefully, while expressing all the accolades they brought, and the positive aura they got an opportunity to make with the community, if they made one.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Life is too short, and having clear cut priorities is one of the underrated skills of an individual, and makes them a valuable asset in whatever field they are.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Communication is of paramount importance&lt;&#x2F;strong&gt;, and it is important that we have an exit interview for the same. I am in college as I am writing this, and an ideal scenario would be to have a close&#x2F;face-to-face one-on-one with the offboarded members. It might be one of the most awkward moments, but if you are able to clearly express the thoughts as to why you would need to part ways with the member, and if you are able to convince them about the shortcomings of the way they are not a good fit, it creates a mutual parting decision, and a silver lining to one of the most difficult decisions.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;my-experience-with-exit-interviews&quot;&gt;My Experience with Exit Interviews&lt;&#x2F;h2&gt;
+&lt;p&gt;I was a part of the governor team at &lt;strong&gt;KOSS&lt;&#x2F;strong&gt;, where we were responsible in devising the high-level idea of how should the club should function; taking decisions on the vision of the club, and making sure all the people at &lt;strong&gt;KOSS&lt;&#x2F;strong&gt; love the things that they are doing, while making sure they themselves are having a healthy learning curve.&lt;&#x2F;p&gt;
+&lt;p&gt;After working for most of the college time with the club(&lt;em&gt;5 years which is the total duration of my college course :P&lt;&#x2F;em&gt;), I realised the need to keep a lean team, and making sure we have a team of highly functional individuals, who understand the work at hand, and would love to use creativity for extending&#x2F;working on the goals of &lt;strong&gt;KOSS&lt;&#x2F;strong&gt;. What I observed that, we had a large number of people in the executives, who were responsible for making sure that the society was functional; handling day to day tasks, and assigning them to respective people. We also conduct &lt;a href=&quot;https:&#x2F;&#x2F;kwoc.kossiitkgp.org&#x2F;&quot;&gt;&lt;strong&gt;KWoC&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;, which requires fair bit of technical know-how for conducting it successfully. But many people were not interested in taking up responsibilities, and taking mentorship as one of the fiduciary duties. We have a freshers batch who are matched with executives, who work as a role model for them, and help them navigate their experience with &lt;strong&gt;KOSS&lt;&#x2F;strong&gt;. &lt;&#x2F;p&gt;
+&lt;p&gt;Mentorship was one of the most important aspect of &lt;strong&gt;KOSS&lt;&#x2F;strong&gt;; unlike other societies, &lt;em&gt;&lt;strong&gt;we pride ourselves in having a close touch with every individuals, and make sure that we are always there when they need us&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Contrary to the above, we had many individuals, who were disinterested in conducting their responsibilities, and had been very out of sync of the things happening at KOSS. They were also very less frequent with communication, and that made it difficult for other team members to depend on them. &lt;em&gt;&lt;strong&gt;This also affected the freshers who looked to the mentors for guidance :(&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Once this was escalated by many people, the governors decided to ponder about this problem, and find out how to solve this. This was a difficult problem to solve, and getting rid of people doesn&#x27;t set a good precedence on the current set of people who are at &lt;strong&gt;KOSS&lt;&#x2F;strong&gt;. We(&lt;em&gt;me, &lt;a href=&quot;https:&#x2F;&#x2F;thealphadollar.me&#x2F;&quot;&gt;Shivam&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;taapasX28&quot;&gt;Taapas&lt;&#x2F;a&gt; and some others&lt;&#x2F;em&gt;) brainstormed with some seniors, to find out a graceful solution. &lt;em&gt;&lt;strong&gt;I personally liked the aspect of having an exit interview for people whom we are onboarding, and although it was not the way we intended to execute, it was a novel thought of being transparent while offboarding team members.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;We had numerous discussions in slack, and we transparently discussed with the current executives(who were not offboarded). Many agreed with relieving few people of the duties, to their interest and different priorities, and raised concerns with a few members who should be retained. We heard the ones who were dilligent, and gave a high weightage while deciding the offboarded members. It is important to be transparent and involve people who would be affected.&lt;&#x2F;p&gt;
+&lt;p&gt;I personally had one-on-one calls with half the people, and trust me it was one of the most difficult interviews I had to take. Surprisingly, I found out that most of the people were understanding of decision, and many did accept the varied reasons as to why they were not involved with KOSS; &lt;em&gt;&lt;strong&gt;some were burned out of the many internships and courses they had&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;; &lt;em&gt;&lt;strong&gt;some were interested in pursuing the field of interest orthogonal to KOSS&#x27;s goals&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;; &lt;em&gt;&lt;strong&gt;some were outright not interested in working with the current set of people&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;(&lt;em&gt;this batch of people made me sad, about the recruitment strategy we have&lt;&#x2F;em&gt;). &lt;&#x2F;p&gt;
+&lt;p&gt;Overall, I felt satisfied after conducting the exit interviews, it gave me a chance to revisit the decision, and gave a face to all of the data we had for each individual. Story speaks more than data, and as I found, people had a different aspirations, which made a lot of sense; I might have made the same decision had I been in their place. I got to revisit a few decision, which I am happy to do, because now they are renewed with interest with &lt;strong&gt;KOSS&lt;&#x2F;strong&gt;, and the only reason they were inactive, was due to poor communication.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Black Box and White Box Testing</title>
+		<published>2021-08-02T00:00:00+00:00</published>
+		<updated>2021-08-02T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/white_black_box_testing/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/white_black_box_testing/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;grpc.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Seems like we might have a v2 version for gRPC middlewares!
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;I was going through one of the PRs of the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;grpc-ecosystem&#x2F;go-grpc-middleware&#x2F;issues&#x2F;388&quot;&gt;&lt;code&gt;go-grpc-middlewares&lt;&#x2F;code&gt;&lt;&#x2F;a&gt; and was required to make a utility function private. It was necessary, because we use that function internally, and it does not make sense to make it public. Sounds like a fair requirement?&lt;&#x2F;p&gt;
+&lt;p&gt;While I tried to make it private, I found some deeper implications. For starters, I found that, the testing package used the particular function - &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;grpc-ecosystem&#x2F;go-grpc-middleware&#x2F;pull&#x2F;390&#x2F;files#diff-869d58a362b77f68a1a7c6859b92e189c49d33d0daa1fcff71cb74b88a829398R21&quot;&gt;&lt;code&gt;JitterUp&lt;&#x2F;code&gt;&lt;&#x2F;a&gt;, which made it tougher to make it private.&lt;&#x2F;p&gt;
+&lt;p&gt;On going through numerous stack overflow answers, I found this &lt;a href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;19998250&#x2F;proper-package-naming-for-testing-with-the-go-language&quot;&gt;post&lt;&#x2F;a&gt; quite interesting and educational for how testing would work in Golang, particularly the conventions.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;white-and-black-box-testing&quot;&gt;White and Black Box testing&lt;&#x2F;h2&gt;
+&lt;p&gt;The packaging of test files can follow the convention of white&#x2F;black box testing, and this made me ponder about the design decisions we might want to take for how we want to test the package.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;black-box-testing&quot;&gt;Black Box Testing&lt;&#x2F;h3&gt;
+&lt;p&gt;We can use different package names(and different package) for tests and core logic. For instance, &lt;code&gt;package myfunc&lt;&#x2F;code&gt; for core package and &lt;code&gt;package myfunc_test&lt;&#x2F;code&gt; for the tests. This makes sure, you are calling the API Interface of your core package, so that your tests might equally import them, as any other function would do.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;white-box-testing&quot;&gt;White Box Testing&lt;&#x2F;h3&gt;
+&lt;p&gt;We can use same package name &lt;code&gt;package myfunc&lt;&#x2F;code&gt;, so that we can use all the non-exported identifiers, functions and methods. Since &lt;code&gt;JitterUp&lt;&#x2F;code&gt; was being used internally in the tests as well, it made sense to make the test package internal.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;which-one-is-better&quot;&gt;Which one is better?&lt;&#x2F;h2&gt;
+&lt;p&gt;Ultimately, both of them are fine to use, as long you know what to expect. Black Box testing provides api compatibility out of the box, while white box testing makes sure that you can use internal methods and functions.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Profiling: 4th aspect of Observability?</title>
+		<published>2021-07-21T00:00:00+00:00</published>
+		<updated>2021-07-21T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/profiling-1/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/profiling-1/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;VQ0nW.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Flamegraphs are a new addition to profiling: Courtesy of Brendan Gregg
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Profiling an application means to observe the memory and cpu utilization of the machine, in which the software runs. Profiling is one of the aspect of Observability - apart from &lt;strong&gt;Logging&lt;&#x2F;strong&gt;, &lt;strong&gt;Tracing&lt;&#x2F;strong&gt; and &lt;strong&gt;Monitoring&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Profiling has been used from a long time, and each programming language either provides inherent support for Profiling(for example Golang), while some tools exists for profiling your application. &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To profile an application, it would mean to &lt;em&gt;&lt;strong&gt;collect the stack trace of the call sequence&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, that led to execution of a function. We collect these &lt;em&gt;&lt;strong&gt;stack traces and then combine them as profiles&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, so that we can use to visualize the amount of resources consumed, for that type of resource. Each of the stack trace contains &lt;em&gt;&lt;strong&gt;resource metrics&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, which are useful in understanding the &lt;em&gt;&lt;strong&gt;function level allocation of resources&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;There are different types of resources that we can collect profiles for, so it depends on the user, what sort of profiles they want to collect, to observe the system.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-use-profiling&quot;&gt;Why use Profiling?&lt;&#x2F;h2&gt;
+&lt;p&gt;Profiling is useful as a debugging resource. Particularly, when you application needs to be &lt;em&gt;&lt;strong&gt;observed&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, you would need to check how much &lt;em&gt;&lt;strong&gt;CPU&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; and &lt;em&gt;&lt;strong&gt;RAM&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; your application is using. &lt;em&gt;&lt;strong&gt;This also means that you would need to check your logs and metrics to see what happened&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;You would want to observe your application, if - &lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Application uses more resources, than it is supposed to use.&lt;&#x2F;li&gt;
+&lt;li&gt;You application is facing a downtime, &lt;em&gt;&lt;strong&gt;OOM&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; killed.&lt;&#x2F;li&gt;
+&lt;li&gt;You want to optimize your application, and &lt;em&gt;&lt;strong&gt;reduce the time and space allocation&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Profiling helps in &lt;em&gt;&lt;strong&gt;1 and 3&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. For &lt;em&gt;&lt;strong&gt;2&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, you would need Continuous Profiling, which I would be talking more in my next blog.&lt;&#x2F;p&gt;
+&lt;p&gt;You can run your application with profiling enabled, easily check the profiles, and see the resource allocations made by a specific functions&#x2F;part of code, and then investigate your codebase to optimize your code. It eases the toil of figuring out which part of code has a higher resource utilization, and refactor the code to regulate the utilization.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-can-i-try-profiling&quot;&gt;How can I try Profiling?&lt;&#x2F;h2&gt;
+&lt;p&gt;Some languages make profiling as easy as running a command - In go you can do for CPU profiling - &lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#212121;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#c792ea;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#ff5370;&quot;&gt;_ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c3e88d;&quot;&gt;net&#x2F;http&#x2F;pprof&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;&amp;quot;
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#c792ea;&quot;&gt;func &lt;&#x2F;span&gt;&lt;span style=&quot;color:#82aaff;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;() {
+    
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;f&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;err &lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;:= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;os&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#82aaff;&quot;&gt;Create&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c3e88d;&quot;&gt;name_of_profile&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;&amp;quot;)
+    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#c792ea;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;err &lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;!= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f78c6c;&quot;&gt;nil &lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;{
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#82aaff;&quot;&gt;Fatal&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c3e88d;&quot;&gt;could not create CPU profile: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;err&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;)
+    }
+    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#c792ea;&quot;&gt;defer &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;f&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#82aaff;&quot;&gt;Close&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;() &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#4a4a4a;&quot;&gt;&#x2F;&#x2F; error handling omitted for example
+    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#c792ea;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;err &lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;:= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;pprof&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#82aaff;&quot;&gt;StartCPUProfile&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;f&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;); &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;err &lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;!= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f78c6c;&quot;&gt;nil &lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;{
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#82aaff;&quot;&gt;Fatal&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c3e88d;&quot;&gt;could not start CPU profile: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;err&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;)
+    }
+    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#c792ea;&quot;&gt;defer &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;pprof&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#82aaff;&quot;&gt;StopCPUProfile&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;()
+    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#4a4a4a;&quot;&gt;&#x2F;&#x2F; your code from here
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;continuous-profiling-a-way-for-observability&quot;&gt;Continuous Profiling: A Way for Observability&lt;&#x2F;h2&gt;
+&lt;p&gt;Normally, profiling would mean that you can collect snapshots and compare them when an incident happens, or if you are making a release, you can compare the resource allocations between 2 versions, and see it for yourself, if some changes bring in a drastic changes.&lt;&#x2F;p&gt;
+&lt;p&gt;But what if, you could consider &lt;em&gt;&lt;strong&gt;continuous collection of profiles, much like metrics&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and use them to observe your application? This is a win-win situation, since storing data on cloud is dirt cheap, and you can use them to observe and pin point bottlenecks and optimise the application.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Continuous Profiling&lt;&#x2F;strong&gt; gets better, if you want to investigate your application just before it gets &lt;em&gt;&lt;strong&gt;OOM killed&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Especially, if your application does not use web servers, it can be difficult to enable continuous profiling(&lt;em&gt;atleast for Go&lt;&#x2F;em&gt;). So all in all, if you use a continuous profiling service, we can collect profiles at a certain time interval, and as a debugging mechanism, we can see the aftermath that cause the application to OOM out.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;continuous-profiling-solutions&quot;&gt;Continuous Profiling Solutions&lt;&#x2F;h2&gt;
+&lt;p&gt;Continuous Profiling isn&#x27;t a new concept, it is been in the market for a long time. There are few providers, which provide Continuous Profiling as a Service; you can run the profiling client, which would scrape the profiles from your application, and a Profiler Service, which could run and compute all the calculations and show you the resource allocations.&lt;&#x2F;p&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;profiling-pyro.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Pyroscope: Open Source provider for Continuous Profiling
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;There are bunch of Continuous Profiling providers that I know - &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pyroscope&lt;&#x2F;strong&gt; - &lt;a href=&quot;https:&#x2F;&#x2F;pyroscope.io&quot;&gt;pyroscope.io&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;conprof&lt;&#x2F;strong&gt; - &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;conprof&#x2F;conprof&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;conprof&#x2F;conprof&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Polar Signals&lt;&#x2F;strong&gt; - &lt;a href=&quot;https:&#x2F;&#x2F;www.polarsignals.com&#x2F;&quot;&gt;https:&#x2F;&#x2F;www.polarsignals.com&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;should-you-use-continuous-profiling&quot;&gt;Should you use Continuous Profiling?&lt;&#x2F;h2&gt;
+&lt;p&gt;Continuous Profiling helps, especially you are working with microservices, and you want to get to the root of the problem. It is difficult to debug issues with distributed systems, and distributed observability monitoring helps you reduce the toil. Profiling is another dimension of observability, and the amount of features with the limited overhead, means that profiling should be a no brainer!&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I would be writing some more posts under Notes section, about profiling and my experience with working with Pyroscope for setting up a demo project that demonstrates the conjoined advantage of &lt;em&gt;&lt;strong&gt;Logging&#x2F;Tracing&#x2F;Profiling&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Making GSoC a valuable experience</title>
+		<published>2021-07-17T00:00:00+00:00</published>
+		<updated>2021-07-17T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/gsoc-and-oss-2/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/gsoc-and-oss-2/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;contri.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Big feature is awaited!
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;what-i-intend-to-cover&quot;&gt;What I intend to cover?&lt;&#x2F;h2&gt;
+&lt;p&gt;This blog is a second part to &lt;a href=&quot;&#x2F;gsoc-and-oss&quot;&gt;this&lt;&#x2F;a&gt;. I intend to cover &lt;em&gt;&lt;strong&gt;key takeaways from the Google Summer of Code program&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, so if you are selected as a GSoC student, read ahead!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;leveraging-the-opportunity&quot;&gt;Leveraging the opportunity&lt;&#x2F;h3&gt;
+&lt;p&gt;Google Summer of Code is quite a valuable opportunity to develop your skills for Software Engineering and OSS. Use this opportunity &lt;em&gt;&lt;strong&gt;wisely&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; and &lt;em&gt;&lt;strong&gt;judiciously&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, to get the best out of this program.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Wisely&lt;&#x2F;strong&gt;, because you are getting an opportunity to work on a project which has the potential to be used by millions of people. Imagine the joy and responsibility you would have, while developing a feature for Numpy and Matplotlib.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Judiciously&lt;&#x2F;strong&gt;, because your mentors are an invaluable asset for you over the next few months, and &lt;em&gt;if you network well, help you out with getting your career kickstarted&lt;&#x2F;em&gt;. You should try to solve your issues which are easily google-able, while you should save time for &lt;strong&gt;high level discussions&lt;&#x2F;strong&gt; and &lt;strong&gt;complex bugs&lt;&#x2F;strong&gt;. Time is a limited asset, so make sure you save time as and when you can, and allow yourself with some backup of time, in case a feature development takes more time than expected. Similar thing happened with me as well, and since I had saved some time, I was able to cover up for the lost time.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;blogging-and-communicating-with-your-mentor&quot;&gt;Blogging and communicating with your mentor&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Blogging and communication&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; is the key to GSoC. Having good communication setup and weekly meetings are imperative to keep the mentors updated with your work.&lt;&#x2F;p&gt;
+&lt;p&gt;Clear cut communication and asking for clarifications is important, helps you in understanding the expectations and approach which your mentor might have for your project. Your mentor knows the possible hurdles that you might not encounter, so having clear ideas and clarification helps you in enlisting and keeping the issues at bay.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Blogging&lt;&#x2F;strong&gt; helps you to document out the progress you have had for the week. It is not possible(&lt;em&gt;nor it is suggested!&lt;&#x2F;em&gt;) to keep an &lt;em&gt;&lt;strong&gt;eye&#x2F;micro-manage&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; every work that you do, so make sure you &lt;em&gt;&lt;strong&gt;blog your progress&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; and what kind of concrete progress you have achieved for the week. It also &lt;em&gt;&lt;strong&gt;helps you and your mentor to assess the progress&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; of your work, so changes with the timeline and end goals can be adjusted.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;pr-reviews-an-opportunity-for-learning&quot;&gt;PR Reviews: An opportunity for learning&lt;&#x2F;h3&gt;
+&lt;p&gt;Pull requests are an important aspect of GSoC. You can have the best code written for the project, but if you haven&#x27;t passed the PR Reviews, chances are that your patch isn&#x27;t suitable to be merged.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;PR Reviews&lt;&#x2F;strong&gt; might sound a bit intimidating(and it is for a certain extent), so make sure you break up your project into &lt;em&gt;&lt;strong&gt;multiple parts&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and &lt;em&gt;&lt;strong&gt;push your PR as early as possible&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; for review. It is natural to have &lt;a href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;@yashrsharma44&#x2F;pull-requests-merged-in-for-gsoc19-ndcube-95a9fd15c8b6&quot;&gt;15-20&lt;&#x2F;a&gt;(&lt;em&gt;don&#x27;t quote me on this, can vary as you agree with your mentor&lt;&#x2F;em&gt;) PRs, helps you in managing your logistics and getting ahead with the PR reviews.&lt;&#x2F;p&gt;
+&lt;p&gt;The communications can get ahead for a &lt;strong&gt;100 conversations&lt;&#x2F;strong&gt;, so the key is to keep the &lt;em&gt;&lt;strong&gt;changes small and decoupled&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. This helps in getting more faster reviews, and the changes associated with it is gradual, rather than pushing a &lt;strong&gt;1000+&lt;&#x2F;strong&gt; line PR, which is quite clunky and tougher to get this merged.&lt;&#x2F;p&gt;
+&lt;p&gt;Another important aspect of making PRs, is that &lt;em&gt;&lt;strong&gt;don&#x27;t get blocked on one PR&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;! Have &lt;strong&gt;2-3&lt;&#x2F;strong&gt; ideas that you would want to work on them &lt;em&gt;&lt;strong&gt;parallely&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, so you can wait on one PR to get merged, while you spend some time on another PR. &lt;em&gt;This is another reason, to break a bigger PR into small chunks, much easier to review and get it merged.&lt;&#x2F;em&gt; Also provides you with some time to parallelize you work.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;tests-and-docs-are-equally-important&quot;&gt;Tests and Docs are equally important!&lt;&#x2F;h3&gt;
+&lt;p&gt;Software Engineering follows the mantra -&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Code, Test and Docs&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Documentation can be written when the feature is ready, but tests should be written gradually as you develop a feature. &lt;em&gt;&lt;strong&gt;Test Driven Development&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; is something, you can have a look, but I mostly found to write the code and then test it up later, much convenient.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;TDD&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; is something you can undertake for a &lt;em&gt;&lt;strong&gt;small package&#x2F;module&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and it is generally a full-proof development process, because you already define the contract of the black-box(in this case, your package), and the inherent logic should satisfy the contract.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;evals-are-scary-but-make-sure-both-of-you-agree-on-a-milestone&quot;&gt;Evals are scary, but make sure both of you agree on a milestone&lt;&#x2F;h3&gt;
+&lt;p&gt;Google Summer of Code has two evaluations as of 2020, Mid Term Evaluations and End Term Evaluations. This Blog Post was out after the first evaluations, so you might have got an idea about how evaluations work. The project is assessed with the kind of work done, and how much progress we have had. Mentors write out some suggestions and remarks about the work done uptil now.&lt;&#x2F;p&gt;
+&lt;p&gt;It is imperative to &lt;em&gt;&lt;strong&gt;understand and clarify the suggestions&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; that has been made by the mentor during Mid Term Evaluations. It can happen that the mentor and the student might not be on the same page about the progress, so having a &lt;em&gt;&lt;strong&gt;1:1 talk with them is really crucial&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Having an objective goal for each evaluations is really important, as it helps out in mapping out the expectations as time progresses. &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;sunpy&#x2F;sunpy&#x2F;wiki&#x2F;GSoC-2019-Yash-Sharma&quot;&gt;In my project&lt;&#x2F;a&gt;, I wrote up clear cut features that I intend to achieve before the evals, so being explicit in the metrics you choose to measure the progress of your project is helpful.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;journey-after-google-summer-of-code&quot;&gt;Journey after Google Summer of Code&lt;&#x2F;h2&gt;
+&lt;p&gt;The journey after GSoC is &lt;em&gt;&lt;strong&gt;quite variable, as you want to lead up to&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. You are the captain of you own ship, so you are free to utilise the opportunities.&lt;&#x2F;p&gt;
+&lt;p&gt;You can use the learnings that you gathered during the summer, and keep working on the project&#x2F;community in your free time. As mentioned before, OSS is a voluntary experience, and you can work on your free time if you wish.&lt;&#x2F;p&gt;
+&lt;p&gt;Many people choose the opportunity to work with the community, while some wish to experiment with other groups. Feel free to utilise the learning and apply it into a field of interest.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;my-personal-take&quot;&gt;My Personal take&lt;&#x2F;h3&gt;
+&lt;p&gt;Personally, I found that the time spent after the project is important, if you want to explore an &lt;em&gt;&lt;strong&gt;internship opportunity&#x2F;full time opportunity&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Many of the mentors, for instance might be software engineers&#x2F;research engineers, who have been involved with your work. They are certainly able to vouch for your work, and refer you to any position of interest.&lt;&#x2F;p&gt;
+&lt;p&gt;That does not mean that you cannot leverage your opportunity outside this. You can apply to different companies, and since your work is Open Sourced, people can see the work done and get an idea about your strengths.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For me, I didn&#x27;t leverage this much after my GSoC, because I wanted to pursue Software Engineering, and astrophysics - as much awesome as it sounds, didn&#x27;t match my aspirations. In my 3rd year, I went ahead to take part in LFX Mentorship, and this time, I did leverage my networking and receive an internship opportunity. I had already taken part in my campus internship drive, so I had to decline the interview opportunity, but all in all, I still spend time with my new organisation.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Another reason, why you would spend time with an organisation, is the &lt;em&gt;&lt;strong&gt;work&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Yes, if you really like the work, there is no reason to stop contributing. &lt;em&gt;&lt;strong&gt;Getting a good fit with a team, where you like the work and the people&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, is the best possible scenario you can have, to pursue your interests.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let&#x27;s say you want to explore Observability and Monitoring, and want to know how the software was written, and works in production, then you wouldn&#x27;t want to stop working with them. This is one of the reasons, why people stick through after completing GSoC, and if you are interested in pursuing your interests, it makes sense to work with organisations.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;passing-the-baton&quot;&gt;Passing the baton&lt;&#x2F;h3&gt;
+&lt;p&gt;It is important to pass the baton to the juniors and people who need to be &lt;em&gt;&lt;strong&gt;enlightened by this lifestyle of Software Engineering&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. You must have got an end-to-end idea of how to get started with OSS; now it is time for you to share the idea and wisdom to someone, who would benefit.&lt;&#x2F;p&gt;
+&lt;p&gt;Note that, &lt;em&gt;&lt;strong&gt;don&#x27;t get too attached with the notion of GSoC and other OSS programs&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, it&#x27;s totally fine, if you don&#x27;t get through. I had talked about this aspect briefly in my &lt;a href=&quot;&#x2F;gsoc-and-oss#getting-selected-or-not&quot;&gt;previous blog&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;open-source-is-not-a-destination-it-is-a-way-of-life&quot;&gt;Open Source is not a destination: It is a way of life&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Open Source is one of influential movements and lifestyle for Software Engineering&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Being connected to Open Source, is like being connected to roots. &lt;em&gt;You don&#x27;t get harmed if you don&#x27;t, but you miss out on a lot of opportunity.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Open Source has revolutionized the way, &lt;em&gt;&lt;strong&gt;software is developed and consumed&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and &lt;em&gt;&lt;strong&gt;proprietary software, unless backed by Big Tech Companies&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, cannot be vouched for. I mean, no one would vouch for a software, whose source code is closed source. You need confidence on the software, and only way is to see the source code.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Numerous startups have come up with the Open Sourcing their code&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. The main priority for an early stage startup, &lt;em&gt;&lt;strong&gt;is not to protect their idea&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, but to make the community familiar with their idea that they are selling, and one way to &lt;em&gt;&lt;strong&gt;vouch the reputation and dependability&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, is to Open Source their code and create a community around it. &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;21st century is a great time to be in Open Source, and whatever field&#x2F;career you pursue later, Open Source experience will certainly help you in understanding the current model of Software Engineering and its related fields, it impacts.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Learning about Consensus Algorithms</title>
+		<published>2021-05-05T00:00:00+00:00</published>
+		<updated>2021-05-05T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/raft-consensus-1/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/raft-consensus-1/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;raft-pic.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    That&amp;#x27;s a handful of State Machine Diagrams!
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Consensus Algorithms in Distributed Systems is that aspect which makes sure, all the instances of the software that you are running are consistent with each other, and are not serving stale data. &lt;em&gt;&lt;strong&gt;Consistency&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, which makes sure that all of the data are up to date, and &lt;em&gt;&lt;strong&gt;not serving stale data&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, which means old data is invalidated by the software and not served, instead is synced up with other instances.&lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s build up the basic terminolgy and concepts before we dive into Consensus Algorithms!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;availability-partition-and-consistency-the-cap-theorem&quot;&gt;Availability, Partition and Consistency: The CAP Theorem&lt;&#x2F;h2&gt;
+&lt;p&gt;There is this cool guy - &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Eric_Brewer_(scientist)&quot;&gt;Eric Brewer&lt;&#x2F;a&gt; who came up with this theorem, which is basically simple - &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Out of &lt;strong&gt;Availability&lt;&#x2F;strong&gt;, &lt;strong&gt;Partition&lt;&#x2F;strong&gt; and &lt;strong&gt;Consistency&lt;&#x2F;strong&gt;, you can only atmost two guarantees for a &lt;em&gt;distributed&lt;&#x2F;em&gt; &lt;em&gt;data store&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Let&#x27;s break this down - &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Availability&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; - Availability means that your system is accessible all the time. You can make this sure by running multiple instances of your software, so that if one is down, the others are there to back you up!&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Partition&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; - Partition non-trivially(atleast for me!) stands for Network Partition. We can have Network Partition, if we have two instances of software running, and each of them are un-synced(don&#x27;t have any communication) or have a network barrier. It is difficult to serve the purpose of software, if we have a network partition, the user needs to be rerouted to another instance with up to date data.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Consistency&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; - Consistency, as you would have guessed it, stands for maintaining the same state among all the software instances. Imagine a bank ATM, and this should be &lt;em&gt;strongly consistent&lt;&#x2F;em&gt; so that whatever money you withdraw&#x2F;deposit is quickly reflected among all the instances of ATM Machines.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;So all in all, you can have atmost &lt;em&gt;two guarantees&lt;&#x2F;em&gt; out of &lt;em&gt;three&lt;&#x2F;em&gt; namely - &lt;em&gt;&lt;strong&gt;CP&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, &lt;em&gt;&lt;strong&gt;AP&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, &lt;em&gt;&lt;strong&gt;CA&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. In practical situations, you want your software to run inspite of Network Partitions, so you only get to choose &lt;strong&gt;CP&lt;&#x2F;strong&gt; or &lt;strong&gt;AP&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;eventually-consistent-systems&quot;&gt;Eventually Consistent Systems&lt;&#x2F;h2&gt;
+&lt;p&gt;You might have heard about big tech companies bragging about how their software is equally &lt;strong&gt;highly available&lt;&#x2F;strong&gt; and &lt;strong&gt;consistent&lt;&#x2F;strong&gt;. Note that I haven&#x27;t used &lt;em&gt;&lt;strong&gt;strongly consistent&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and this has its own implications.&lt;&#x2F;p&gt;
+&lt;p&gt;These systems are &lt;em&gt;eventually consistent&lt;&#x2F;em&gt;, which makes sure the data is synced with each other(or if conflicts happen, we arrive at the reconcilation &lt;em&gt;eventually&lt;&#x2F;em&gt;). This means when our data is updated at &lt;strong&gt;place A&lt;&#x2F;strong&gt;, if we query the same data from &lt;strong&gt;place B&lt;&#x2F;strong&gt;, it might take some time before the similar data(or state) is shown.&lt;&#x2F;p&gt;
+&lt;p&gt;Note that distributed systems is all about &lt;em&gt;trade-offs&lt;&#x2F;em&gt;, and this might not be bad trade-off at all, if we all want highly available systems, and consistency being eventual also works for us.&lt;&#x2F;p&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;sync-up-calendar.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Calendar sync-ups are not always immediate, that&amp;#x27;s the result of Eventual Consistency
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;To demonstrate an example, lets use Google Docs - we would want our data to be replicated among all the instances, and should be &lt;em&gt;highly available&lt;&#x2F;em&gt;. At the same time, the data doesn&#x27;t need to be &lt;em&gt;strongly consistent&lt;&#x2F;em&gt;; we can have eventual consistency, and this would work well for us. &lt;em&gt;&lt;strong&gt;So effectively, its about the use case that we want, and not the one size fits all policy that we should worry about&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;consensus-algorithms-for-strong-consistency&quot;&gt;Consensus Algorithms: For Strong Consistency&lt;&#x2F;h2&gt;
+&lt;p&gt;Let&#x27;s say, we want to provide &lt;strong&gt;CP&lt;&#x2F;strong&gt; guarantees for our software, so how should we proceed with this?&lt;&#x2F;p&gt;
+&lt;p&gt;Consensus Algorithms make sure that our data(or state) is consistent across all of our software instances. In case we want to provide Strong Consistency guarantees, we need to return back to our whiteboard, and figure out one. &lt;&#x2F;p&gt;
+&lt;p&gt;The generic way how a consensus algorithm works is that -&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;We elect a leader among a bunch of instances, and whenever we perform a write operation, we get a majority of votes, before we commit that. &lt;&#x2F;li&gt;
+&lt;li&gt;Majority is required so that the state of the leader is consistent with other systems, while we make sure that, if the system that goes down, it can catch up with the state of the leader through majority, thus providing a strong consistent systems.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;There are lots of pitfalls and gotcha moments while you design an algorithm for consensus - In an ideal world, you would not have any network failure, and bunch of network calls should return a response(success&#x2F;failure). We should always have a majority(in an ideal world, if more than majority of systems fail, we cannot handle the transactions; an implication of non-available system at the cost of strong consistency).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;common-methods-of-overcoming-the-shortcomings&quot;&gt;Common methods of overcoming the shortcomings&lt;&#x2F;h2&gt;
+&lt;p&gt;We know that in practical world, we cannot work with the assumption of a &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Happy_path&quot;&gt;happy path&lt;&#x2F;a&gt;. We need to take care of the shortcomings - &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Network Failure&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; - Network failures are a fair assumption; packets can get dropped, messages might get spoofed, data might get duplicated and so on. We need to make out communication &lt;strong&gt;reliable&lt;&#x2F;strong&gt; by using TLS(which makes communication secure) and &lt;strong&gt;retrying&lt;&#x2F;strong&gt; with &lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;cenkalti&#x2F;backoff&quot;&gt;backoff&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; so that our data reaches the server &lt;em&gt;at least once&lt;&#x2F;em&gt;. We can also make our communication &lt;strong&gt;idempotent&lt;&#x2F;strong&gt;, so that duplication of transactions, doesn&#x27;t hamper our system.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Causality&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; - Causality states the relative ordering of two events occurring. This is derived from Physics, and lays the ground rules of how the timeline of events can be described(or not) - &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;When A-&amp;gt;B, then A might have occurred after B (A-&amp;gt;B means A occurred after B)&lt;&#x2F;li&gt;
+&lt;li&gt;When A||B, then both the events are concurrent(might happen at the same time)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;We need to make sure that the ordering of events doesn&#x27;t impact our ordering of transactions, so we use the concepts of clocks described below.&lt;&#x2F;p&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;clock-skew.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Clock Skew between global clocks and local instance rises monotonically until it is synced
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Clocks and Global Clock&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; - It is important to have a global clock to make sure we can order the events. Note that this introduces several shortcomings with this approach - single point of failure, clock skew and round trip time to sync clocks. We should also note the cost associated with maintaining this setup. Often we use some sort of techniques like &lt;a href=&quot;https:&#x2F;&#x2F;bartoszsypytkowski.com&#x2F;hybrid-logical-clocks&#x2F;&quot;&gt;&lt;em&gt;&lt;strong&gt;Hybrid Logical Clock&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;consensus-and-total-order-broadcast&quot;&gt;Consensus and Total Order Broadcast&lt;&#x2F;h2&gt;
+&lt;p&gt;Before we move on to Consensus, let&#x27;s talk about Total Order Broadcast.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Total Order Broadcast&lt;&#x2F;strong&gt; states that if &lt;strong&gt;m&lt;sub&gt;1&lt;&#x2F;sub&gt;&lt;&#x2F;strong&gt; is delivered before &lt;strong&gt;m&lt;sub&gt;2&lt;&#x2F;sub&gt;&lt;&#x2F;strong&gt; on one node, then &lt;strong&gt;m&lt;sub&gt;1&lt;&#x2F;sub&gt;&lt;&#x2F;strong&gt; must be delivered before &lt;strong&gt;m&lt;sub&gt;2&lt;&#x2F;sub&gt;&lt;&#x2F;strong&gt; on all nodes.&lt;&#x2F;p&gt;
+&lt;p&gt;A common example is depositing and withdrawing money. The ordering matters, as the reverse order(withdrawing and then depositing) won&#x27;t work for our case.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Consensus is a formal equivalent of Total Order Broadcast&lt;&#x2F;em&gt;. We would certainly want these behaviours -&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Several Nodes want to come to an agreement about a single value.&lt;&#x2F;li&gt;
+&lt;li&gt;Once all Nodes decide on a certain message order, all nodes will decide the same order.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Common Consensus Algorithms&lt;&#x2F;strong&gt; - &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Paxos - Single Value Consensus&lt;&#x2F;li&gt;
+&lt;li&gt;Multi-Paxos - Generalisation to Total Order Broadcast&lt;&#x2F;li&gt;
+&lt;li&gt;Raft - FIFO based total order broadcast&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;raft-the-consensus-algorithm&quot;&gt;Raft - The Consensus Algorithm&lt;&#x2F;h2&gt;
+&lt;p&gt;Phew! Finally, we have built the stage to talk more about Raft. &lt;&#x2F;p&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;raft-image.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    The Raft Mascot :P
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Raft is a FIFO based Total Order Broadcast based Consensus Algorithm. Here is a nice visualization to play for understanding about &lt;a href=&quot;https:&#x2F;&#x2F;raft.github.io&#x2F;&quot;&gt;raft&lt;&#x2F;a&gt;. The co-author of this algorithm &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;ongardie&quot;&gt;Diego Ongaro&lt;&#x2F;a&gt; has a nice &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=6bBggO6KN_k&quot;&gt;video&lt;&#x2F;a&gt; about it.&lt;&#x2F;p&gt;
+&lt;p&gt;I will be talking more about Raft in my next blog, and would also describe my thought process of writing a simple implementation for Raft.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>GSoC and OSS</title>
+		<published>2020-12-25T00:00:00+00:00</published>
+		<updated>2020-12-25T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/gsoc-and-oss/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/gsoc-and-oss/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;gsoc-logo.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Google Summer of Code! One of the best things that happened to me :D
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;h1 id=&quot;what-i-intend-to-cover&quot;&gt;What I intend to cover?&lt;&#x2F;h1&gt;
+&lt;p&gt;I plan to cover the insights and pointers that I gained, while being a part of the fantastic Open Source Programs over the world, &lt;strong&gt;Google Summer of Code&lt;&#x2F;strong&gt;!
+I won&#x27;t cover the technical aspects of participating in &lt;strong&gt;GSoC&lt;&#x2F;strong&gt;, but rather focus on the learnings and takeaway from this program. For list of resources useful for GSoC, refer &lt;a href=&quot;https:&#x2F;&#x2F;yashrsharma44.medium.com&#x2F;resources-for-google-summer-of-code-5c2ac800849b&quot;&gt;&lt;strong&gt;this&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;For brevity, I have broken the blog into two parts - &lt;a href=&quot;https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;gsoc-and-oss&#x2F;#&quot;&gt;&lt;em&gt;&lt;strong&gt;First one&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt; covering the journey leading to GSoC, and &lt;a href=&quot;&#x2F;gsoc-and-oss-2&quot;&gt;&lt;em&gt;&lt;strong&gt;the second&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt; covering my experience with my project.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;ascending-the-everest-commencing-the-journey&quot;&gt;Ascending the everest; Commencing the journey&lt;&#x2F;h1&gt;
+&lt;p&gt;I have further broken down the different aspects of GSoC into coherent components, which would provide context while I discuss them further :P&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;philosophy-of-google-summer-of-code&quot;&gt;Philosophy of Google Summer of Code&lt;&#x2F;h2&gt;
+&lt;p&gt;With any work that you do, it is important to understand the philosophy and its goals, that are aligned with it. Whenever you sign up for anything, you also &lt;em&gt;&lt;strong&gt;sign up with the philosophy and the work ethics that come with it&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. It might be surprising, if you don&#x27;t agree with it, so it&#x27;s imperative to understand, what it takes to be an active GSoC contributor, and a life-long OSS contributor!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;start-early-and-start-small&quot;&gt;Start Early and Start Small&lt;&#x2F;h3&gt;
+&lt;p&gt;With any habit, it is imperative that you start small and make sure you break down things into manageable portions.
+While starting with Open Source contributions, there are lot of things that you might need to cover, in order to get equipped with the contributions. &lt;em&gt;&lt;strong&gt;You should get aware of basics, such as basic command line env, git, and debugging.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; Note that these are necessary to be learnt eventually, but not at the start. You can learn them eventually. Here are some resources -&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;https:&#x2F;&#x2F;missing.csail.mit.edu&#x2F;&lt;&#x2F;li&gt;
+&lt;li&gt;https:&#x2F;&#x2F;www.udacity.com&#x2F;course&#x2F;version-control-with-git--ud123&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;learn-it-as-you-go&quot;&gt;Learn it as you go&lt;&#x2F;h3&gt;
+&lt;p&gt;The best part of Software Engineering is that, no one knows everything! &lt;em&gt;&lt;strong&gt;Everyone learns as they practically use the tools&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and Open Source is no different than that. Knowing basics about the different aspects of Software Engineering is important, once you know them, it is easier to extend your knowledge to your tech stack.&lt;&#x2F;p&gt;
+&lt;p&gt;I found this quite useful for visualising the requirements -&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;https:&#x2F;&#x2F;roadmap.sh&#x2F;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;its-about-the-community&quot;&gt;Its about the community&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Open Source holds it charm due to its community&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. The idea of OSS exists because of the voluntary and passionate work the mentors and contributors do. So it becomes natural to have high expectations from them. However, it is fair to understand and respect the fact that it is voluntary work, and no one is accountable. People mentor out of interest and folks should respect that.&lt;&#x2F;p&gt;
+&lt;p&gt;Another aspect is about the &lt;em&gt;&lt;strong&gt;learning and working on your field of interest&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. For instance, if you are involved in AI research, and get hold of an organisation with fantastic community to learn, it is the best opportunity. The mentors and contributors are equally competent, and the peer group will help you in growing your knowledge and develop industry standard with your research. If you happen to participate due to GSoC, and not because of learning, you miss an opportunity to expand your knowledge and networking.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;GSoC is a result of community, and not the other way round&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. People who participate out of interest and learning vision, are bound to enjoy the process more, than people who want to participate in GSoC. &lt;em&gt;&lt;strong&gt;Community provides the context of the program, and without context, the program is mere body without soul.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;being-active-in-the-community&quot;&gt;Being active in the community&lt;&#x2F;h3&gt;
+&lt;p&gt;GSoC requires you to be active in the community you are contributing to. It does not mean that you have to lurk at the mailing lists and communication channel all the time, you can also choose to review the &lt;em&gt;&lt;strong&gt;issues&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, &lt;em&gt;&lt;strong&gt;pull requests&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; and &lt;em&gt;&lt;strong&gt;discuss the proceedings&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; with the contributors, while helping out others to onboard with the process.&lt;&#x2F;p&gt;
+&lt;p&gt;Everyone likes to work with a person, who has been active and involved with the community. It is also beneficial for improving your soft skills such as, &lt;em&gt;&lt;strong&gt;how to ask the right question&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, &lt;em&gt;&lt;strong&gt;how to navigate through common issues&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and &lt;em&gt;&lt;strong&gt;how to be a better contributor&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;This also provides you a first hand experience of working remotely, with minimum physical hinderance, and enabling you to utlise the plethora of online resources.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;having-a-sound-technique&quot;&gt;Having a sound technique&lt;&#x2F;h2&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;swaugh-defence.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Having a sound technique in cricket is of paramount importance!
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Having a strong and dependable technique will help you work on your ideas more, rather than focussing on churning code. GSoC isn&#x27;t supposed to be a program where you churn code, but an event to &lt;em&gt;&lt;strong&gt;develop your software engineering skills, rather than programming skills&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Sure, you should have decent programming skills, because if you don&#x27;t have them, it would become difficult to work with the strengths and weakness of the programming language.&lt;&#x2F;p&gt;
+&lt;p&gt;For instance, Golang has a nice abstraction for &lt;em&gt;&lt;strong&gt;goroutines&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and helps to write concurrrent code much more easily. The same is difficult to write in C++&#x2F;Java, because you need to manage the overhead of using threads. So having a working knowledge of the programming language that you plan to use is important, as it would help you to &lt;em&gt;&lt;strong&gt;demarcate what is possible, and what is not.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Software Designing skills develop, once you spend reading the codebase and the design decisions taken. &lt;em&gt;&lt;strong&gt;Design docs are a great place&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, where they discuss about the different approaches to solve the problem, and choose the one that is practical and feasible. You can develop your taste and understanding about why some components are designed in such a manner. Here is an example for this - &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;thanos.io&#x2F;tip&#x2F;proposals-done&#x2F;&quot;&gt;&lt;em&gt;&lt;strong&gt;https:&#x2F;&#x2F;thanos.io&#x2F;tip&#x2F;proposals-done&#x2F;&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;thanos.io&#x2F;tip&#x2F;proposals-rejected&#x2F;&quot;&gt;&lt;em&gt;&lt;strong&gt;https:&#x2F;&#x2F;thanos.io&#x2F;tip&#x2F;proposals-rejected&#x2F;&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;thanos.io&#x2F;tip&#x2F;proposals-accepted&#x2F;&quot;&gt;&lt;em&gt;&lt;strong&gt;https:&#x2F;&#x2F;thanos.io&#x2F;tip&#x2F;proposals-accepted&#x2F;&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;You eventually need to make a proposal for your GSoC project, so you get an opportunity to think and exercise your software designing skills. The mentors are always happy to help you out with this process, so don&#x27;t be afraid to approach them.&lt;&#x2F;p&gt;
+&lt;p&gt;GSoC provides you with the opportunity to spend your summer develop these skills, as you can use this opportunity to learn from the mentors and online resources. &lt;em&gt;&lt;strong&gt;It is not imperative to have these skills before(because GSoC was designed to help you cultivate these skills!)&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, but you should strive to work and develop the taste eventually.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;choosing-projects-and-organizations&quot;&gt;Choosing projects and organizations&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Choosing organisations is important more than choosing project.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; Unless you are experienced to choose a project, organisations play an important role for learning. &lt;strong&gt;&lt;em&gt;For folks who are participating for the first time, it is important to choose organisations that facilitate mentorship&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;. You are not only commiting to the project, you are also signing up for a work culture which might suit you or not, depending on the goals.&lt;&#x2F;p&gt;
+&lt;p&gt;For example, if you plan to work with Kubernetes as a GSoC organisation, be ready to work on your own with little hand holding. Kubernetes is an advanced organisation where the problems they solve using Open Source requires more idea and experience. Open Astronomy, on other hand, helps onboarding new participants with more mentorship and guidance.&lt;&#x2F;p&gt;
+&lt;p&gt;All these are personal opinions and might be biased, so choose the ones which are beginner friendly, and you would enjoy the journey!&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;There is the balance of choosing an easy project with more competition, and choosing a tough project with less competition. So the choice is yours.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;sprints-are-a-way-to-go&quot;&gt;Sprints are a way to go&lt;&#x2F;h3&gt;
+&lt;p&gt;While this is not scalable, I personally find &lt;a href=&quot;https:&#x2F;&#x2F;www.atlassian.com&#x2F;agile&#x2F;scrum&#x2F;sprints&quot;&gt;sprints&lt;&#x2F;a&gt; &lt;em&gt;&lt;strong&gt;an important tool to develop any skills at start of your program&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. You should choose an issue that you want to solve, and sprint through them to solve it. When you impose a time crunch, you come up with innovative ideas to solve your problem, and &lt;em&gt;&lt;strong&gt;instead of having a sophisticated approach&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, you come up with a &lt;em&gt;&lt;strong&gt;practical and simple approach&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. This makes sure you have a proof of concept to work with, and iterate on the process more.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;proof-of-concepts&quot;&gt;Proof of Concepts&lt;&#x2F;h3&gt;
+&lt;p&gt;Proof of concepts are an effective way to test out your hypothesis. &lt;em&gt;&lt;strong&gt;@thealphadollar&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; has a good account on &lt;a href=&quot;https:&#x2F;&#x2F;thealphadollar.me&#x2F;experience&#x2F;2018&#x2F;12&#x2F;03&#x2F;how-i-prepared-for-gsoc-18.html&quot;&gt;this&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s say you have an approach to solve your problem, and you have designed your approach and different components. You might know which components are tricky to work with, and might not know if the behaviour is supposed to be what you planned to be.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Here is an example of a &lt;a href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;document&#x2F;d&#x2F;1pf94fUtzJTffWLdkHkF4VeeSTpbJuTCJKWAv_-KSFfI&#x2F;edit?usp=sharing&quot;&gt;problem statement&lt;&#x2F;a&gt; and how I came up with a &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;yashrsharma44&#x2F;batch_running_jobs&quot;&gt;solution&lt;&#x2F;a&gt;. This problem was really tricky for me to work with, as I encountered this for applying for a startup in my second year. Although I didn&#x27;t solve it, because I didn&#x27;t had much knowledge to work with. Fortunately, after a year and a half, I finally managed to formulate an approach for it. This was a perfect example for proof of concept, as I had multiple iterations before arriving at the final solution :P&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Proof of concepts are a best way to test out your hypothesis, and make sure your assumptions are correct&#x2F;works in a behaviour that you expect. Often, it is possible that you might not know how a component can be designed using an existing design, which is not known at present. The best way is to design a solution from scratch, and iterate on the process, rather than working on your project with your approach, only to realise that the approach is not feasible.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;getting-selected-or-not&quot;&gt;Getting selected, or not&lt;&#x2F;h3&gt;
+&lt;p&gt;I intentionally kept this at last, because after all this is a possibility, and you should accept it. Rejections can happen from all sort of reasons; &lt;em&gt;&lt;strong&gt;proposal not accepted&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, &lt;em&gt;&lt;strong&gt;organisations pulled out at the last moment&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, &lt;em&gt;&lt;strong&gt;projects removed at last moment due to unavailability of mentors&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and so on. Surprisingly, I have had a first hand experience of all of the events, which happened to my friends and OSS folks, so it&#x27;s pretty realistic.&lt;&#x2F;p&gt;
+&lt;p&gt;The best way is not to take this personally, but rather accept that it&#x27;s a &lt;em&gt;&lt;strong&gt;game of probability&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and &lt;em&gt;&lt;strong&gt;due to mentors having limited slots proposals can be pulled out inspite of sounding brilliant on paper&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Google&#x27;s main aim was to introduce you to the culture of OSS, and you having spend a couple of months, would have still gained a lot.&lt;&#x2F;p&gt;
+&lt;p&gt;Working on with the community is imperative, because it helps you &lt;em&gt;&lt;strong&gt;build your skills&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, and you might get an &lt;em&gt;&lt;strong&gt;opportunity to work with your mentors with another program&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. One of my closest friend was working with Julia, and inspite of having solid contributions and proposal, he still didn&#x27;t get a chance to work. However, because he was quite involved with the community, he got a chance to participate in &lt;a href=&quot;https:&#x2F;&#x2F;fellowship.mlh.io&#x2F;&quot;&gt;&lt;em&gt;&lt;strong&gt;MLH Fellowship&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Your contributions are quite valuable, and you can choose to work on your project if you want to. Open Source contributions are quite valuable, and if you happen to interview for Software Engineering roles later in your career, &lt;em&gt;&lt;strong&gt;those stand out to be the most valuable aspect of your resume&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Senior engineers love open source contributions, as it helps you to transparently judge a candidate with their knowledge and understanding.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Art of frontend</title>
+		<published>2020-12-02T00:00:00+00:00</published>
+		<updated>2020-12-02T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/art-or-science/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/art-or-science/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;mentor_dashboard.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    The final product that I made :p
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;what-i-intend-to-cover&quot;&gt;What I intend to cover?&lt;&#x2F;h2&gt;
+&lt;p&gt;This post is aimed at mastering the skills using HTML and CSS. While this might sound vanilla&#x2F;boring with today&#x27;s tech stack support, believe mastering plain old HTML&#x2F;CSS is the way to go for building your skills for frontend.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-i-started-with-frontend&quot;&gt;How I started with Frontend&lt;&#x2F;h2&gt;
+&lt;p&gt;To start with, I didn&#x27;t have any inherent motivation for frontend to be honest 😅. I am a part of a college club where we conduct a winter long open source contribution program for new contributors. We had already completed our backend work, while a lot was pending for frontend. We had lot of volunteers for backend and stats-api( yes we made a server endpoint for managing data flow XD), but quite a few for frontend.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Shoutout to rakaar, sahil and ananya for sticking to frontend team 😂!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I was quite determined to make sure that the work is completed, because last year we had a lot of hiccups, and had a tough time managing the logistics. We had ample of time, and some volunteering would certainly help.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;This was the motivation for me to get started with basics and start contributing with small tasks.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;tips-for-starting-with-frontend&quot;&gt;Tips for starting with frontend&lt;&#x2F;h1&gt;
+&lt;p&gt;I have curated 5 tips for starting with frontend development. I am not covering the use case of React and other popular frontend frameworks. I intend to cover the mastery&#x2F;proficiency of basic HTML&#x2F;CSS, before moving forward to anything.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;start-slowly-start-simply&quot;&gt;Start slowly, start simply&lt;&#x2F;h2&gt;
+&lt;p&gt;I started with around in October, and I managed to complete the final iteration after 2 months. It is difficult to start with a new thing, get used to with the defaults. I was strugling to wrap my mind with options for flex-box in css, trying to make sense which change affects what.&lt;&#x2F;p&gt;
+&lt;p&gt;The trick is to slow down, and in fact give yourself some time to come up with the idea. It is totally okay to not get the idea in the first instance, and sometimes you can try out playing with it, to get an idea of how to customise the idea.&lt;&#x2F;p&gt;
+&lt;p&gt;For me, I started focussing on the simplest idea possible which I understood and started building from it. I started thinking about the divs to break down the page into multiple parts. Doodling also helps in designing the structure.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;work-in-iterations&quot;&gt;Work in iterations&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;You don&#x27;t land up with the perfect result; you arrive at it.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;For me, I had made around 3 iterations before making the final product. The first one was quite a simple one, and looked fair. It wasn&#x27;t an eye catching one, simple as possible, more like the skeleton structure.&lt;&#x2F;p&gt;
+&lt;p&gt;The second last iteration was quite good. We had a figma design(will talk about it in next part) and it was quite easy to make the structure of the website. Once you have a convincible blue-print, it is easy to follow it.&lt;&#x2F;p&gt;
+&lt;p&gt;By now, I had become familiar with a lot of features of HTML&#x2F;CSS to help me out. &lt;em&gt;I totally understood how to convert the figure into reality!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;mentor_dashboard_2.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    2nd or 2nd last?
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;This looked pretty cool, except it was quite plain :3&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;if-you-have-good-visualization-use-figma&quot;&gt;If you have good visualization, use figma&lt;&#x2F;h2&gt;
+&lt;p&gt;In case you have good visualization, you can use some digital tools such Adobe Illustrator. Those are proprietary software, so you can use &lt;a href=&quot;https:&#x2F;&#x2F;www.figma.com&#x2F;&quot;&gt;figma&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;I personally found figma quite useful, although I still have to master it to create some good UIs. It is not a mandatory ask, you can still use your trusted browser to create some dummy pages before you make the perfect one.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;learn-it-as-you-go&quot;&gt;Learn it as you go&lt;&#x2F;h2&gt;
+&lt;p&gt;This is one of the underrated advice I have ever seen. Most people get bogged down with the idea of mastering a new habit, and often the details stalls you from getting the actual work done.&lt;&#x2F;p&gt;
+&lt;p&gt;Fortunately for Software Engineering, most of the beginner level skills can be learnt easily with online resources and blog posts. I started with the basics of HTML, such as div tag(most useful one!), p tags, a tags and so on.&lt;&#x2F;p&gt;
+&lt;p&gt;For custom buttons, I didn&#x27;t knew how to make one. With some googling and experimentation, I learnt the way to go about it. I learnt the concepts of flex-box, when I required all the data-cards should be stacked row wise, with some spacing. Flex-box was made for this, and I can&#x27;t stress how important is flex-box!&lt;&#x2F;p&gt;
+&lt;p&gt;Start learning new things when you require. While making the version 0, you don&#x27;t need to know everthing.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Your mind knows the things, you need to know when you start small.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Learn more features when you require them, until then delay learning them.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;asking-for-help-having-fun&quot;&gt;Asking for help, having fun&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;em&gt;Final piece of learning, ask for help and have fun!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I asked for help whenever I got stuck. My college mate (xypnox) helped me get unstuck a lot of time, so have a buddy with whom you can brainstorm. It can be learning buddy with whom you are working, or you could ask for help in twitter(peeps here are quite responsive!)&lt;&#x2F;p&gt;
+&lt;p&gt;Finally, have fun. I stopped working when I got exhausted. I took a break when it was required, because it provides much required energy, and you arrive back fresh and energetic for the task!&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Frontend designing is quite different from engineering. It seemed for me as an art, where everything is appreciable in it&#x27;s own terms, while engineering has made it easy to qualify the solutions great or not.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;art_or_science.jpeg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Mandatory pic XD
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Once you have this idea in mind, you would appreciate the amount of work that you put in learning them.&lt;&#x2F;p&gt;
+&lt;p&gt;Until then, Adios!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Setting up a new blog</title>
+		<published>2020-10-23T00:00:00+00:00</published>
+		<updated>2020-10-23T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/one-new-blog/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/one-new-blog/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;xypnox-logo.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    All Hail Xypnox for the theme!
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;migrating-to-another-blog&quot;&gt;Migrating to another Blog&lt;&#x2F;h2&gt;
+&lt;p&gt;For months, I have been planning to shift my blog to a new setup. My previous blog was taken from hugo, which
+was functional, but at the same time, it was pretty difficult in managing the UI. I had some ideas for formatting
+the blog with some personal touch, but hugo seemed too complex for me to understand. I predominantly don&#x27;t spend
+much time playing with Frontend, so it was difficult for me to work with a complex setup.&lt;&#x2F;p&gt;
+&lt;p&gt;Another reason for me was that, I was smitten by the UI of the blog my fellow friend used - &lt;a href=&quot;https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&quot;&gt;&lt;strong&gt;&lt;em&gt;xypnox&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;. I wanted to try out, so I caught up with him and I started porting my blog using his theme. The blog uses &lt;strong&gt;&lt;code&gt;Zola&lt;&#x2F;code&gt;&lt;&#x2F;strong&gt; as the static site generator. It is written in &lt;em&gt;&lt;strong&gt;Rust&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;, so its really fast. The best part I found, was
+its minimal setup for using it, with minimal fuss. Considering my usecase, this sounded really good - no more complex file structure to decrypt, and users can add in their own functionality without breaking things.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyone who wants a detailed review of using the current setup can checkout &lt;em&gt;&lt;strong&gt;xypnox&lt;&#x2F;strong&gt;&#x27;s&lt;&#x2F;em&gt; blog-post - &lt;a href=&quot;https:&#x2F;&#x2F;www.xypnox.com&#x2F;blag&#x2F;posts&#x2F;migrating-to-zola&#x2F;&quot;&gt;link&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;installing-it-as-a-github-page&quot;&gt;Installing it as a github page&lt;&#x2F;h2&gt;
+&lt;p&gt;You would see that I use the domain &lt;code&gt;github.io&lt;&#x2F;code&gt; for hosting my blog page. GitHub provides free hosting of a static page
+in a single domain. The URL that is alloted is along the lines - &lt;code&gt;https:&#x2F;&#x2F;&amp;lt;github_id&amp;gt;.github.io&lt;&#x2F;code&gt;. It is quite easy to set up the codebase for the static webpage, and once you commit your changes, those get reflected automatically.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GitHub&lt;&#x2F;strong&gt; provides &lt;code&gt;jekyll&lt;&#x2F;code&gt; support out of the box, so any static setup written in jekyll would be natively supported. For &lt;code&gt;Zola&lt;&#x2F;code&gt;, I used &lt;em&gt;&lt;strong&gt;GitHub Actions&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; for pushing out changes live as I commited. Zola has documented out the steps quite well, so you can have a look - &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;deployment&#x2F;github-pages&#x2F;#github-actions&quot;&gt;link&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In case you are migrating from &lt;code&gt;jekyll&lt;&#x2F;code&gt;, you might encounter an error -&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;one-new-blog&#x2F;jekyll-issue.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I managed to solve this using this issue from this &lt;a href=&quot;https:&#x2F;&#x2F;github.community&#x2F;t&#x2F;how-to-disable-jekyll-build&#x2F;10981&quot;&gt;blog&lt;&#x2F;a&gt;. Basically create a &lt;code&gt;.nojekyll&lt;&#x2F;code&gt; file in the root, and the rest is taken care.&lt;&#x2F;p&gt;
+&lt;p&gt;Another issue that I encountered was that &lt;code&gt;Zola&lt;&#x2F;code&gt; wasn&#x27;t able to find an empty &lt;code&gt;sass&lt;&#x2F;code&gt; folder which was supposed to be
+there -&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#212121;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#eeffff;&quot;&gt;Error: Can&lt;&#x2F;span&gt;&lt;span style=&quot;color:#89ddff;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c3e88d;&quot;&gt;t watch `sass` for changes in folder `&#x2F;home&#x2F;yash&#x2F;blog`. Do you have correct permissions?
+Reason: entity not found
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Apparently, GitHub doesn&#x27;t commit empty directories - &lt;a href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;26079618&#x2F;why-cant-i-commit-an-empty-folder-in-git&quot;&gt;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;26079618&#x2F;why-cant-i-commit-an-empty-folder-in-git&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;So I created a &lt;code&gt;sass&lt;&#x2F;code&gt; folder in the root, and the &lt;code&gt;Zola&lt;&#x2F;code&gt; was up and running.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;other-changes-that-i-made&quot;&gt;Other changes that I made&lt;&#x2F;h2&gt;
+&lt;p&gt;I also changed the background color to &lt;code&gt;#E8F2F7&lt;&#x2F;code&gt;. It has a nice warm shade which was a change from the author&#x27;s background color. I also added a social media link at the bottom of the page, which was quite easy to populate. The Dark Mode is an absolute beast, so I didn&#x27;t tinker with the setup; looks cooler that way.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;I setup the blog in around an hour and 20 minutes for setting up the GitHub Actions. This is quite great, as the structure of the website is clean and minimal, much like the theme. It does have it&#x27;s shortcomings - I had to populate the disqus links which was hardcoded deep inside the template; would love to have it configured throught &lt;code&gt;toml&lt;&#x2F;code&gt; settings. Since its quite an early version of the theme, all these can be worked upon, because it is an Open Source project!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>The story behind my alias</title>
+		<published>2020-10-23T00:00:00+00:00</published>
+		<updated>2020-10-23T00:00:00+00:00</updated>
+		<link href="https://yashrsharma44.github.io/to-be-or-not-to-be/" type="text/html"/>
+		<id>https://yashrsharma44.github.io/to-be-or-not-to-be/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;rs_wallpaper.jpg&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Source of Inspiration? Hell yeah!
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;when-i-started-with-cricket&quot;&gt;When I started with Cricket&lt;&#x2F;h2&gt;
+&lt;p&gt;Cricket as a sport is quite famous in India. It is treated next to religion, so you can anticipate the amount
+of craze and fan-following that it generates.&lt;&#x2F;p&gt;
+&lt;p&gt;Right from my childhood, I wasn&#x27;t into Cricket - yeah you read it right. I was one of the kids who kind of didn&#x27;t
+like Cricket, or any sports for that matter. The idea of just watching few people play a game which didn&#x27;t seem as
+dynamic as likes of Football, seemed quite boring to me. Or was it?&lt;&#x2F;p&gt;
+&lt;p&gt;I watched my first match out of interest, and that was the Cricket World Cup of 2011. It was all hyped up - India was
+playing it&#x27;s first final since the 2007 World T20. This was also hailed as the last world cup for Sachin Tendulkar, so
+it did seem to be a big deal!&lt;&#x2F;p&gt;
+&lt;p&gt;I conciously started watching the game from the 2nd innings, when India came out to bat. The start was quite a nail-biter - Sehwag was out in the first over - Sachin got out cheaply - Virat Kohli &lt;em&gt;the man in form&lt;&#x2F;em&gt; was out early too. It seemed like Sri Lanka would snatch the world cup from the hosts. However, the amount of resistence showed by the lower order, was really commendable, and for the first time &lt;em&gt;relatable&lt;&#x2F;em&gt;. Everyone loves an underdog story, and this was one such of its kind.&lt;&#x2F;p&gt;
+&lt;p&gt;This was how I started to love Cricket, and get involved into it so much!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fanboy-moment&quot;&gt;Fanboy moment&lt;&#x2F;h2&gt;
+&lt;p&gt;I was kind of addicted to Cricket, and one of the aspects that attracted me to it, was the underdog concept and how players who grind it out ultimately reap their rewards. One such example was Rohit Sharma, the middle order batsman.
+I didn&#x27;t had the background story about him, as to how he was the most talented batsman among his peers, and how he wasn&#x27;t able to make it big.&lt;&#x2F;p&gt;
+&lt;p&gt;Still watching his cricketing shots and his rescue act - consolidating the innings after India loses the top-order wickets, and his pure elegance and class, was something to be cherished. I kind of related with him, as I often found myself on the wrong side even after giving my best. His cricketing brain was still not great, as he kept finding ways
+to disappoint himself. It actually took him 3 more years before he finally started to convert his starts into big innings.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;where-did-the-alias-came-into-the-picture&quot;&gt;Where did the alias came into the picture?&lt;&#x2F;h2&gt;
+&lt;p&gt;There was one such innings which was quite memorable for me. This was the ODI series of India-Australia of the year 2013. It was one of the matches where Rohit Sharma got his century. Even though he had scored a century earlier, but that was in 2007, and a century was kind of due.&lt;&#x2F;p&gt;
+&lt;p&gt;India was chasing 350+, and it required a humongous effort to chase that down. India managed to chase the score, and one of the architects was him to build the innings. It was quite a emotional match for him, as it provided him the closure for competing with him, rather than worrying about others. I was (and still am) nostalgic about the joy of scoring that hundred. This was also the day, his shirt number was 44.&lt;&#x2F;p&gt;
+&lt;p&gt;This along with the initials motivated me to come up with an alias -&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;yash&lt;&#x2F;strong&gt; &lt;em&gt;R&lt;&#x2F;em&gt; &lt;strong&gt;sharma&lt;&#x2F;strong&gt; 44&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I guess the combination sounds cringy, but trust me when I came up with that intials, I found it quite mesmerising and
+symbolic of the fact - &lt;em&gt;grit and determination overpowers anything&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;I came up with my alias during my freshman year, and I still back up my choice for that alias even after 3 years!&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+</content>
+	</entry>
+</feed>

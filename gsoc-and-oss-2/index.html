@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta
+        content="text/html; charset=utf-8" http-equiv="content-type"/> <!-- Enable responsiveness on mobile devices-->
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport"/>
+        <title>
+            
+    Yash Sharma - Making GSoC a valuable experience
+
+        </title>
+        <link href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;favicon.ico" rel="icon" type="image/x-icon"/>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        
+            <link rel="alternate" type= "application/atom+xml"  title="RSS" href="https://yashrsharma44.github.io/atom.xml"/>
+        
+        
+        
+    <meta content="website" property="og:type"/>
+    <meta content="Yash Sharma" property="og:site_name"/>
+    <meta content="https://yashrsharma44.github.io/gsoc-and-oss-2/" property="og:url"/>
+    <meta content="https://yashrsharma44.github.io/gsoc-and-oss-2/" property="twitter:url"/>
+    
+        <meta content="Making GSoC a valuable experience" property="og:title"/>
+        <meta content="Making GSoC a valuable experience" property="twitter:title"/>
+    
+    
+        <meta content="My 2 cents on making GSoC a memorable and successful experience" property="description"/>
+        <meta content="My 2 cents on making GSoC a memorable and successful experience" property="og:description"/>
+        <meta content="My 2 cents on making GSoC a memorable and successful experience" property="twitter:description"/>
+    
+    
+        <meta content="summary_large_image" property="twitter:card"/>
+        <meta content="https://yashrsharma44.github.io/images/cover.png" property="og:image"/>
+        <meta content="https://yashrsharma44.github.io/images/cover.png" property="twitter:image"/>
+    
+
+        
+        
+            <script src="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;slideout.min.js" type="text/javascript"></script>
+            
+        
+        
+            <link href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;site.css" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"/>
+            <link charset="utf-8" href="https://indestructibletype.com/fonts/Jost.css" rel="stylesheet" type="text/css"/>
+            
+        
+        
+    </head>
+    <body>
+        <script>
+            (function initTheme() {
+                let body = document.getElementsByTagName("body")[0];
+                if (window.localStorage.getItem("theme") !== null) {
+                    if (window.localStorage.getItem("theme") === "dark") {
+                        body.setAttribute("data-theme", "dark");
+                    } else {
+                        body.setAttribute("data-theme", "light");
+                    }
+                } else {
+                    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                        body.setAttribute("data-theme", "dark");
+                    }
+                }
+            })();
+        </script>
+        <div class="container">
+            <div class="mobile-navbar" id="mobile-navbar">
+                <div class="mobile-header-logo">
+                    <a class="logo" href="https:&#x2F;&#x2F;yashrsharma44.github.io">Yash Sharma</a>
+                </div>
+                <div class="mobile-navbar-icon icon-out">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <nav class="mobile-menu slideout-menu slideout-menu-left" id="mobile-menu">
+                <ul class="mobile-menu-list">
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;">
+                                Blog
+                            </a>
+                        </li>
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;upcoming">
+                                Upcoming Posts
+                            </a>
+                        </li>
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;about">
+                                About
+                            </a>
+                        </li>
+                    
+                        <li class="mobile-menu-item">
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;notes">
+                                Notes
+                            </a>
+                        </li>
+                    
+                    <li class="mobile-menu-item">
+                        <div class="theme-switcher">
+                            
+    <div class="theme-button" onClick="toggleTheme()">
+        <label for="cb1">
+            <svg
+                id="dayIcon"
+                style="enable-background:new 0 0 35 35;"
+                version="1.1"
+                viewBox="0 0 35 35"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <g id="Sun">
+                    <g>
+                        <path
+                            d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5 S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z
+                                M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5
+                                C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6
+                                C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9
+                                c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44
+                                l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5
+                                c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06 L6.439,8.561z
+                                M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z
+                                M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2
+                                C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29
+                                c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7
+                                C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5
+                                c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"
+                            style="fill-rule:evenodd;clip-rule:evenodd;"/>
+                    </g>
+                </g>
+            </svg>
+        </label>
+        <input class="toggle" id="cb1" onClick="toggleTheme()" type="checkbox"/>
+        <label class="toggle-button" for="cb1"></label>
+        <label for="cb1">
+            <svg
+                enable-background="new 0 0 100 100"
+                id="nightIcon"
+                version="1.1"
+                viewBox="0 0 100 100"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571
+                C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23
+                c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369
+                c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65 c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"/>
+            </svg>
+        </label>
+    </div>
+
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            
+                
+    <header id="header">
+        <div class="logo">
+            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io">Yash Sharma</a>
+        </div>
+        
+    <nav class="menu">
+        <ul>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;">
+                        Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;upcoming">
+                        Upcoming Posts
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;about">
+                        About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;notes">
+                        Notes
+                    </a>
+                </li>
+            
+            <div class="theme-switcher">
+                
+    <div class="theme-button" onClick="toggleTheme()">
+        <label for="cb1">
+            <svg
+                id="dayIcon"
+                style="enable-background:new 0 0 35 35;"
+                version="1.1"
+                viewBox="0 0 35 35"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <g id="Sun">
+                    <g>
+                        <path
+                            d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5 S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z
+                                M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5
+                                C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6
+                                C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9
+                                c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44
+                                l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5
+                                c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06 L6.439,8.561z
+                                M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z
+                                M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2
+                                C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29
+                                c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7
+                                C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5
+                                c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"
+                            style="fill-rule:evenodd;clip-rule:evenodd;"/>
+                    </g>
+                </g>
+            </svg>
+        </label>
+        <input class="toggle" id="cb1" onClick="toggleTheme()" type="checkbox"/>
+        <label class="toggle-button" for="cb1"></label>
+        <label for="cb1">
+            <svg
+                enable-background="new 0 0 100 100"
+                id="nightIcon"
+                version="1.1"
+                viewBox="0 0 100 100"
+                x="0px"
+                xml:space="preserve"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0px">
+                <path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571
+                C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23
+                c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369
+                c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65 c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"/>
+            </svg>
+        </label>
+    </div>
+
+            </div>
+        </ul>
+    </nav>
+
+    </header>
+
+            
+            <main>
+                <div class="content" id="mobile-panel"> 
+    
+        <div class="post-toc" id="post-toc">
+            <div class="toc-wrapper">
+                <h2 class="post-toc-title">Contents</h2>
+                <div class="post-toc-content always-active">
+                    <nav id="TableOfContents">
+                        <ul>
+                            
+                                <li>
+                                    <a class="toc-link" href="https://yashrsharma44.github.io/gsoc-and-oss-2/#what-i-intend-to-cover">What I intend to cover?</a>
+                                    
+                                        <ul>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://yashrsharma44.github.io/gsoc-and-oss-2/#leveraging-the-opportunity">Leveraging the opportunity</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://yashrsharma44.github.io/gsoc-and-oss-2/#blogging-and-communicating-with-your-mentor">Blogging and communicating with your mentor</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://yashrsharma44.github.io/gsoc-and-oss-2/#pr-reviews-an-opportunity-for-learning">PR Reviews: An opportunity for learning</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://yashrsharma44.github.io/gsoc-and-oss-2/#tests-and-docs-are-equally-important">Tests and Docs are equally important!</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://yashrsharma44.github.io/gsoc-and-oss-2/#evals-are-scary-but-make-sure-both-of-you-agree-on-a-milestone">Evals are scary, but make sure both of you agree on a milestone</a>
+                                                </li>
+                                            
+                                        </ul>
+                                    
+                                </li>
+                            
+                                <li>
+                                    <a class="toc-link" href="https://yashrsharma44.github.io/gsoc-and-oss-2/#journey-after-google-summer-of-code">Journey after Google Summer of Code</a>
+                                    
+                                        <ul>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://yashrsharma44.github.io/gsoc-and-oss-2/#my-personal-take">My Personal take</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://yashrsharma44.github.io/gsoc-and-oss-2/#passing-the-baton">Passing the baton</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="toc-link" href="https://yashrsharma44.github.io/gsoc-and-oss-2/#open-source-is-not-a-destination-it-is-a-way-of-life">Open Source is not a destination: It is a way of life</a>
+                                                </li>
+                                            
+                                        </ul>
+                                    
+                                </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    
+    <article class="post">
+        
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;gsoc-and-oss-2&#x2F;">Making GSoC a valuable experience</a>
+        </h1>
+        <div class="post__meta">
+        <span>My 2 cents on making GSoC a memorable and successful experience</span>
+        </br>
+            <span class="post__time">2021-07-17</span>
+            
+                <div class="post__category">
+                    
+                        <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;categories&#x2F;tech&#x2F;">tech</a>
+                    
+                </div>
+            
+        </div>
+    </header>
+
+        <div class="post-content">
+            <div class="cover-image">
+  <img src="contri.png"/>
+  <p class="desc">
+    Big feature is awaited!
+  </p>
+</div>
+<h2 id="what-i-intend-to-cover">What I intend to cover?</h2>
+<p>This blog is a second part to <a href="/gsoc-and-oss">this</a>. I intend to cover <em><strong>key takeaways from the Google Summer of Code program</strong></em>, so if you are selected as a GSoC student, read ahead!</p>
+<h3 id="leveraging-the-opportunity">Leveraging the opportunity</h3>
+<p>Google Summer of Code is quite a valuable opportunity to develop your skills for Software Engineering and OSS. Use this opportunity <em><strong>wisely</strong></em> and <em><strong>judiciously</strong></em>, to get the best out of this program.</p>
+<p><strong>Wisely</strong>, because you are getting an opportunity to work on a project which has the potential to be used by millions of people. Imagine the joy and responsibility you would have, while developing a feature for Numpy and Matplotlib.</p>
+<p><strong>Judiciously</strong>, because your mentors are an invaluable asset for you over the next few months, and <em>if you network well, help you out with getting your career kickstarted</em>. You should try to solve your issues which are easily google-able, while you should save time for <strong>high level discussions</strong> and <strong>complex bugs</strong>. Time is a limited asset, so make sure you save time as and when you can, and allow yourself with some backup of time, in case a feature development takes more time than expected. Similar thing happened with me as well, and since I had saved some time, I was able to cover up for the lost time.</p>
+<h3 id="blogging-and-communicating-with-your-mentor">Blogging and communicating with your mentor</h3>
+<p><em><strong>Blogging and communication</strong></em> is the key to GSoC. Having good communication setup and weekly meetings are imperative to keep the mentors updated with your work.</p>
+<p>Clear cut communication and asking for clarifications is important, helps you in understanding the expectations and approach which your mentor might have for your project. Your mentor knows the possible hurdles that you might not encounter, so having clear ideas and clarification helps you in enlisting and keeping the issues at bay.</p>
+<p><strong>Blogging</strong> helps you to document out the progress you have had for the week. It is not possible(<em>nor it is suggested!</em>) to keep an <em><strong>eye/micro-manage</strong></em> every work that you do, so make sure you <em><strong>blog your progress</strong></em> and what kind of concrete progress you have achieved for the week. It also <em><strong>helps you and your mentor to assess the progress</strong></em> of your work, so changes with the timeline and end goals can be adjusted.</p>
+<h3 id="pr-reviews-an-opportunity-for-learning">PR Reviews: An opportunity for learning</h3>
+<p>Pull requests are an important aspect of GSoC. You can have the best code written for the project, but if you haven't passed the PR Reviews, chances are that your patch isn't suitable to be merged.</p>
+<p><strong>PR Reviews</strong> might sound a bit intimidating(and it is for a certain extent), so make sure you break up your project into <em><strong>multiple parts</strong></em>, and <em><strong>push your PR as early as possible</strong></em> for review. It is natural to have <a href="https://medium.com/@yashrsharma44/pull-requests-merged-in-for-gsoc19-ndcube-95a9fd15c8b6">15-20</a>(<em>don't quote me on this, can vary as you agree with your mentor</em>) PRs, helps you in managing your logistics and getting ahead with the PR reviews.</p>
+<p>The communications can get ahead for a <strong>100 conversations</strong>, so the key is to keep the <em><strong>changes small and decoupled</strong></em>. This helps in getting more faster reviews, and the changes associated with it is gradual, rather than pushing a <strong>1000+</strong> line PR, which is quite clunky and tougher to get this merged.</p>
+<p>Another important aspect of making PRs, is that <em><strong>don't get blocked on one PR</strong></em>! Have <strong>2-3</strong> ideas that you would want to work on them <em><strong>parallely</strong></em>, so you can wait on one PR to get merged, while you spend some time on another PR. <em>This is another reason, to break a bigger PR into small chunks, much easier to review and get it merged.</em> Also provides you with some time to parallelize you work.</p>
+<h3 id="tests-and-docs-are-equally-important">Tests and Docs are equally important!</h3>
+<p>Software Engineering follows the mantra -</p>
+<blockquote>
+<p>Code, Test and Docs</p>
+</blockquote>
+<p>Documentation can be written when the feature is ready, but tests should be written gradually as you develop a feature. <em><strong>Test Driven Development</strong></em> is something, you can have a look, but I mostly found to write the code and then test it up later, much convenient.</p>
+<p><em><strong>TDD</strong></em> is something you can undertake for a <em><strong>small package/module</strong></em>, and it is generally a full-proof development process, because you already define the contract of the black-box(in this case, your package), and the inherent logic should satisfy the contract.</p>
+<h3 id="evals-are-scary-but-make-sure-both-of-you-agree-on-a-milestone">Evals are scary, but make sure both of you agree on a milestone</h3>
+<p>Google Summer of Code has two evaluations as of 2020, Mid Term Evaluations and End Term Evaluations. This Blog Post was out after the first evaluations, so you might have got an idea about how evaluations work. The project is assessed with the kind of work done, and how much progress we have had. Mentors write out some suggestions and remarks about the work done uptil now.</p>
+<p>It is imperative to <em><strong>understand and clarify the suggestions</strong></em> that has been made by the mentor during Mid Term Evaluations. It can happen that the mentor and the student might not be on the same page about the progress, so having a <em><strong>1:1 talk with them is really crucial</strong></em>.</p>
+<p>Having an objective goal for each evaluations is really important, as it helps out in mapping out the expectations as time progresses. <a href="https://github.com/sunpy/sunpy/wiki/GSoC-2019-Yash-Sharma">In my project</a>, I wrote up clear cut features that I intend to achieve before the evals, so being explicit in the metrics you choose to measure the progress of your project is helpful.</p>
+<h2 id="journey-after-google-summer-of-code">Journey after Google Summer of Code</h2>
+<p>The journey after GSoC is <em><strong>quite variable, as you want to lead up to</strong></em>. You are the captain of you own ship, so you are free to utilise the opportunities.</p>
+<p>You can use the learnings that you gathered during the summer, and keep working on the project/community in your free time. As mentioned before, OSS is a voluntary experience, and you can work on your free time if you wish.</p>
+<p>Many people choose the opportunity to work with the community, while some wish to experiment with other groups. Feel free to utilise the learning and apply it into a field of interest.</p>
+<h3 id="my-personal-take">My Personal take</h3>
+<p>Personally, I found that the time spent after the project is important, if you want to explore an <em><strong>internship opportunity/full time opportunity</strong></em>. Many of the mentors, for instance might be software engineers/research engineers, who have been involved with your work. They are certainly able to vouch for your work, and refer you to any position of interest.</p>
+<p>That does not mean that you cannot leverage your opportunity outside this. You can apply to different companies, and since your work is Open Sourced, people can see the work done and get an idea about your strengths.</p>
+<blockquote>
+<p>For me, I didn't leverage this much after my GSoC, because I wanted to pursue Software Engineering, and astrophysics - as much awesome as it sounds, didn't match my aspirations. In my 3rd year, I went ahead to take part in LFX Mentorship, and this time, I did leverage my networking and receive an internship opportunity. I had already taken part in my campus internship drive, so I had to decline the interview opportunity, but all in all, I still spend time with my new organisation.</p>
+</blockquote>
+<p>Another reason, why you would spend time with an organisation, is the <em><strong>work</strong></em>. Yes, if you really like the work, there is no reason to stop contributing. <em><strong>Getting a good fit with a team, where you like the work and the people</strong></em>, is the best possible scenario you can have, to pursue your interests.</p>
+<blockquote>
+<p>Let's say you want to explore Observability and Monitoring, and want to know how the software was written, and works in production, then you wouldn't want to stop working with them. This is one of the reasons, why people stick through after completing GSoC, and if you are interested in pursuing your interests, it makes sense to work with organisations.</p>
+</blockquote>
+<h3 id="passing-the-baton">Passing the baton</h3>
+<p>It is important to pass the baton to the juniors and people who need to be <em><strong>enlightened by this lifestyle of Software Engineering</strong></em>. You must have got an end-to-end idea of how to get started with OSS; now it is time for you to share the idea and wisdom to someone, who would benefit.</p>
+<p>Note that, <em><strong>don't get too attached with the notion of GSoC and other OSS programs</strong></em>, it's totally fine, if you don't get through. I had talked about this aspect briefly in my <a href="/gsoc-and-oss#getting-selected-or-not">previous blog</a>.</p>
+<h3 id="open-source-is-not-a-destination-it-is-a-way-of-life">Open Source is not a destination: It is a way of life</h3>
+<p><em><strong>Open Source is one of influential movements and lifestyle for Software Engineering</strong></em>. Being connected to Open Source, is like being connected to roots. <em>You don't get harmed if you don't, but you miss out on a lot of opportunity.</em></p>
+<p>Open Source has revolutionized the way, <em><strong>software is developed and consumed</strong></em>, and <em><strong>proprietary software, unless backed by Big Tech Companies</strong></em>, cannot be vouched for. I mean, no one would vouch for a software, whose source code is closed source. You need confidence on the software, and only way is to see the source code.</p>
+<p><em><strong>Numerous startups have come up with the Open Sourcing their code</strong></em>. The main priority for an early stage startup, <em><strong>is not to protect their idea</strong></em>, but to make the community familiar with their idea that they are selling, and one way to <em><strong>vouch the reputation and dependability</strong></em>, is to Open Source their code and create a community around it. </p>
+<blockquote>
+<p>21st century is a great time to be in Open Source, and whatever field/career you pursue later, Open Source experience will certainly help you in understanding the current model of Software Engineering and its related fields, it impacts.</p>
+</blockquote>
+
+        </div>
+        
+        <div class="post-footer">
+            
+                
+                    <div class="post-tags">
+                        
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;tags&#x2F;gsoc&#x2F;">
+                                <span class="hashtag">#</span>
+                                gsoc</a>
+                        
+                            <a href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;tags&#x2F;oss&#x2F;">
+                                <span class="hashtag">#</span>
+                                oss</a>
+                        
+                    </div>
+                
+                
+                    <div class="post-nav">
+                        
+                            <a class="previous" href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;raft-consensus-1&#x2F;">‹ Learning about Consensus Algorithms</a>
+                        
+                        
+                            <a class="next" href="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;profiling-1&#x2F;">Profiling: 4th aspect of Observability? ›</a>
+                        
+                        
+                        
+                    </div>
+                
+                
+    <h1>Comments</h1>
+    <div id="disqus_thread"></div>
+    <script src="https://utteranc.es/client.js"
+        repo="yashrsharma44/yashrsharma44.github.io"
+        issue-term="pathname"
+        theme="boxy-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+            
+        </div>
+        
+    </article>
+
+                    
+                        <footer>
+                            <div class="copyright">
+                                <a href="#">yashrsharma44</a> |
+                                <a href="https://github.com/yashrsharma44"><i class="fab fa-github"></i></a>
+                                <a href="https://twitter.com/yashrsharma44"><i class="fab fa-twitter"></i></a>
+                            </div>
+                            <div class="made-with">
+                                Made with
+                                <a href="https://www.getzola.org/" rel="noopener noreferrer" target="_blank">Zola</a>,
+                                <a href="https://github.com/xypnox/blag/tree/master/themes/xyblag" rel="noopener noreferrer" target="_blank">Theme</a>
+                                by
+                                <a href="https://www.xypnox.com/" rel="noopener noreferrer" target="_blank">xypnox</a>.
+                            </div>
+                        </footer>
+                    
+                </div>
+            </main>
+        </div>
+        
+            <script src="https:&#x2F;&#x2F;yashrsharma44.github.io&#x2F;main.js" type="text/javascript"></script>
+        
+    </body>
+</html>
