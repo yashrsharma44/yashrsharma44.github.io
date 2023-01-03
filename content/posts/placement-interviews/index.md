@@ -24,7 +24,7 @@ It is important to make sure, that you have the clarity of what sort of career t
 
 Once you have a list of prospective roles/career paths that you would want to pursue, it is better to persist with the decisions/challenges for preparing for the interviews and all the nuances involved before getting that career.
 
-For example, I had been actively involved with Software Engineering, and have been churning out code while contributing to OSS or working with a startup. The very exercise had made me very sure about my decision to pursue SWE as a career. One of the nuances that came with pursuing SWE, were the dreadful Algorithms and Data Structures interview. While the course itself is a fundamental aspect of Software Engineering, the standard of problems used in the interviews and the expectation from the candidates about the knowledge and problem solving skills, has rised to such a level, that it often deviates from the day to day application.
+For example, I had been actively involved with Software Engineering, and have been churning out code while contributing to OSS or working with a startup. This very exercise had made me very sure about my decision to pursue SWE as a career. One of the nuances that came with pursuing SWE, were the dreadful Algorithms and Data Structures interview. While the course itself is a fundamental aspect of Software Engineering, the standard of problems used in the interviews and the expectation from the candidates about the knowledge and problem solving skills, has risen to such a level, that it often deviates from the day to day application.
 
 We certainly don't require [Inverting a Binary Tree](https://leetcode.com/problems/invert-binary-tree/) in the real job(unless your role is an Algorithmic Specialist xD), but the standard of problems require any applicants(including me) to me well versed with the game. So I had to gulp down my reservations about interviewing process, and prepare for the game. You would only be able to sustain the effort and passion, if you are passionnate/developed a likeliness towards the career that you would want to pursue.
 
@@ -43,7 +43,7 @@ Personally, I didn't feel much comfortable in applying for those roles, as I fou
 
 ## Preparing your knowledge base about the subject matter
 
-It is important to stand out from the crowd; nowadays, people prepare for the SWE roles, with little to almost no context about the job that they are planning to pursue. It is important to have prior knowledge about the roles, especially what is expected. This helps you to weed out roles, which you don't want to pursue. 0
+It is important to stand out from the crowd; nowadays, people prepare for the SWE roles, with little to almost no context about the job that they are planning to pursue. It is important to have prior knowledge about the roles, especially what is expected. This helps you to weed out roles, which you don't want to pursue. 
 
 Having a good understanding of the technological stack and field of domain, already makes you stand out from your competitors. For example, while applying for roles which has algorithmic coding involved, it is important to showcase your skills and experience which highlights your prowess in that. Having a good Codeforces rating, or participation in ICPC, would certainly speak a lot about your calibre about Algorithmic thinking. It also helps the interviewers calibrate their interview according to your skills, and make sure they ask problems relevant to your experience.
 
@@ -107,7 +107,7 @@ My understanding of [generators](https://wiki.python.org/moin/Generators) in Pyt
 
 I was asked about basics of Python, and he was also happy with my understanding of [GIL](https://wiki.python.org/moin/GlobalInterpreterLock) which few people had been able to explain it convincingly.
 
-I had been offered the 3rd interview with the hiring manager, but the timezone of working was declared a bit late, which was EMEA based. Since I was supposed to work remotelyy from India, it was certainly not a good fit for me. I had really liked the team and the company work, but alas, the timing just didn't work out for me, and I had declined the further set of interviews.
+I had been offered the 3rd interview with the hiring manager, but the timezone of working was declared a bit late, which was EMEA based. Since I was supposed to work remotely from India, it was certainly not a good fit for me. I had really liked the team and the company work, but alas, the timing just didn't work out for me, and I had declined the further set of interviews.
 
 
 ### Sysdig
@@ -125,11 +125,11 @@ I had 3 rounds further -
   * The entire interview went around using the k8s API for solving different aspects of containerization.
 * Engineering & Architecture (Add Coderpad). Duration: 60 minutes.
 
-Overall, the entire interview process was a disaster, as it certainly required a domain expert in SRE. Since I had a modest background in SRE, and I had done mostly Software Engineering before, it was difficult for me to relate to some of the questions. I quickly felt that startups with SRE role was something which I didn't had prior experience in.
+Overall, the entire interview process was a disaster for me, as it certainly required a domain expert in SRE. Since I had a modest background in SRE, and I had done mostly Software Engineering before, it was difficult for me to relate to some of the questions. I quickly felt that startups with SRE role was something which I didn't had prior experience in. The interview process for SysDig was thorough; and some of the problems and interviewing process was quite aligned for folks who had some experience working as an SRE in other companies. I felt out of the water, and lack of domain knowledge which was expected was something, I never had a chance to build, because I was still in college while applying for the role.
 
 ### DevRev
 
-[DevRev](https://devrev.ai/) is a platform which helps bring an integrated Slack, Github and JIRA experience into one. Till now, I still haven't been able to understand what the company does, though some of the features of the platform does make sense. Since it was backed by the co-founders of Nutanix and had a 50M $ seed funding, it meant that the company was doing something right.
+[DevRev](https://devrev.ai/) is a platform which helps bring an integrated Slack, Github and JIRA experience into one. Till now, I still haven't been able to understand what the company does, though some of the features of the platform does make sense. Since it was backed by the co-founders of Nutanix and had a 50M $ seed funding, it meant that the company was doing something right and is on the right path.
 
 The peer group was something which I was really excited about, as they had hired engineers from Facebook, Google and other companies. The founders themselves brought in a wealth of experience, and I was sure that this would be the company that would provide an experience of building products from 0 -> 1.
 
@@ -142,8 +142,8 @@ Once I completed the OA, I managed to clear this round, and had 5 interview roun
   * The Algo/DS round was a standard round as you would find in FAANG companies.
   * Each round had 3 problems, most of which were a direct ripoff from leetcode.
 * 1 System Design
-  * My interviewer was a Software Engineer, who had worked on the Messenger Application.
-  * To make things interesting, I had listed a chat application as one of the projects that I had worked in. I was asked to explain the architecture, my tradeoffs and tech stack used. Since I had used gRPC instead of HTTP, I was asked to explain my choice. This was also accompanied with 2 coding rounds.
+  * My interviewer was a Software Engineer, who had worked on the Facebook Messenger Application.
+  * To make things interesting, I had listed a chat application as one of the projects that I had worked in. I was asked to explain the architecture, my tradeoffs and tech stack used. Since I had used gRPC instead of HTTP, I was asked to explain my choice. This was also accompanied with 2 coding problems.
 * 1 Behavioral
   * I was asked to fill up a you.io form, which contains questions about your previous experiences and behavioural questions. All of them required you to speak from your experience, so I had poured my heart out while writing up the answers :D
   * There was a behavioural round, which had asked for standard questions
@@ -153,7 +153,7 @@ Once I completed the OA, I managed to clear this round, and had 5 interview roun
   * We discussed numerous topics, ranging from campus placements to his experience of working with Nutanix
   * Overall it was one of the best founders round I had, which I still cherish
 
-I was shared the serendipitious news of getting selected in the founders round itself, so I was quite happy and elated that after interviewing with 3 companies, I was finally able to nail one :D. One top of that, DevRev was one of the few companies, which I had genuinely wanted to work with, and start my startup journey.
+I was shared the serendipitious news of getting selected in the founders round itself, so I was quite happy and elated that after interviewing with 3 companies, I was finally able to nail one :D. On top of that, DevRev was one of the few companies, which I had genuinely wanted to work with, and start my startup journey.
 
 ### Cyble
 
@@ -173,8 +173,25 @@ After working with them for 4 months, I was shared a PPO to work with them full 
 
 ### Neeva.com
 
-[neeva.com] is an upcoming startup, which provides
+[neeva.com](neeva.ai) is an upcoming startup, which provides privacy first search experience for documents. The company has been trying to provide Google Search experience, without tracking and personalised Ads for users, while charging them a small fee for the service. The interview process was fairly standard; leetcode rounds with problem solving for Algorithms and Data Structures. Most of the interviewers in the panel were ex-Google engineers, and had fair amount of experience working at Google Search product. 
+
+#### Interviews
+
+There was a take home exercise for the role, and it depended on the type of role one wanted to apply for. There were a bunch of assignments(take home exercise) based in Mobile Development / Backend Engineering / Frontend Engineering / Machine Learning roles. One had to implement the projects as it was listed and then submit the code to them, which would be evaluated and then processed forward.
+
+I had my expertise in Backend Engineering, so I chose to solve the Backend Engineering assignment, which asked me to implement a "Tweet Searching" service, which would index all the tweets from a given dataset, and implement the API for searching through the tweets, which also contained "logical operators" for combining the search queries.
+
+The project was really interesting, and I had implemented the same using Golang. I used Red-Black Trees for indexing the data, and it was an interesting deep-dive into optimising the time complexity of the API calls that were being made. I got a bit too excited with the problem statement, so I went ahead in proposing a solution, and then used profiling to solve the shortcomings of my approach. I used benchmarking to compare the results and verify my initial hypothesis for solving the problem. To be honest, it was using a nuclear saber to kill a fly, but I nevertheless shared my learnings, which I had found.
+
+After the take home project, there were 3 coding rounds, and 1 behavioural round, which was a typical Algorithms/DS round for coding, and a call with the hiring manager for the behavioural round. There was one more round, where the platform to ask questions was reversed, and I was encouraged to ask questions about anything at Neeva/Google. As most of the core engineers were from Google, they were happy to share some of the experiences in Google and the challenges and exciting projects that were working at Neeva.
+
+Overall, I found the problem space that they were working very interesting, and I genuinely wanted to work with them, due to the mentorship and greenfield projects that they were working. I wasn't able to have an offer for the FTE role, and unfortunately I didn't ask for any feedback from them. In the hindsight, I should have asked about my shortcomings/feedback, and it would have helped me in improving on them.
 
 
+### Google EU (Ireland)
 
+[Google](google.com/careers) requires no introduction; they have one of the best engineering cultures in the world, while solving plethora of problems, which are both unique and challenging in their own aspects. I had written a blog-post about it here - [link](https://yashrsharma44.com/my-google-interview-experience/).
 
+### Facebook UK
+
+[Facebook](facebook.com/careers) is one of the biggest social media platforms, which owns (as in Meta owns) WhatsApp, Facebook, Instagram and Occulus. FB has one of the best engineering cultures that you can find, and it is one of the few companies which have bottom-up engineering culture. I have written a blog-post about my experience of applying for the Production Engineering role in Facebook UK, for the London office [link](TBC)
